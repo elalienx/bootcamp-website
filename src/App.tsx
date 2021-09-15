@@ -27,7 +27,7 @@ export default function App() {
         </header>
 
         {/* About */}
-        <section className="about">
+        <section id="about" className="about">
           <img src="" alt="" />
           <div className="container">
             <h2>About</h2>
