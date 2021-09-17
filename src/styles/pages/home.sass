@@ -1,12 +1,12 @@
 #home
     .hero
-        background-color: $color-purple
         display: flex
         flex-direction: column
         justify-content: flex-end
         align-content: flex-end
-        color: white
         height: calc(100vh - 60px)
+        background-color: $color-purple
+        color: white
 
         a
             color: white
@@ -23,6 +23,14 @@
             color: $color-salmon
             text-transform: uppercase
             font-weight: lighter
+	
+#home
+	.candidates
+		background-color: $color-purple-light
+		color: white
+
+		p
+			color: $color-salmon
 
 @media (min-width: $media-tablet)
     #home
