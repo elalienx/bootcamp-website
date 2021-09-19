@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "icon": "react",
+    "description": "The most utilized Frontend framework in the Swedish market for building web applications."
+  },
+  {
+    "id": 2,
+    "name": "SASS",
+    "icon": "sass",
+    "description": "A CSS Post processor that allows students to better organize the visual aspects of their web applications."
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "icon": "typescript",
+    "description": "Enforce strong data typing in order to build robust apps and also to better collaborate with Java or C# devs."
+  },
+  {
+    "id": 4,
+    "name": "FireStore & Cloud Storage",
+    "icon": "firebase",
+    "description": "Deploy to cloud solutions by using the Firebase suite of tools that include databases, auth and dynamic storage."
+  },
+  {
+    "id": 5,
+    "name": "Jest & React Testing Library",
+    "icon": "jest",
+    "description": "Complete Unit testing by dividing the test into logic for the JavaScript modules and UI for React components."
+  }
+]

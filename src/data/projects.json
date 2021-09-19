@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "image_name": "portfolio",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 2,
+    "name": "Vegan restaurant",
+    "image_name": "vegan",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 3,
+    "name": "Package tracker",
+    "image_name": "package",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 4,
+    "name": "Todo list",
+    "image_name": "todo",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 5,
+    "name": "E-Commerce",
+    "image_name": "e-commerce",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 6,
+    "name": "BBQ restaurant",
+    "image_name": "bbq",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 7,
+    "name": "Learning platofrm",
+    "image_name": "lms",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  },
+  {
+    "id": 8,
+    "name": "Netflix clone",
+    "image_name": "netflix",
+    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+  }
+]

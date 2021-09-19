@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./styles/style.sass";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
-import About from "./pages/About";
+import About from "./pages/about";
 import Candidates from "./pages/Candidates";
 import Home from "./pages/home";
 import Profile from "./pages/Profile";
