@@ -17,12 +17,11 @@ const ItemCandidate: FC<MyProps> = ({ item }) => {
   // Properties
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
   const imageFile = imageObject.default;
-  const imageDescription = `${name} thumbnail`;
 
   return (
     <li className="item-candidate">
       <Link to={"/profile/" + url}>
-        <img src={imageFile} alt={imageDescription} />
+        <img src={imageFile} alt="Candidate thumbnail" />
         {name}
       </Link>
     </li>
