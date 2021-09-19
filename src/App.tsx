@@ -6,7 +6,7 @@ import "./styles/style.sass";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import About from "./pages/about";
-import Candidates from "./pages/Candidates";
+import Candidates from "./pages/candidates";
 import Home from "./pages/home";
 import Profile from "./pages/Profile";
 

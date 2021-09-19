@@ -27,7 +27,7 @@ export default function Candidates() {
 
   // Components
   const CandidateItems = candidates.map((item) => (
-    <ItemCandidate key={item.id} item={item} />
+    <ItemCandidate key={"random" + item.id} item={item} />
   ));
 
   return (
@@ -37,7 +37,7 @@ export default function Candidates() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.{" "}
       </p>
-      <ul>{CandidateItems}</ul>
+      <ul id="foo">{CandidateItems}</ul>
       <Link className="button" to="/candidates">
         View all candidates
       </Link>
