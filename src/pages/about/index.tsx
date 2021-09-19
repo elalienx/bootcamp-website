@@ -1,4 +1,5 @@
 // Project files
+import Image from "assets/images/about.jpg";
 import ItemProject from "components/ItemProject";
 import ItemTechnology from "components/ItemTechnology";
 import projects from "data/projects.json";
@@ -19,27 +20,44 @@ export default function About() {
 
   return (
     <div id="about">
-      <h1>About the academy</h1>
-      <p>
-        All participants have completed a 4 months Software Development Academy.
-        They learnt both basics and more advanced aspects of object oriented
-        programming with focus on Java.
-      </p>
+      <img
+        src={Image}
+        alt="A group of people sitting on a table using their laptops"
+      />
+      <div className="container">
+        <h1>About the academy</h1>
+        <p>
+          All participants have completed a 4 months Software Development
+          Academy. They learnt both basics and more advanced aspects of object
+          oriented programming with focus on Java.
+        </p>
+      </div>
 
-      <h2>Tech stack</h2>
-      <ul>{ProjectItems}</ul>
+      <section className="technologies container">
+        <h2>Tech stack</h2>
+        <ul>{TechnologyItems}</ul>
+      </section>
 
-      <h2>Projects</h2>
-      <ul>{TechnologyItems}</ul>
+      <section className="projects">
+        <h2 className="container">Projects</h2>
+        <ul>{ProjectItems}</ul>
+      </section>
 
-      <h2>Want to know more?</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.{" "}
-      </p>
-      <a className="button" href={SLIDES_URL} target="_blank" rel="no-opener">
-        Download full curriculum
-      </a>
+      <section className="more-info container">
+        <h2>Want to know more?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        </p>
+        <a
+          className="button"
+          href={SLIDES_URL}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download full curriculum
+        </a>
+      </section>
     </div>
   );
 }
