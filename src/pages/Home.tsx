@@ -1,3 +1,5 @@
+import ImageAbout from "../assets/images/about-crop.jpg";
+
 export default function Home() {
   return (
     <div id="home">
@@ -24,7 +26,10 @@ export default function Home() {
 
       {/* About */}
       <section id="about" className="about">
-        <img src="" alt="" />
+        <img
+          src={ImageAbout}
+          alt="A group of people sitting on a table using their laptops"
+        />
         <div className="container">
           <h2>About the Academy</h2>
           <p>
