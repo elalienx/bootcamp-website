@@ -1,3 +1,6 @@
+// Project files
+import "styles/components/footer.sass";
+
 export default function Footer() {
   return (
     <footer id="footer">
