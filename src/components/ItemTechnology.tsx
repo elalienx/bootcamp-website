@@ -14,10 +14,12 @@ const ItemTechnology: FC<MyProps> = ({ item }) => {
   const { name, description, icon } = item;
 
   return (
-    <li className="item-project">
-      <span className="icon">@{icon}@</span>
-      <h3>{name}</h3>
-      <small>{description}</small>
+    <li className="item-technology">
+      <div className="circle">@</div>
+      <div className="content">
+        <h3>{name}</h3>
+        <p>{description}</p>
+      </div>
     </li>
   );
 };

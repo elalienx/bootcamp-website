@@ -1,0 +1,21 @@
+@import "styles/base/variables"
+
+.item-technology
+  display: flex
+  flex-direction: row
+  margin-bottom: $space-medium // should have margin here?
+  list-style: none
+
+  .circle
+    $size: 40px
+
+    flex-shrink: 0 // to avoid flex changing the size
+    width: $size
+    height: $size
+    margin-right: $space-medium
+    background-color: $color-primary
+    color: $color-secondary
+    text-align: center
+    border-radius: $size
+    line-height: $size
+

@@ -4,6 +4,7 @@ import ItemProject from "components/ItemProject";
 import ItemTechnology from "components/ItemTechnology";
 import projects from "data/projects.json";
 import technologies from "data/technologies.json";
+import "./About.sass";
 
 export default function About() {
   // Properties
