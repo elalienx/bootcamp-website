@@ -1,3 +1,6 @@
+// NPM Packages
+import { Link } from "react-router-dom";
+
 // Project files
 import Image from "assets/images/about.jpg";
 import ItemProject from "components/ItemProject";
@@ -40,7 +43,7 @@ export default function About() {
       </section>
 
       <section className="projects">
-        <h2 className="container">Projects</h2>
+        <h2>Projects</h2>
         <ul>{ProjectItems}</ul>
       </section>
 
@@ -58,6 +61,7 @@ export default function About() {
         >
           Download full curriculum
         </a>
+        <Link to="/candidates">Or meet the candidates</Link>
       </section>
     </div>
   );

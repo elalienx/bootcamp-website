@@ -11,7 +11,7 @@ interface MyProps {
 }
 
 const ItemTechnology: FC<MyProps> = ({ item }) => {
-  const { name, description, icon } = item;
+  const { name, description } = item;
 
   return (
     <li className="item-technology">

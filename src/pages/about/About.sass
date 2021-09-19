@@ -1,2 +1,34 @@
-#About
-    background-color: red !important
+@import "styles/base/variables"
+
+#about
+  .projects
+    overflow: auto
+
+    h2
+      padding: 0 $space-big
+
+    ul
+      overflow-x: auto
+      overflow-y: hidden
+      white-space: nowrap
+      padding-bottom: $space-big // to give space for the scrollbar
+
+      li
+        margin-left: $space-medium
+        display: inline-block
+
+  .more-info
+    background-color: $color-purple-light
+    color: white
+
+    a
+      display: inline-block
+      color: $color-secondary
+
+    p
+      color: white
+
+    .button
+      background-color: $color-secondary
+      color: $color-purple-light
+      margin-bottom: $space-medium // should be here?
