@@ -1,3 +1,6 @@
+// NPM Packaged
+import { Link } from "react-router-dom";
+
 // Project files
 import "./Candidates.sass";
 
@@ -14,9 +17,9 @@ export default function Candidates() {
         <li>Clement Cardona</li>
         <li>Dakouri Ikori</li>
       </ul>
-      <button className="button" disabled>
+      <Link className="button" to="/candidates">
         View all candidates
-      </button>
+      </Link>
     </section>
   );
 }

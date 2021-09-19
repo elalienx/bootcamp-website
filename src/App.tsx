@@ -13,18 +13,16 @@ import Profile from "./pages/Profile";
 export default function App() {
   return (
     <div className="App">
-      <NavigationBar />
-
       <BrowserRouter>
+        <NavigationBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/candidates" component={Candidates} />
           <Route path="/profile/:id" component={Profile} />
         </Switch>
+        <Footer />
       </BrowserRouter>
-
-      <Footer />
     </div>
   );
 }
