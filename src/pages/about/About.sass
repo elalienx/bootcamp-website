@@ -2,20 +2,19 @@
 
 #about
   .projects
-    overflow: auto
+    overflow: hidden
 
     h2
       padding: 0 $space-big
 
     ul
-      overflow-x: auto
-      overflow-y: hidden
-      white-space: nowrap
+      display: flex
+      overflow-x: scroll
       padding-bottom: $space-big // to give space for the scrollbar
 
       li
+        flex-shrink: 0 // to avoid the flex shink
         margin-left: $space-medium
-        display: inline-block
 
   .more-info
     background-color: $color-purple-light
@@ -30,5 +29,5 @@
 
     .button
       background-color: $color-secondary
-      color: $color-purple-light
+      color: white
       margin-bottom: $space-medium // should be here?
