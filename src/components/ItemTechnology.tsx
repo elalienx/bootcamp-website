@@ -3,7 +3,7 @@ import { FC } from "react";
 
 // Project files
 import iTechnology from "interfaces/iTechnology";
-import "./ItemProject.sass";
+import "./ItemTechnology.sass";
 
 // Interface
 interface MyProps {

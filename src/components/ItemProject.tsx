@@ -3,7 +3,7 @@ import { FC } from "react";
 
 // Project files
 import iProject from "interfaces/iProject";
-import "./ItemCandidate.sass";
+import "./ItemProject.sass";
 
 // Interface
 interface MyProps {
@@ -25,3 +25,5 @@ const ItemProject: FC<MyProps> = ({ item }) => {
     </li>
   );
 };
+
+export default ItemProject;

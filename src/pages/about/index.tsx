@@ -1,6 +1,21 @@
+// Project files
+import ItemProject from "components/ItemProject";
+import ItemTechnology from "components/ItemTechnology";
+import projects from "data/projects.json";
+import technologies from "data/technologies.json";
+
 export default function About() {
+  // Properties
   const SLIDES_URL =
     "https://www.icloud.com/keynote/06byT0mJz_-qmghPbfRscHL8g#Marketing_presentation";
+
+  // Components
+  const ProjectItems = projects.map((item) => (
+    <ItemProject key={item.id} item={item} />
+  ));
+  const TechnologyItems = technologies.map((item) => (
+    <ItemTechnology key={item.id} item={item} />
+  ));
 
   return (
     <div id="about">
@@ -12,7 +27,11 @@ export default function About() {
       </p>
 
       <h2>Tech stack</h2>
+      <ul>{ProjectItems}</ul>
+
       <h2>Projects</h2>
+      <ul>{TechnologyItems}</ul>
+
       <h2>Want to know more?</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
