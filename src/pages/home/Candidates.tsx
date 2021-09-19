@@ -19,7 +19,8 @@ export default function Candidates() {
       return [];
     }
 
-    const shuffled = array.sort(() => 0.5 - Math.random());
+    const clonedArray = [...array];
+    const shuffled = clonedArray.sort(() => 0.5 - Math.random());
     const randomCandidates: iCandidate[] = shuffled.slice(0, length);
 
     return randomCandidates;
@@ -27,7 +28,7 @@ export default function Candidates() {
 
   // Components
   const CandidateItems = candidates.map((item) => (
-    <ItemCandidate key={"random" + item.id} item={item} />
+    <ItemCandidate key={item.id} item={item} />
   ));
 
   return (
