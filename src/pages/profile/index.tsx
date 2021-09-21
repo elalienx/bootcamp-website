@@ -74,6 +74,7 @@ export default function Profile() {
       >
         View portfolio
       </a>
+      <br />
       <button className="link" onClick={() => history.goBack()}>
         Go back
       </button>

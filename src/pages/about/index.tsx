@@ -61,6 +61,7 @@ export default function About() {
         >
           Download full curriculum
         </a>
+        <br />
         <Link to="/candidates">Or meet the candidates</Link>
       </section>
     </div>
