@@ -15,9 +15,9 @@ const ItemProject: FC<Props> = ({ item }) => {
 
   return (
     <li className="item-resume">
-      <span className="period">{period}</span>
+      <p className="period">{period}</p>
       <div className="content">
-        <h3 className="title">{title}</h3>
+        <span className="title">{title}</span>
         <span className="institution">{institution}</span>
         <span className="city_and_country">{city_and_country}</span>
       </div>
