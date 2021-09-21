@@ -70,7 +70,7 @@ export default function Profile() {
         className="button"
         href={candidate.portofolio_url}
         target="_blank"
-        rel="noreferer"
+        rel="noreferrer"
       >
         View portfolio
       </a>
