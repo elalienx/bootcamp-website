@@ -1,5 +1,6 @@
 // Project files
 import iResume from "./iResume";
+import iSkill from "./iSkill";
 
 export default interface iCandidate {
   id: number;
@@ -9,4 +10,6 @@ export default interface iCandidate {
   portofolio_url: string;
   education: iResume[];
   work_experience: iResume[];
+  tech_skills: iSkill[];
+  languages_spoken: iSkill[];
 }

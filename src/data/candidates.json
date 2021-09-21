@@ -34,6 +34,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -71,6 +93,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -108,6 +152,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -145,6 +211,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -182,6 +270,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -219,6 +329,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -256,6 +388,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -293,6 +447,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -330,6 +506,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -367,6 +565,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   },
   {
@@ -374,6 +594,7 @@
     "name": "Sbegak Kadam",
     "url": "snehal-kadam",
     "city": "Stockholmn",
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -403,6 +624,28 @@
         "institution": "Loremp",
         "city_and_country": "Malmo, Sweden"
       }
+    ],
+    "tech_skills": [
+      {
+        "name": "React",
+        "rating": 5
+      },
+      {
+        "name": "Firebase",
+        "rating": 3
+      }
+    ],
+    "languages_spoken": [
+      [
+        {
+          "name": "English",
+          "rating": 4
+        },
+        {
+          "name": "Swedish",
+          "rating": 2
+        }
+      ]
     ]
   }
 ]
