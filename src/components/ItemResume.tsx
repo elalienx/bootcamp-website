@@ -3,7 +3,7 @@ import { FC } from "react";
 
 // Project files
 import iResume from "interfaces/iResume";
-import "./ItemResume.sass";
+import "styles/components/ItemResume.sass";
 
 // Interface
 interface Props {

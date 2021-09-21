@@ -1,5 +1,5 @@
 // Project files
-import "./Footer.sass";
+import "styles/components/Footer.sass";
 
 export default function Footer() {
   return (

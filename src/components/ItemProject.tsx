@@ -3,7 +3,7 @@ import { FC } from "react";
 
 // Project files
 import iProject from "interfaces/iProject";
-import "./ItemProject.sass";
+import "styles/components/ItemProject.sass";
 
 // Interface
 interface Props {

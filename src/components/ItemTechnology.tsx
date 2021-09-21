@@ -1,18 +1,18 @@
 // NPM Packages
-import { FC } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Project files
 import iTechnology from "interfaces/iTechnology";
-import "./ItemTechnology.sass";
+import "styles/components/ItemTechnology.sass";
 
 // Interface
 interface Props {
   item: iTechnology;
 }
 
-const ItemTechnology: FC<Props> = ({ item }) => {
+// Testing if this function is a valid method. Need testing with more arguments.
+export default function ItemTechnology({ item }: Props) {
   const { name, description, icon } = item;
 
   return (
@@ -26,6 +26,4 @@ const ItemTechnology: FC<Props> = ({ item }) => {
       </div>
     </li>
   );
-};
-
-export default ItemTechnology;
+}

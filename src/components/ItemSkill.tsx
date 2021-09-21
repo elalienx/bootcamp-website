@@ -3,7 +3,7 @@ import { FC } from "react";
 
 // Project files
 import iSkill from "interfaces/iSkill";
-import "./ItemSkill.sass";
+import "styles/components/ItemSkill.sass";
 
 // Interface
 interface Props {
