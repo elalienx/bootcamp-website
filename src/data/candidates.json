@@ -1,58 +1,102 @@
 [
   {
     "id": 1,
-    "name": "Armin Diszar",
+    "name": "Armin D",
     "url": "armin-diszar",
-    "city": "Stockholmn",
-    "is_willing_to_relocate": true,
-    "description": "Loremp ipsum",
-    "portofolio_url": "http://www.google.com",
+    "city": "Stockholm",
+    "is_willing_to_relocate": false,
+    "description": "Armin is a skilled manual tester and IT enthusiast. He has very good skills in programming with a background in IT-Business. As a person he is positive, driven and likeable. His passion for graphic design and software development drives him to do self-studies and training to be able to work in the domain that he thrives in. ",
+    "portofolio_url": "https://armin-dizdar-portofolio.web.app",
     "education": [
       {
-        "period": "2020",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2021",
+        "title": "Intensive Frontend Course",
+        "institution": "Novare Potential",
+        "city_and_country": "Stockholm, Sweden"
       },
       {
         "period": "2021",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "title": "Web Development .NET Course",
+        "institution": "Lexicon",
+        "city_and_country": ""
+      },
+      {
+        "period": "2017",
+        "title": "Software Development Academy",
+        "institution": "Intensive course focusing on Java - KTH",
+        "city_and_country": "Stockholm, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Business Information degree",
+        "institution": "Completed 2 years from University Apeiron",
+        "city_and_country": "Apeiron, Bosnia"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2020 - present",
+        "title": "Frontend Developer intership",
+        "institution": "Beeanco",
+        "city_and_country": "Vienna, Austria"
       },
       {
-        "period": "2020 - 2025",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2018 - 2020",
+        "title": "Shipping Specialist",
+        "institution": "Webhallen AB",
+        "city_and_country": "Stockholm, Sweden"
       }
     ],
     "tech_skills": [
       {
-        "name": "React",
-        "rating": 5
+        "name": "Android",
+        "rating": 2
       },
       {
-        "name": "Firebase",
-        "rating": 3
+        "name": "C#",
+        "rating": 1
+      },
+      {
+        "name": "Git",
+        "rating": 2
+      },
+      {
+        "name": "HTML/CSS",
+        "rating": 2
+      },
+      {
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "Jenkins",
+        "rating": 2
+      },
+      {
+        "name": "Linux",
+        "rating": 2
+      },
+      {
+        "name": "Manual testing",
+        "rating": 2
+      },
+      {
+        "name": "Azure cloud",
+        "rating": 2
+      },
+      {
+        "name": "XML",
+        "rating": 2
       }
     ],
     "languages_spoken": [
       {
         "name": "English",
-        "rating": 4
+        "rating": 3
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 1
       }
     ]
   },
