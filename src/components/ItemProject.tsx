@@ -6,11 +6,11 @@ import iProject from "interfaces/iProject";
 import "./ItemProject.sass";
 
 // Interface
-interface MyProps {
+interface Props {
   item: iProject;
 }
 
-const ItemProject: FC<MyProps> = ({ item }) => {
+const ItemProject: FC<Props> = ({ item }) => {
   const { name, description, image_name } = item;
 
   // Properties

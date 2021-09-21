@@ -17,7 +17,7 @@ export default function Profile() {
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
   const imageFile = imageObject.default;
   const isWillingToRecolate =
-    candidate?.isWillingToRelocate && " • Willing to relocate";
+    candidate?.is_willing_to_relocate && " • Willing to relocate";
 
   // safeguard
   if (candidate === undefined) return <p>No candidate found</p>;
@@ -48,7 +48,7 @@ export default function Profile() {
       {/* Footer */}
       <a
         className="button"
-        href={candidate.portofolioURL}
+        href={candidate.portofolio_url}
         target="_blank"
         rel="noreferer"
       >

@@ -4,90 +4,370 @@
     "name": "Armin Diszar",
     "url": "armin-diszar",
     "city": "Stockholmn",
-    "isWillingToRelocate": true,
+    "is_willing_to_relocate": true,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Clement Cardona",
     "url": "clement-cardona",
     "city": "Stockholmn",
-    "isWillingToRelocate": false,
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Dakouri Kobri",
     "url": "dakouri-kobri",
     "city": "Stockholmn",
-    "isWillingToRelocate": true,
+    "is_willing_to_relocate": true,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "Emmanuel Imhontu",
     "url": "emmanuel-imhontu",
     "city": "Stockholmn",
-    "isWillingToRelocate": false,
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 5,
     "name": "Giang Ngo",
     "url": "giang-ngo",
     "city": "Stockholmn",
-    "isWillingToRelocate": true,
+    "is_willing_to_relocate": true,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 6,
     "name": "Hassan O",
     "url": "hassan-o",
     "city": "Stockholmn",
-    "isWillingToRelocate": false,
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 7,
     "name": "Marcela Folis",
     "url": "marcela-folis",
     "city": "Stockholmn",
-    "isWillingToRelocate": true,
+    "is_willing_to_relocate": true,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 8,
     "name": "Natalia Federova",
     "url": "natalia-federova",
     "city": "Stockholmn",
-    "isWillingToRelocate": false,
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 9,
     "name": "Olga Pinchuk",
     "url": "olga-pinchuk",
     "city": "Stockholmn",
-    "isWillingToRelocate": true,
+    "is_willing_to_relocate": true,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 10,
     "name": "Sailatha Tammana",
     "url": "sailatha-tammana",
     "city": "Stockholmn",
-    "isWillingToRelocate": false,
+    "is_willing_to_relocate": false,
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   },
   {
     "id": 11,
@@ -95,6 +375,34 @@
     "url": "snehal-kadam",
     "city": "Stockholmn",
     "description": "Loremp ipsum",
-    "portofolioURL": "http://www.google.com"
+    "portofolio_url": "http://www.google.com",
+    "education": [
+      {
+        "period": "2020",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2017 - 2021",
+        "title": "Loremp",
+        "institution": "Ipsum",
+        "city_and_country": "Upsala, Sweden"
+      },
+      {
+        "period": "2020 - 2025",
+        "title": "Ipsum",
+        "institution": "Loremp",
+        "city_and_country": "Malmo, Sweden"
+      }
+    ]
   }
 ]

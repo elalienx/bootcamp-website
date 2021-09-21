@@ -7,8 +7,6 @@ export default function Candidates() {
   // Properties
   const history = useHistory();
 
-  console.log(data);
-
   // Components
   const CandidateItems = data.map((item) => (
     <ItemCandidate key={item.id} item={item} />

@@ -7,11 +7,11 @@ import iCandidate from "interfaces/iCandidate";
 import "./ItemCandidate.sass";
 
 // Interface
-interface MyProps {
+interface Props {
   item: iCandidate;
 }
 
-const ItemCandidate: FC<MyProps> = ({ item }) => {
+const ItemCandidate: FC<Props> = ({ item }) => {
   const { name, url } = item;
 
   // Properties

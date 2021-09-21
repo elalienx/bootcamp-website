@@ -8,11 +8,11 @@ import iTechnology from "interfaces/iTechnology";
 import "./ItemTechnology.sass";
 
 // Interface
-interface MyProps {
+interface Props {
   item: iTechnology;
 }
 
-const ItemTechnology: FC<MyProps> = ({ item }) => {
+const ItemTechnology: FC<Props> = ({ item }) => {
   const { name, description, icon } = item;
 
   return (
