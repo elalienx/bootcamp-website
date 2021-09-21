@@ -14,19 +14,19 @@
   {
     "id": 3,
     "name": "TypeScript",
-    "icon": "typescript",
+    "icon": "microsoft",
     "description": "Enforce strong data typing in order to build robust apps and also to better collaborate with Java or C# devs."
   },
   {
     "id": 4,
     "name": "FireStore & Cloud Storage",
-    "icon": "firebase",
+    "icon": "google",
     "description": "Deploy to cloud solutions by using the Firebase suite of tools that include databases, auth and dynamic storage."
   },
   {
     "id": 5,
     "name": "Jest & React Testing Library",
-    "icon": "jest",
+    "icon": "facebook-f",
     "description": "Complete Unit testing by dividing the test into logic for the JavaScript modules and UI for React components."
   }
 ]
