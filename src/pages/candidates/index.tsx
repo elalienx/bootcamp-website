@@ -22,12 +22,7 @@ export default function Candidates() {
         tempor incididunt ut labore et dolore magna aliqua.{" "}
       </p>
       <ul id="bar">{CandidateItems}</ul>
-      <button
-        className="button"
-        onClick={() => {
-          history.goBack();
-        }}
-      >
+      <button className="button" onClick={() => history.goBack()}>
         Go back
       </button>
     </div>

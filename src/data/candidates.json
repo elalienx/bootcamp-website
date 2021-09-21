@@ -2,56 +2,99 @@
   {
     "id": 1,
     "name": "Armin Diszar",
-    "url": "armin-diszar"
+    "url": "armin-diszar",
+    "city": "Stockholmn",
+    "isWillingToRelocate": true,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 2,
     "name": "Clement Cardona",
-    "url": "clement-cardona"
+    "url": "clement-cardona",
+    "city": "Stockholmn",
+    "isWillingToRelocate": false,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 3,
     "name": "Dakouri Kobri",
-    "url": "dakouri-kobri"
+    "url": "dakouri-kobri",
+    "city": "Stockholmn",
+    "isWillingToRelocate": true,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 4,
     "name": "Emmanuel Imhontu",
-    "url": "emmanuel-imhontu"
+    "url": "emmanuel-imhontu",
+    "city": "Stockholmn",
+    "isWillingToRelocate": false,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 5,
     "name": "Giang Ngo",
-    "url": "giang-ngo"
+    "url": "giang-ngo",
+    "city": "Stockholmn",
+    "isWillingToRelocate": true,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 6,
     "name": "Hassan O",
-    "url": "hassan-o"
+    "url": "hassan-o",
+    "city": "Stockholmn",
+    "isWillingToRelocate": false,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 7,
     "name": "Marcela Folis",
-    "url": "marcela-folis"
+    "url": "marcela-folis",
+    "city": "Stockholmn",
+    "isWillingToRelocate": true,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 8,
     "name": "Natalia Federova",
-    "url": "natalia-federova"
+    "url": "natalia-federova",
+    "city": "Stockholmn",
+    "isWillingToRelocate": false,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 9,
     "name": "Olga Pinchuk",
-    "url": "olga-pinchuk"
+    "url": "olga-pinchuk",
+    "city": "Stockholmn",
+    "isWillingToRelocate": true,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 10,
     "name": "Sailatha Tammana",
-    "url": "sailatha-tammana"
+    "url": "sailatha-tammana",
+    "city": "Stockholmn",
+    "isWillingToRelocate": false,
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   },
   {
     "id": 11,
     "name": "Sbegak Kadam",
-    "url": "snehal-kadam"
+    "url": "snehal-kadam",
+    "city": "Stockholmn",
+    "description": "Loremp ipsum",
+    "portofolioURL": "http://www.google.com"
   }
 ]
