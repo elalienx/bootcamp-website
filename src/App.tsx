@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import About from "./pages/about";
 import Candidates from "./pages/candidates";
 import Home from "./pages/home";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 import "./scripts/font-awesome";
 import "./styles/style.sass";
 
@@ -22,7 +22,7 @@ export default function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/candidates" component={Candidates} />
-            <Route path="/profile/:id" component={Profile} />
+            <Route path="/profile/:url" component={Profile} />
           </Switch>
           <Footer />
         </ScrollToTop>
