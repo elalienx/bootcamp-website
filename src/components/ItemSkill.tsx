@@ -14,7 +14,7 @@ const ItemProject: FC<Props> = ({ item }) => {
   const { name, rating } = item;
 
   return (
-    <li className="item-resume">
+    <li className="item-skill">
       <span>{name}</span>
       {/* Think about do this programatically */}
       <div className="cubes">@{rating}@</div>

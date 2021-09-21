@@ -4,6 +4,7 @@ import { useHistory, useParams } from "react-router";
 // Project files
 import data from "data/candidates.json";
 import ItemResume from "components/ItemResume";
+import ItemSkill from "components/ItemSkill";
 
 // Interface
 type PropParams = {
@@ -24,8 +25,14 @@ export default function Profile() {
   const EducationItems = candidate?.education.map((item, index) => (
     <ItemResume key={index} item={item} />
   ));
-  const WorkExperienceItems = candidate?.work_experience.map((item, index) => (
+  const WorkItems = candidate?.work_experience.map((item, index) => (
     <ItemResume key={index} item={item} />
+  ));
+  const TechItems = candidate?.tech_skills.map((item, index) => (
+    <ItemSkill key={index} item={item} />
+  ));
+  const LanguagesItems = candidate?.languages_spoken.map((item, index) => (
+    <ItemSkill key={index} item={item} />
   ));
 
   // safeguard
@@ -44,17 +51,19 @@ export default function Profile() {
 
       {/* Education */}
       <h2>Education</h2>
-      <ul className="resume-list">{EducationItems}</ul>
+      <ul className="list-resume">{EducationItems}</ul>
 
       {/* Work */}
       <h2>Work experience</h2>
-      <ul className="resume-list">{WorkExperienceItems}</ul>
+      <ul className="list-resume">{WorkItems}</ul>
 
       {/* Tech skills */}
       <h2>Tech skill</h2>
+      <ul className="list-skill">{TechItems}</ul>
 
       {/* Languages */}
       <h2>Languages spoken</h2>
+      <ul className="list-skill">{LanguagesItems}</ul>
 
       {/* Footer */}
       <a
