@@ -15,11 +15,11 @@ const ItemProject: FC<Props> = ({ item }) => {
 
   return (
     <li className="item-resume">
-      <p className="period">{period}</p>
+      <span className="period">{period}</span>
       <div className="content">
-        <span className="title">{title}</span>
-        <span className="institution">{institution}</span>
-        <span className="city_and_country">{city_and_country}</span>
+        <h3 className="title">{title}</h3>
+        <p className="institution">{institution}</p>
+        <p className="city-and-country">{city_and_country}</p>
       </div>
     </li>
   );

@@ -10,16 +10,21 @@ interface Props {
   item: iSkill;
 }
 
-const ItemProject: FC<Props> = ({ item }) => {
+const ItemSkill: FC<Props> = ({ item }) => {
   const { name, rating } = item;
 
   return (
     <li className="item-skill">
-      <span>{name}: </span>
-      {/* Think about do this programatically */}
-      <span className="cubes">{rating}/5</span>
+      {name} {rating}
+      <div className="boxes">
+        <div className={rating >= 1 ? "full" : ""}></div>
+        <div className={rating >= 2 ? "full" : ""}></div>
+        <div className={rating >= 3 ? "full" : ""}></div>
+        <div className={rating >= 4 ? "full" : ""}></div>
+        <div className={rating >= 5 ? "full" : ""}></div>
+      </div>
     </li>
   );
 };
 
-export default ItemProject;
+export default ItemSkill;
