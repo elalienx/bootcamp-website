@@ -5,9 +5,10 @@ import iSkill from "./iSkill";
 export default interface iCandidate {
   id: number;
   name: string;
+  description: string;
   url: string;
   city: string;
-  is_willing_to_relocate: boolean;
+  willing_to_relocate: boolean;
   portofolio_url: string;
   education: iResume[];
   work_experience: iResume[];

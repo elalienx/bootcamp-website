@@ -1,16 +1,14 @@
 // NPM Packaged
 import { useHistory } from "react-router-dom";
 import data from "data/candidates.json";
-import ItemCandidate from "components/ItemCandidate";
+import Item from "components/ItemCandidate";
 
 export default function Candidates() {
   // Properties
   const history = useHistory();
 
   // Components
-  const CandidateItems = data.map((item) => (
-    <ItemCandidate key={item.id} item={item} />
-  ));
+  const Items = data.map((item) => <Item key={item.id} item={item} />);
 
   return (
     <div id="candidates" className="container">
@@ -19,7 +17,7 @@ export default function Candidates() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.{" "}
       </p>
-      <ul id="bar">{CandidateItems}</ul>
+      <ul id="bar">{Items}</ul>
       <button className="button" onClick={() => history.goBack()}>
         Go back
       </button>

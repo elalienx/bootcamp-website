@@ -4,7 +4,7 @@
     "name": "Armin D",
     "url": "armin-diszar",
     "city": "Stockholm",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Armin is a skilled manual tester and IT enthusiast. He has very good skills in programming with a background in IT-Business. As a person he is positive, driven and likeable. His passion for graphic design and software development drives him to do self-studies and training to be able to work in the domain that he thrives in. ",
     "portofolio_url": "https://armin-dizdar-portofolio.web.app",
     "education": [
@@ -105,7 +105,7 @@
     "name": "Clement Cardona",
     "url": "clement-cardona",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -162,7 +162,7 @@
     "name": "Dakouri Kobri",
     "url": "dakouri-kobri",
     "city": "Stockholmn",
-    "is_willing_to_relocate": true,
+    "willing_to_relocate": true,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -219,7 +219,7 @@
     "name": "Emmanuel Imhontu",
     "url": "emmanuel-imhontu",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -276,7 +276,7 @@
     "name": "Giang Ngo",
     "url": "giang-ngo",
     "city": "Stockholmn",
-    "is_willing_to_relocate": true,
+    "willing_to_relocate": true,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -333,7 +333,7 @@
     "name": "Hassan O",
     "url": "hassan-o",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -390,7 +390,7 @@
     "name": "Marcela Folis",
     "url": "marcela-folis",
     "city": "Stockholmn",
-    "is_willing_to_relocate": true,
+    "willing_to_relocate": true,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -447,7 +447,7 @@
     "name": "Natalia Federova",
     "url": "natalia-federova",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -504,7 +504,7 @@
     "name": "Olga Pinchuk",
     "url": "olga-pinchuk",
     "city": "Stockholmn",
-    "is_willing_to_relocate": true,
+    "willing_to_relocate": true,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -561,7 +561,7 @@
     "name": "Sailatha Tammana",
     "url": "sailatha-tammana",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
@@ -618,7 +618,7 @@
     "name": "Sbegak Kadam",
     "url": "snehal-kadam",
     "city": "Stockholmn",
-    "is_willing_to_relocate": false,
+    "willing_to_relocate": false,
     "description": "Loremp ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
