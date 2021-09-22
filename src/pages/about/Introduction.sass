@@ -1,0 +1,19 @@
+@import "styles/base/variables"
+
+#about .introduction
+  .support-picture
+      display: none
+
+
+@media (min-width: $media-desktop)
+  #about .introduction
+    .mobile-hero
+      display: none
+
+    .support-picture
+      display: inline
+
+    .container
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-row-gap: $space-medium

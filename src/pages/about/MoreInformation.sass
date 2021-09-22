@@ -1,17 +1,28 @@
 @import "styles/base/variables"
 
-#about .more-info
-  background-color: $color-tertiary
+#about .more-information
+  background-color: $color-purple-light
   color: white
-
-  a
-    display: inline-block
-    color: $color-secondary
 
   p
     color: white
 
   .button
     background-color: $color-secondary
-    color: white
-    margin-bottom: $space-medium // refactor should be here?
+
+  .link
+    color: $color-secondary
+
+  .support-picture
+    display: none
+
+
+@media (min-width: $media-desktop)
+  #about .more-information
+    .container
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-row-gap: $space-medium
+
+    .support-picture
+      display: inline
