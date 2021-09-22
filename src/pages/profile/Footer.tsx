@@ -1,11 +1,14 @@
 // NPM packages
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 // Project files
 import PropsCandidate from "./PropsCandidate";
 
 export default function Footer({ candidate }: PropsCandidate) {
   const { portofolio_url } = candidate;
+
+  // Properties
+  const history = useHistory();
 
   return (
     <footer className="container">
@@ -18,7 +21,9 @@ export default function Footer({ candidate }: PropsCandidate) {
         View portfolio
       </a>
       <br />
-      <Link to="/candidates">View other candidates</Link>
+      <button className="link" onClick={() => history.goBack()}>
+        Go back
+      </button>
     </footer>
   );
 }

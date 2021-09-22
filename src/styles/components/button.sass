@@ -8,13 +8,18 @@
   height: $size
   margin-bottom: $space-medium
   padding: 0 $space-big
-  background-color: $color-purple
+  background-color: $color-primary
   color: white
   border: none
   font-size: 15px
   font-weight: bold
   text-decoration: none
   line-height: $size
+  cursor: pointer
+
+  &:hover
+    text-decoration: none
+    background-color: lighten($color-primary, 10%)
 
   // refactor
   font-size: 15px

@@ -1,4 +1,4 @@
-// NPM Packaged
+// NPM packages
 import { useHistory } from "react-router-dom";
 import data from "data/candidates.json";
 import Item from "components/ItemCandidate";
