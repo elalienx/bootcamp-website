@@ -1,6 +1,10 @@
+import iResume from "./iResume";
+import iSkill from "./iSkill";
+
 export default interface iCandidate {
   id: number;
   name: string;
   url: string;
-  education: Array<any>;
+  education: iResume[];
+  tech_skills: iSkill[];
 }

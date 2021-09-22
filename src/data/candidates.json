@@ -10,6 +10,11 @@
         "institution": "KTH",
         "city_and_country": "Stockholmn, Sweden"
       }
+    ],
+    "tech_skills": [
+      { "name": "Angular", "rating": 1 },
+      { "name": "React", "rating": 3 },
+      { "name": "Vue", "rating": 5 }
     ]
   },
   {
@@ -23,7 +28,8 @@
         "institution": "KTH",
         "city_and_country": "Stockholmn, Sweden"
       }
-    ]
+    ],
+    "tech_skills": [{ "name": "React", "rating": 3 }]
   },
   {
     "id": 3,
@@ -36,6 +42,7 @@
         "institution": "KTH",
         "city_and_country": "Stockholmn, Sweden"
       }
-    ]
+    ],
+    "tech_skills": [{ "name": "React", "rating": 3 }]
   }
 ]
