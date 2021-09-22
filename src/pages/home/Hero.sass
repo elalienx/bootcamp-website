@@ -1,29 +1,34 @@
 @import "styles/base/variables"
 
 #home .hero
-    display: flex
-    flex-direction: column
-    justify-content: flex-end
-    height: calc(90vh - 60px)
-    background-color: $color-purple
-    color: white
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  height: calc(90vh - 60px)
+  background-color: $color-purple
+  color: white
 
-    .title
-        font-size: 44px
-        line-height: 53px
-        margin-bottom: 5px
+  .title
+    font-size: 44px
+    line-height: 53px
+    margin-bottom: 5px
 
-    .subtitle
-        font-size: 15px
-        line-height: 21px
-        text-transform: uppercase
-        font-weight: lighter
-        opacity: 0.5
+  .subtitle
+    font-size: 15px
+    line-height: 21px
+    text-transform: uppercase
+    font-weight: lighter
+    opacity: 0.5
 
-    .button
-        background-color: $color-secondary
-        color: $color-primary
+  .button
+    background-color: $color-secondary
+    color: $color-primary
 
-    // To clean the margin of the last child
-    .container > :last-child
-        margin-bottom: 0
+  // To clean the margin of the last child
+  .container > :last-child
+    margin-bottom: 0
+
+@media (min-width: $media-desktop)
+  #home .hero
+    .container
+      width: 100%
