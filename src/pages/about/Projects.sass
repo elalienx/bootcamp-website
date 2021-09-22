@@ -3,14 +3,27 @@
 #about .projects
   overflow: hidden
 
-  h2
-    padding: 0 $space-big
-
   ul
     display: flex
     overflow-x: scroll
     padding-bottom: $space-big // to give space for the scrollbar
 
   li
+    width: 152px // refactor the content is damagin this
     flex-shrink: 0 // to avoid the flex shink
-    margin-left: $space-medium
+    margin-right: $space-big
+
+@media (min-width: $media-desktop)
+  #about .projects
+    overflow: auto
+
+    ul
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      grid-column-gap: $space-medium
+      grid-row-gap: $space-big
+      padding-bottom: 0 // to remove changes for the horizontal scroll
+
+    li
+      width: 100% // to remove changes for the horizontal scroll
+      margin: 0 // to remove changes for the horizontal scroll

@@ -1,0 +1,9 @@
+@import "styles/base/variables"
+
+@media (min-width: $media-desktop)
+  #about .technologies
+    ul
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      grid-column-gap: $space-medium
+      grid-row-gap: $space-big
