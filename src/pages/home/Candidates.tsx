@@ -46,7 +46,11 @@ export default function Candidates() {
             View all candidates
           </Link>
         </div>
-        <img src={Image} alt="2 women sharing a single laptop" />
+        <img
+          className="support-picture"
+          src={Image}
+          alt="2 women sharing a single laptop"
+        />
       </div>
     </section>
   );

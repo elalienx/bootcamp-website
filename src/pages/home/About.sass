@@ -1,7 +1,18 @@
 @import "styles/base/variables"
 
+#home .about
+  .support-picture
+      display: none
+
+
 @media (min-width: $media-desktop)
   #home .about
+    .mobile-hero
+      display: none
+
+    .support-picture
+      display: inline
+
     .container
       display: grid
       grid-template-columns: 1fr 1fr
