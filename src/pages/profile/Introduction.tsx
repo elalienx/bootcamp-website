@@ -1,13 +1,8 @@
 // Project files
-import iCandidate from "interfaces/iCandidate";
+import PropsCandidate from "./PropsCandidate";
 import "./Introduction.sass";
 
-// Interface refactor and make it shareable
-interface Props {
-  candidate: iCandidate;
-}
-
-export default function Introduction({ candidate }: Props) {
+export default function Introduction({ candidate }: PropsCandidate) {
   const { city, description, name, url, willing_to_relocate } = candidate;
 
   // Properties

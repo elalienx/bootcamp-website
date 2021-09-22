@@ -2,14 +2,9 @@
 import { Link } from "react-router-dom";
 
 // Project files
-import iCandidate from "interfaces/iCandidate";
+import PropsCandidate from "./PropsCandidate";
 
-// Interface refactor and make it shareable
-interface Props {
-  candidate: iCandidate;
-}
-
-export default function Footer({ candidate }: Props) {
+export default function Footer({ candidate }: PropsCandidate) {
   const { portofolio_url } = candidate;
 
   return (

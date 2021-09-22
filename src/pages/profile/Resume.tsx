@@ -1,13 +1,8 @@
 // Project files
-import iCandidate from "interfaces/iCandidate";
 import Item from "components/ItemResume";
+import PropsCandidate from "./PropsCandidate";
 
-// Interface refactor and make it shareable
-interface Props {
-  candidate: iCandidate;
-}
-
-export default function Resume({ candidate }: Props) {
+export default function Resume({ candidate }: PropsCandidate) {
   // Components
   const EducationItems = candidate.education.map((item, index) => (
     <Item key={index} item={item} />
