@@ -1,3 +1,30 @@
+@import "styles/base/variables"
+
 .item-resume
-    list-style-type: none
-    margin-bottom: 16px // should be here?
+    display: flex
+    list-style: none
+
+    // layout
+    .period
+        box-sizing: border-box
+        padding-right: $space-small
+        border-right: solid thin gray
+
+    .content
+        flex-grow: 1
+        padding-left: $space-small
+
+    // text styles
+    .period 
+        font-weight: bold
+
+    .title
+        text-transform: uppercase
+    
+    .institution
+        margin-bottom: 5px
+
+    .city
+        margin-bottom: $space-medium
+        font-weight: lighter
+        color: gray

@@ -1,10 +1,11 @@
 // NPM packages
-import { useHistory, useParams } from "react-router";
+import { Link, useHistory, useParams } from "react-router-dom";
 
 // Project files
 import data from "data/candidates.json";
 import ItemResume from "components/ItemResume";
 import ItemSkill from "components/ItemSkill";
+import "./Profile.sass";
 
 // Interface
 type PropParams = {
@@ -39,45 +40,55 @@ export default function Profile() {
   if (candidate === undefined) return <p>No candidate found</p>;
 
   return (
-    <div id="about" className="container">
+    <div id="profile">
       {/* Header */}
-      <img src={imageFile} alt="Candidate thumbnail" />
-      <h1>{candidate.name}</h1>
-      <h2>
-        {candidate.city}
-        {isWillingToRecolate}
-      </h2>
-      <p>{candidate.description}</p>
+      <header className="introduction container">
+        <img className="avatar" src={imageFile} alt="Candidate thumbnail" />
+        <h1>{candidate.name}</h1>
+        <p className="subtitle">
+          {candidate.city}
+          {isWillingToRecolate}
+        </p>
+        <p className="description">{candidate.description}</p>
+      </header>
 
       {/* Education */}
-      <h2>Education</h2>
-      <ul className="list-resume">{EducationItems}</ul>
+      <section className="container">
+        <h2>Education</h2>
+        <ul className="list-resume">{EducationItems}</ul>
+      </section>
 
       {/* Work */}
-      <h2>Work experience</h2>
-      <ul className="list-resume">{WorkItems}</ul>
+      <section className="container">
+        <h2>Work experience</h2>
+        <ul className="list-resume">{WorkItems}</ul>
+      </section>
 
       {/* Tech skills */}
-      <h2>Tech skill</h2>
-      <ul className="list-skill">{TechItems}</ul>
+      <section className="container">
+        <h2>Tech skills</h2>
+        <ul className="list-skill">{TechItems}</ul>
+      </section>
 
       {/* Languages */}
-      <h2>Languages spoken</h2>
-      <ul className="list-skill">{LanguagesItems}</ul>
+      <section className="container">
+        <h2>Languages spoken</h2>
+        <ul className="list-skill">{LanguagesItems}</ul>
+      </section>
 
       {/* Footer */}
-      <a
-        className="button"
-        href={candidate.portofolio_url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        View portfolio
-      </a>
-      <br />
-      <button className="link" onClick={() => history.goBack()}>
-        Go back
-      </button>
+      <footer className="container">
+        <a
+          className="button"
+          href={candidate.portofolio_url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          View portfolio
+        </a>
+        <br />
+        <Link to="/candidates">View other candidates</Link>
+      </footer>
     </div>
   );
 }
