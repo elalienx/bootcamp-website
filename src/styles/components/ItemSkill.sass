@@ -1,14 +1,21 @@
 @import "styles/base/variables"
 
 .item-skill
-    list-style: none
     margin-bottom: $space-medium
+    list-style: none
+
+    .label
+        display: inline-block
+        width: 160px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
 
     .boxes
         float: right
 
     .boxes div
-        $size: 24px
+        $size: $space-big
         
         box-sizing: border-box
         display: inline-block
@@ -17,5 +24,18 @@
         margin-right: $space-small
         border: solid 2px $color-primary
 
+        &:last-child        
+            margin-right: 0 // remove last margin
+
     .boxes div.full
         background-color: $color-primary
+
+@media (min-width: $media-desktop)
+    .item-skill
+        
+        .boxes div
+            $size: $space-medium
+
+            width: $size
+            height: $size
+            margin-right: $space-small/2
