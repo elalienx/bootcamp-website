@@ -33,7 +33,7 @@ export default function Candidates() {
   ));
 
   return (
-    <section className="candidates">
+    <section className="candidates background-dark">
       <div className="container">
         <div className="content">
           <h2>Meet the candidates</h2>

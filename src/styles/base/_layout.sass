@@ -14,6 +14,7 @@ ul
 
 .App
   padding-bottom: $footer-height
+  color: $color-text
   font-family: "Gotham", Arial, Helvetica, sans-serif
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,6 +22,17 @@ ul
 .container
   box-sizing: border-box
   padding: $space-big
+
+.background-dark
+  background-color: $color-purple-light
+  color: white
+
+  a
+    color: $color-secondary
+
+  .button
+    background-color: $color-secondary
+    color: white
 
 @media (min-width: $media-desktop)
   .container
