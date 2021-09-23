@@ -12,13 +12,15 @@ export default function Introduction({ candidate }: PropsCandidate) {
 
   return (
     <header className="introduction container">
-      <img className="avatar" src={imageFile} alt="Candidate thumbnail" />
-      <h1>{name}</h1>
-      <p className="subtitle">
-        {city}
-        {relocationText}
-      </p>
-      <p className="description">{description}</p>
+      <div className="content">
+        <img className="avatar" src={imageFile} alt="Candidate thumbnail" />
+        <h1>{name}</h1>
+        <p className="subtitle">
+          {city}
+          {relocationText}
+        </p>
+        <p className="description">{description}</p>
+      </div>
     </header>
   );
 }
