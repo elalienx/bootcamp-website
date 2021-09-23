@@ -3,7 +3,7 @@ import "styles/pages/home/Hero.sass";
 
 export default function Hero() {
   return (
-    <header className="hero">
+    <header id="vanta-hero" className="hero">
       <div className="container">
         <h1 className="title">
           Front

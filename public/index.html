@@ -24,6 +24,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Novare Tech Education</title>
+    <script src="./vanta/three.min.js"></script>
+    <script src="./vanta/vanta.globe.min.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -38,5 +40,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      setTimeout(() => {
+        VANTA.GLOBE({
+          el: "#vanta-hero",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 0.5,
+          backgroundColor: 0x522b45,
+        });
+      }, 100);
+    </script>
   </body>
 </html>
