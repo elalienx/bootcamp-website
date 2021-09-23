@@ -25,8 +25,13 @@ export default function Profile() {
   return (
     <div id="profile">
       <Introduction candidate={candidate} />
-      <Resume candidate={candidate} />
-      <Skills candidate={candidate} />
+
+      {/* Vertical on mobile | Horizontal on desktop */}
+      <div className="container grid">
+        <Resume candidate={candidate} />
+        <Skills candidate={candidate} />
+      </div>
+
       <Footer candidate={candidate} />
     </div>
   );

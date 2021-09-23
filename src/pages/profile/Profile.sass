@@ -7,4 +7,21 @@
     .button
         margin-bottom: $space-medium // refactor: may need to go inside .button
 
-        
+@media (min-width: $media-desktop)
+    #profile 
+        .grid
+            display: grid // refactor consideraction add a mixing or class?
+            grid-template-columns: repeat(2, 1fr)
+            grid-column-gap: $space-medium
+
+        .skills
+            box-sizing: border-box
+            padding: $space-big
+            background-color: $color-tertiary
+            color: white
+
+        .boxes div
+            border-color: $color-secondary
+
+        .boxes div.full
+            background-color: $color-secondary

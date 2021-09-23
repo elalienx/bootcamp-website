@@ -4,17 +4,29 @@
   text-align: center
 
   .avatar
-      $size: 72px
+    $size: 72px
+
+    border-radius: $size
+    with: $size
+    height: $size
+    margin: $space-medium
+
+  .subtitle
+    color: gray
+    font-weight: lighter
+    text-transform: uppercase
+
+  .description
+    text-align: left
+
+@media (min-width: $media-desktop)
+  #profile .introduction
+    text-align: left
+
+    .avatar
+      $size: 146px
 
       border-radius: $size
       with: $size
       height: $size
-      margin: $space-medium
-
-  .subtitle
-      color: gray
-      font-weight: lighter
-      text-transform: uppercase
-
-  .description
-      text-align: left
+      margin: $space-big

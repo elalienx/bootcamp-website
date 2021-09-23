@@ -12,7 +12,7 @@ export default function Resume({ candidate }: PropsCandidate) {
   ));
 
   return (
-    <section className="skills container">
+    <aside className="skills">
       {/* Tech skills */}
       <h2>Tech skills</h2>
       <ul className="list-skill">{TechItems}</ul>
@@ -20,6 +20,6 @@ export default function Resume({ candidate }: PropsCandidate) {
       {/* Languages */}
       <h2>Languages spoken</h2>
       <ul className="list-skill">{LanguagesItems}</ul>
-    </section>
+    </aside>
   );
 }

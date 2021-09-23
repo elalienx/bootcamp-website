@@ -8,9 +8,9 @@
 @media (min-width: $media-desktop)
   #about .more-information
     .container
-      display: grid
-      grid-template-columns: 1fr 1fr
-      grid-row-gap: $space-medium
+      display: grid // refactor consideraction add a mixing or class?
+      grid-template-columns: repeat(2, 1fr)
+      grid-column-gap: $space-medium
 
     .support-picture
       display: inline

@@ -12,7 +12,7 @@ export default function Resume({ candidate }: PropsCandidate) {
   ));
 
   return (
-    <section className="resume container">
+    <section className="resume">
       {/* Education */}
       <h2>Education</h2>
       <ul className="list-resume">{EducationItems}</ul>
