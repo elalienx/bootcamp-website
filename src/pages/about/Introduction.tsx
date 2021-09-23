@@ -20,6 +20,10 @@ export default function Introduction() {
             Academy. They learnt both basics and more advanced aspects of object
             oriented programming with focus on Java.
           </p>
+          <p>
+            Now they have been selected and chose to attend a 3 months program
+            with focus on React during the Autumn 2021.
+          </p>
         </div>
 
         {/* Bottom - Right */}

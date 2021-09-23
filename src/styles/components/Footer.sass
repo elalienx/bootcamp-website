@@ -4,9 +4,15 @@
   position: absolute
   bottom: 0
   width: 100%
-  height: $footer-height
+  height: $footer-height-mobile
+  line-height: $footer-height-mobile
   box-sizing: border-box
-  padding: $space-small
   background-color: $color-primary
   color: white
   text-align: center
+
+
+@media (min-width: $media-desktop)
+  #footer
+    height: $footer-height-desktop
+    line-height: $footer-height-desktop
