@@ -8,9 +8,15 @@ import "styles/components/NavigationBar.sass";
 export default function NavigationBar() {
   return (
     <nav id="navigation-bar">
-      <Link to="/">
-        <img src={Logo} alt="Novare logo with a handwritting overlay" />
-      </Link>
+      <div className="container">
+        <Link to="/">
+          <img src={Logo} alt="Novare logo with a handwritting overlay" />
+        </Link>
+        <div className="desktop-links">
+          <Link to="/about">About</Link>
+          <Link to="/candidates">Meet the candidates</Link>
+        </div>
+      </div>
     </nav>
   );
 }

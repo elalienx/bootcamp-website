@@ -2,12 +2,39 @@
 
 #navigation-bar
   box-sizing: border-box
-  height: 60px
   padding: $space-small
+  height: 60px
   background-color: $color-tertiary
   text-align: center
+
+  .container
+    margin: 0 auto
+    padding: 0 // overrides default container padding
 
   img
     width: auto
     height: 44px
+    vertical-align: middle
 
+  .desktop-links
+    display: none
+
+@media (min-width: $media-desktop)
+  #navigation-bar
+    text-align: left
+
+    img
+      display: inline-block
+      margin-right: $space-ultra
+      
+    .container
+      padding: 0 // overrides default container padding
+
+
+    .desktop-links
+      margin: 0 auto
+      display: inline-block
+
+    .desktop-links a
+      margin-right: $space-medium
+      color: white
