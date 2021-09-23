@@ -2,7 +2,7 @@
 
 // to make a <button> tag look like an <a> tag
 .link
-  @mixin standard-text-mobile()
+  @include standard-text-mobile()
 
   display: inline
   padding: 0
@@ -21,4 +21,4 @@
 
 @media (min-width: $media-desktop)
   .link
-    @mixin standard-text-desktop()
+    @include standard-text-desktop()
