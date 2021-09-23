@@ -21,6 +21,12 @@
     text-decoration: none
     background-color: lighten($color-primary, 10%)
 
-  // refactor
-  font-size: 15px
-  font-family: "Gotham", Arial, Helvetica, sans-serif
+
+@media (min-width: $media-desktop)
+  .button
+    $size: 48px
+
+    height: $size
+    font-size: 20px
+    line-height: $size
+    margin-bottom: $space-big
