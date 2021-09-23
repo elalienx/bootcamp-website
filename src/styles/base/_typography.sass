@@ -1,10 +1,5 @@
 @import "./variables"
 
-@mixin standard-text() // refactor to variables?
-  font-size: 15px
-  line-height: 21px
-  margin-bottom: 15px
-
 h1, h2, h3, p
   margin-top: 0
 
@@ -19,20 +14,18 @@ h2
   margin-bottom: 15px   
 
 h3
-  @include standard-text
   line-height: 15px
   margin-bottom: 5px
-
-p
-  @include standard-text
 
 small
   font-size: 11px
   line-height: 14px
   margin-bottom: 11px
 
+p
+  margin-bottom: 15px
+
 a
-  @mixin standard-text
   color: $color-primary
   text-decoration: none
 
@@ -40,11 +33,6 @@ a
     text-decoration: underline
 
 @media (min-width: $media-desktop)
-  @mixin standard-text() // refactor to variables?
-    font-size: 20px
-    line-height: 29px
-    margin-bottom: 20px
-
   h1
     font-size: 37px
     line-height: 37px
@@ -56,16 +44,11 @@ a
     margin-bottom: 11px   
 
   h3
-    @include standard-text
     line-height: 20px
     margin-bottom: 8px
 
   p
-    @include standard-text
-
-  a
-    @include standard-text
-    
+    margin-bottom: 20px
 
   small
     font-size: 14px

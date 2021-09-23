@@ -2,16 +2,14 @@
 
 // to make a <button> tag look like an <a> tag
 .link
+  @mixin standard-text-mobile()
+
   display: inline
   padding: 0
   margin: 0
   border: none
   background-color: transparent
   outline: none
-
-  font-size: 15px
-  line-height: 21px
-  margin-bottom: 15px
   color: $color-primary
   text-decoration: none
   cursor: pointer
@@ -23,6 +21,4 @@
 
 @media (min-width: $media-desktop)
   .link
-    font-size: 20px
-    line-height: 20px
-    margin-bottom: 8px
+    @mixin standard-text-desktop()

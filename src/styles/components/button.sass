@@ -1,6 +1,7 @@
 @import "styles/base/variables"
 
 .button 
+  @mixin standard-text-mobile()
   $size: 44px
 
   box-sizing: border-box
@@ -11,7 +12,6 @@
   background-color: $color-primary
   color: white
   border: none
-  font-size: 15px
   font-weight: bold
   text-decoration: none
   line-height: $size
@@ -24,9 +24,9 @@
 
 @media (min-width: $media-desktop)
   .button
+    @mixin standard-text-desktop()
     $size: 48px
 
     height: $size
-    font-size: 20px
     line-height: $size
     margin-bottom: $space-big

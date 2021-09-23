@@ -1,27 +1,27 @@
 @import "styles/base/variables"
 
 #profile
-    .container
-        padding-top: 0 // refactor hack to quickly present progress...
+  .container
+    padding-top: 0 // refactor hack to quickly present progress...
 
-    .button
-        margin-bottom: $space-medium // refactor: may need to go inside .button
+  .button
+    margin-bottom: $space-medium // refactor: may need to go inside .button
 
 @media (min-width: $media-desktop)
-    #profile 
-        .grid
-            display: grid // refactor consideraction add a mixing or class?
-            grid-template-columns: repeat(2, 1fr)
-            grid-column-gap: $space-medium
+  #profile 
+    .grid
+      display: grid
+      grid-template-columns: 3fr 1fr
+      grid-column-gap: $space-medium
 
-        .skills
-            box-sizing: border-box
-            padding: $space-big
-            background-color: $color-tertiary
-            color: white
+    .skills
+      box-sizing: border-box
+      padding: $space-big
+      background-color: $color-tertiary
+      color: white
 
-        .boxes div
-            border-color: $color-secondary
+    .boxes div
+      border-color: $color-secondary
 
-        .boxes div.full
-            background-color: $color-secondary
+    .boxes div.full
+      background-color: $color-secondary

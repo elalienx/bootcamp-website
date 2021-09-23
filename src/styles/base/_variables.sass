@@ -8,6 +8,14 @@ $color-tertiary: $color-purple-light
 // Text
 $color-text: $color-charcoal
 
+@mixin standard-text-mobile() // refactor to just standard-text and change it by media query
+  font-size: 15px
+  line-height: 21px
+
+@mixin standard-text-desktop()
+  font-size: 20px
+  line-height: 29px
+
 // Spacing
 $space-small: 8px
 $space-medium: 16px

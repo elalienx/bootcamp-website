@@ -13,9 +13,11 @@ ul
   padding: 0
 
 .App
+  @include standard-text-mobile
+
   padding-bottom: $footer-height-mobile
   color: $color-text
-  font-family: "Gotham", Arial, Helvetica, sans-serif
+  font-family: "Gotham", Arial, Helvetica, sans-serif // refactor consideraction, shall the standard size be here, to avoid adding the same 15px to p, a, li, span, etc?
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -36,7 +38,10 @@ ul
 
 @media (min-width: $media-desktop)
   .App 
+    @include standard-text-desktop 
+
     padding-bottom: $footer-height-desktop // refactor single variable from variables.sass
+
   .container
     margin: 0 auto
     padding: $space-ultra 0 // to remove the side space
