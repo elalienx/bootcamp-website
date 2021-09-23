@@ -23,9 +23,13 @@ small
   margin-bottom: 11px
 
 p
+  @include standard-text-mobile
+
   margin-bottom: 15px
 
 a
+  @include standard-text-mobile
+
   color: $color-primary
   text-decoration: none
 
@@ -48,7 +52,12 @@ a
     margin-bottom: 8px
 
   p
-    margin-bottom: 20px
+    @include standard-text-desktop
+
+    margin-bottom: 16px
+
+  a
+    @include standard-text-desktop
 
   small
     font-size: 14px

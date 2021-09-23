@@ -2,9 +2,8 @@
 
 // to make a <button> tag look like an <a> tag
 .link
-  @include standard-text
-
-  font-family: "Gotham", Arial, Helvetica, sans-serif
+  @include standard-text-mobile
+  
   display: inline
   padding: 0
   margin: 0
@@ -19,4 +18,7 @@
   &:hover
     text-decoration: underline
 
+@media (min-width: $media-desktop)
+  .link
+    @include standard-text-desktop
 

@@ -9,9 +9,6 @@ $color-gray: $swatch-gray
 // Text
 $color-text: $swatch-charcoal
 
-@mixin standard-text() // refactor to just standard-text and change it by media query
-  font-size: 15px 
-  line-height: 21px
 
 // Spacing
 $space-small: 8px
@@ -26,12 +23,15 @@ $media-desktop: 1000px
 $media-ultra-wide: 2000px
 
 // Other
-$footer-height: 31px
+$footer-height-mobile: 31px
+$footer-height-desktop: 45px
 
+// Mixings
+@mixin standard-text-mobile()
+  font-family: "Gotham", Arial, Helvetica, sans-serif
+  font-size: 15px 
+  line-height: 21px
 
-@media (min-width: $media-desktop)
-  @mixin standard-text()
-    font-size: 20px
-    line-height: 29px
-
-  $footer-height: 48px
+@mixin standard-text-desktop()
+  font-size: 18px 
+  line-height: 26px
