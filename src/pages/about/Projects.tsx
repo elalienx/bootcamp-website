@@ -1,7 +1,7 @@
 // Project files
 import Item from "components/ItemProject";
 import data from "data/projects.json";
-import "./Projects.sass";
+import "styles/pages/about/Projects.sass";
 
 export default function Technologies() {
   // Components

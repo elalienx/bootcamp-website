@@ -1,5 +1,5 @@
 // Project files
-import "./Hero.sass";
+import "styles/pages/home/Hero.sass";
 
 export default function Hero() {
   return (

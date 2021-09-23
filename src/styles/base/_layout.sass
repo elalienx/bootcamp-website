@@ -13,9 +13,9 @@ ul
   padding: 0
 
 .App
-  @include standard-text-mobile
+  @include standard-text
 
-  padding-bottom: $footer-height-mobile
+  padding-bottom: $footer-height
   color: $color-text
   font-family: "Gotham", Arial, Helvetica, sans-serif
   -webkit-font-smoothing: antialiased;
@@ -37,11 +37,6 @@ ul
     color: white
 
 @media (min-width: $media-desktop)
-  .App 
-    @include standard-text-desktop 
-
-    padding-bottom: $footer-height-desktop // refactor single variable from variables.sass
-
   .container
     margin: 0 auto
     padding: $space-ultra 0 // to remove the side space

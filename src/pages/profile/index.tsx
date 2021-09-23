@@ -7,7 +7,7 @@ import Introduction from "./Introduction";
 import Resume from "./Resume";
 import Skills from "./Skills";
 import data from "data/candidates.json";
-import "./Profile.sass";
+import "styles/pages/profile/Profile.sass";
 
 // Interface
 type PropParams = {

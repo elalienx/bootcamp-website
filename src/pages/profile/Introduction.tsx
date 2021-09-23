@@ -1,6 +1,6 @@
 // Project files
 import PropsCandidate from "./PropsCandidate";
-import "./Introduction.sass";
+import "styles/pages/profile/Introduction.sass";
 
 export default function Introduction({ candidate }: PropsCandidate) {
   const { city, description, name, url, willing_to_relocate } = candidate;

@@ -1,7 +1,7 @@
 @import "styles/base/variables"
 
 .button 
-  @include standard-text-mobile()
+  @include standard-text
   $size: 44px
 
   box-sizing: border-box
@@ -24,7 +24,6 @@
 
 @media (min-width: $media-desktop)
   .button
-    @include standard-text-desktop()
     $size: 48px
 
     height: $size

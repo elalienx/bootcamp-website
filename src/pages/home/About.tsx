@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Project files
 import Image from "assets/images/about.jpg";
-import "./About.sass";
+import "styles/pages/home/About.sass";
 
 export default function About() {
   return (

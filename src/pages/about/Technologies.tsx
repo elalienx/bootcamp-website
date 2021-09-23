@@ -1,7 +1,7 @@
 // Project files
 import Item from "components/ItemTechnology";
 import data from "data/technologies.json";
-import "./Technologies.sass";
+import "styles/pages/about/Technologies.sass";
 
 export default function Technologies() {
   // Components

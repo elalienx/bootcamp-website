@@ -2,11 +2,11 @@
 import { Link } from "react-router-dom";
 
 // Project files
-import "./Candidates.sass";
 import data from "data/candidates.json";
 import iCandidate from "interfaces/iCandidate";
 import ItemCandidate from "components/ItemCandidate";
 import Image from "assets/images/candidates.jpg";
+import "styles/pages/home/Candidates.sass";
 
 export default function Candidates() {
   // Properties
