@@ -5,7 +5,7 @@
       display: none
 
 
-@media (min-width: $media-desktop)
+@media (min-width: $media-desktop) 
   #home .about
     .mobile-hero
       display: none
@@ -15,5 +15,5 @@
 
     .container
       display: grid
-      grid-template-columns: 1fr 1fr
-      grid-gap: $space-medium
+      grid-template-columns: repeat(2, 1fr)
+      grid-column-gap: $space-medium
