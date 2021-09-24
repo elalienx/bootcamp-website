@@ -1,5 +1,4 @@
 // NPM Packages
-import { FC } from "react";
 import { Link } from "react-router-dom";
 
 // Project files
@@ -7,11 +6,11 @@ import iCandidate from "interfaces/iCandidate";
 import "styles/components/ItemCandidate.sass";
 
 // Interface
-interface Props {
+interface iProps {
   item: iCandidate;
 }
 
-const ItemCandidate: FC<Props> = ({ item }) => {
+export function ItemCandidate({ item }: iProps) {
   const { name, url } = item;
 
   // Properties
@@ -26,6 +25,4 @@ const ItemCandidate: FC<Props> = ({ item }) => {
       </Link>
     </li>
   );
-};
-
-export default ItemCandidate;
+}
