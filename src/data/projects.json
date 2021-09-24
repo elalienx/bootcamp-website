@@ -27,24 +27,24 @@
     "id": 5,
     "name": "E-Commerce",
     "image_name": "e-commerce",
-    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+    "description": "We move from building front end sites for consumers, to building an administrator panel of a e-commerce store, where the owner can add categories and products to sell."
   },
   {
     "id": 6,
     "name": "BBQ restaurant",
     "image_name": "bbq",
-    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+    "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects."
   },
   {
     "id": 7,
-    "name": "Learning platofrm",
+    "name": "Educational platform",
     "image_name": "lms",
-    "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+    "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features."
   },
   {
     "id": 8,
     "name": "Netflix clone",
     "image_name": "netflix",
-    "description": "The final project that students must complete to graduate from the program. It combines all the techniques mentioned in the Tech stack and also takes into consideration the attention to detail for a polished UI experience."
+    "description": "The final project that to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience."
   }
 ]
