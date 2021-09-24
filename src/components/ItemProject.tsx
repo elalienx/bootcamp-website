@@ -1,16 +1,13 @@
-// NPM Packages
-import { FC } from "react";
-
 // Project files
 import iProject from "interfaces/iProject";
 import "styles/components/ItemProject.sass";
 
 // Interface
-interface Props {
+interface iProps {
   item: iProject;
 }
 
-const ItemProject: FC<Props> = ({ item }) => {
+export default function ItemProject({ item }: iProps) {
   const { name, description, image_name } = item;
 
   // Properties
@@ -24,6 +21,4 @@ const ItemProject: FC<Props> = ({ item }) => {
       <small>{description}</small>
     </li>
   );
-};
-
-export default ItemProject;
+}

@@ -1,16 +1,13 @@
-// NPM Packages
-import { FC } from "react";
-
 // Project files
 import iResume from "interfaces/iResume";
 import "styles/components/ItemResume.sass";
 
 // Interface
-interface Props {
+interface iProps {
   item: iResume;
 }
 
-const ItemProject: FC<Props> = ({ item }) => {
+export default function ItemProject({ item }: iProps) {
   const { period, title, institution, city_and_country } = item;
 
   return (
@@ -23,6 +20,4 @@ const ItemProject: FC<Props> = ({ item }) => {
       </div>
     </li>
   );
-};
-
-export default ItemProject;
+}

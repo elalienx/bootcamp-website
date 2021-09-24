@@ -1,12 +1,12 @@
 // NPM Packages
-import { FC, ReactNode, useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import { useLocation } from "react-router";
 
-interface Props {
+interface iProps {
   children: ReactNode[];
 }
 
-const ScrollToTop: FC<Props> = ({ children }) => {
+export default function ScrollToTop({ children }: iProps) {
   // Properties
   const location = useLocation();
 
@@ -14,6 +14,4 @@ const ScrollToTop: FC<Props> = ({ children }) => {
   useEffect(() => window.scrollTo(0, 0), [location]);
 
   return <>{children}</>;
-};
-
-export default ScrollToTop;
+}

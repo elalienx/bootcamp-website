@@ -10,7 +10,7 @@ interface iProps {
   item: iCandidate;
 }
 
-export function ItemCandidate({ item }: iProps) {
+export default function ItemCandidate({ item }: iProps) {
   const { name, url } = item;
 
   // Properties

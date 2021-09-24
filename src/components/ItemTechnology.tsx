@@ -7,12 +7,12 @@ import iTechnology from "interfaces/iTechnology";
 import "styles/components/ItemTechnology.sass";
 
 // Interface
-interface Props {
+interface iProps {
   item: iTechnology;
 }
 
 // Testing if this function is a valid method. Need testing with more arguments.
-export default function ItemTechnology({ item }: Props) {
+export default function ItemTechnology({ item }: iProps) {
   const { name, description, icon } = item;
 
   return (

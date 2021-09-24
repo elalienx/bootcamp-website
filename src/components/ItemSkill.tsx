@@ -1,16 +1,13 @@
-// NPM Packages
-import { FC } from "react";
-
 // Project files
 import iSkill from "interfaces/iSkill";
 import "styles/components/ItemSkill.sass";
 
 // Interface
-interface Props {
+interface iProps {
   item: iSkill;
 }
 
-const ItemSkill: FC<Props> = ({ item }) => {
+export default function ItemSkill({ item }: iProps) {
   const { name, rating } = item;
 
   return (
@@ -25,6 +22,4 @@ const ItemSkill: FC<Props> = ({ item }) => {
       </div>
     </li>
   );
-};
-
-export default ItemSkill;
+}
