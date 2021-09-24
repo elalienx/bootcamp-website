@@ -102,111 +102,223 @@
   },
   {
     "id": 2,
-    "name": "Clement Cardona",
+    "name": "Clement C",
     "url": "clement-cardona",
     "city": "Stockholmn",
     "willing_to_relocate": true,
-    "description": "Loremp ipsum",
-    "portofolio_url": "http://www.google.com",
+    "description": "Clément has a Master in Architecture and has been working as an architect for 6 years. Programming is his passion and now he wants to pursue a career as a developer. Clément is a creative problem solver who loves challenges and to go out of his comfort zone. With his social personality and positive attitude, he is a true team-player. ",
+    "portofolio_url": "https://npa-portfolio.web.app/",
     "education": [
       {
-        "period": "2020",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2021",
+        "title": "Intensive Frontend Course",
+        "institution": "Novare Potential",
+        "city_and_country": "Sweden"
       },
       {
         "period": "2021",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "title": "Software Development Academy",
+        "institution": "KTH",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2013",
+        "title": "Master in Architecture",
+        "institution": "INSA Strasbourg",
+        "city_and_country": "France"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2020 - Present",
+        "title": "Rider Captain",
+        "institution": "Fodora",
+        "city_and_country": "Sweden"
       },
       {
-        "period": "2020 - 2025",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2019 - 2020",
+        "title": "Bicycle courier",
+        "institution": "Fodora",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2013-2019",
+        "title": "Architect",
+        "institution": "ONArchitecture",
+        "city_and_country": "France"
       }
     ],
     "tech_skills": [
       {
-        "name": "React",
-        "rating": 5
+        "name": "Autocad",
+        "rating": 4
       },
       {
-        "name": "Firebase",
+        "name": "Android/iOS",
+        "rating": 2
+      },
+      {
+        "name": "Git",
         "rating": 3
+      },
+      {
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
+        "rating": 3
+      },
+      {
+        "name": "MySQL",
+        "rating": 1
+      },
+      {
+        "name": "PHP",
+        "rating": 2
+      },
+      {
+        "name": "React",
+        "rating": 3
+      },
+      {
+        "name": "Scrum",
+        "rating": 2
+      },
+      {
+        "name": "Spring",
+        "rating": 1
       }
     ],
     "languages_spoken": [
       {
         "name": "English",
-        "rating": 4
+        "rating": 5
+      },
+      {
+        "name": "French",
+        "rating": 5
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 4
       }
     ]
   },
   {
     "id": 3,
-    "name": "Dakouri Kobri",
+    "name": "Dakouri M",
     "url": "dakouri-kobri",
     "city": "Stockholmn",
     "willing_to_relocate": true,
-    "description": "Loremp ipsum",
-    "portofolio_url": "http://www.google.com",
+    "description": "Dakouri Maurille-Constant has a MPhil in Pharmacology and Biotechnology and certificates in Complete Python Developer in 2020: Zero to Mastery. After 7 years within the research domain, he now has decided to follow is true passion of IT. As a person he is detailed, solution oriented and a team player.",
+    "portofolio_url": "#",
     "education": [
       {
-        "period": "2020",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2021",
+        "title": "Intensive Frontend Course",
+        "institution": "Novare Potential",
+        "city_and_country": "Sweden"
       },
       {
         "period": "2021",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "title": "Software Development Academy",
+        "institution": "KTH",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2001",
+        "title": "Master in Pharmacology",
+        "institution": "University d’Abidjan",
+        "city_and_country": "Ivory Coast"
+      },
+      {
+        "period": "1998",
+        "title": "Master of Science in Drug Science ",
+        "institution": "University d’Abobo-Adjame",
+        "city_and_country": "Ivory Coast"
+      },
+      {
+        "period": "1996",
+        "title": "Bachelor of Science in Drug Science",
+        "institution": "University d’Abobo-Adjame",
+        "city_and_country": "Ivory Coast"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "Loremp",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2019",
+        "title": "Organic Chemistry Researcher",
+        "institution": "Chalmers University of Technology",
+        "city_and_country": "Sweden"
       },
       {
-        "period": "2020 - 2025",
-        "title": "Ipsum",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2013 - 2019",
+        "title": "Event Promoter / General Manager",
+        "institution": "AfroDance Rhythm",
+        "city_and_country": "Stockholm, Sweden"
+      },
+      {
+        "period": "2012",
+        "title": "Toxicology Researcher",
+        "institution": "National Centre of Biomedical Engineering",
+        "city_and_country": "Galway, Ireland"
       }
     ],
     "tech_skills": [
       {
-        "name": "React",
-        "rating": 5
+        "name": "Git",
+        "rating": 3
       },
       {
-        "name": "Firebase",
-        "rating": 3
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
+        "rating": 2
+      },
+      {
+        "name": "Node.js",
+        "rating": 2
+      },
+      {
+        "name": "Python",
+        "rating": 2
+      },
+      {
+        "name": "React",
+        "rating": 2
+      },
+      {
+        "name": "Scrum",
+        "rating": 2
+      },
+      {
+        "name": "Spring",
+        "rating": 1
+      },
+      {
+        "name": "SQL Server",
+        "rating": 2
+      },
+      {
+        "name": "UI/UX",
+        "rating": 2
       }
     ],
     "languages_spoken": [
       {
+        "name": "Dida",
+        "rating": 5
+      },
+      {
         "name": "English",
-        "rating": 4
+        "rating": 5
+      },
+      {
+        "name": "French",
+        "rating": 5
       },
       {
         "name": "Swedish",
