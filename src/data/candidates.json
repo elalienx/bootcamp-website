@@ -517,14 +517,6 @@
       {
         "name": "Spring",
         "rating": 2
-      },
-      {
-        "name": "skill_9",
-        "rating": 3
-      },
-      {
-        "name": "skill_10",
-        "rating": 3
       }
     ],
     "languages_spoken": [
@@ -551,9 +543,9 @@
     "name": "Hassan O",
     "url": "hassan-o",
     "city": "Stockholmn",
-    "willing_to_relocate": false,
-    "description": "Loremp ipsum",
-    "portofolio_url": "http://www.google.com",
+    "willing_to_relocate": true,
+    "description": "Hassan holds a Bachelor in Information Systems. He has solid technical work experience from SQL programming, website creation and technical installations, and he is passionate to become a Software Developer. His previous experience spans the Accounting and E-commerce industries. As a person he is calm, creative and quick to pick up new skills. He also likes to help others and has the ability to focus and work hard. ",
+    "portofolio_url": "https://hassan-obeid-portfolio-f6d36.web.app/",
     "education": [
       {
         "period": "2021",
@@ -562,100 +554,92 @@
         "city_and_country": "Sweden"
       },
       {
-        "period": "2021",
+        "period": "2020",
         "title": "Software Development Academy",
         "institution": "KTH",
         "city_and_country": "Sweden"
       },
       {
-        "period": "2020",
-        "title": "education_3",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020",
-        "title": "education_4",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020",
-        "title": "education_5",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2011",
+        "title": "Bachelor’s in Management Information Systems",
+        "institution": "IUL University",
+        "city_and_country": "Lebanon"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "work_1",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2018 - 2020",
+        "title": "Developer/ICT technician",
+        "institution": "Seka security AB",
+        "city_and_country": "Sweden"
       },
       {
-        "period": "2020 - 2025",
-        "title": "work_2",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2016 - 2018",
+        "title": "IT support",
+        "institution": "Med. Cables company",
+        "city_and_country": "Lebanon"
       },
       {
-        "period": "2020 - 2025",
-        "title": "work_3",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2013 - 2016",
+        "title": "Information System Specialist",
+        "institution": "ICC",
+        "city_and_country": "Angola"
       }
     ],
     "tech_skills": [
       {
-        "name": "skill_1",
-        "rating": 3
+        "name": "Git",
+        "rating": 2
       },
       {
-        "name": "skill_2",
-        "rating": 3
+        "name": "ESLint/Jest",
+        "rating": 1
       },
       {
-        "name": "skill_3",
-        "rating": 3
+        "name": "HTML/CSS",
+        "rating": 2
       },
       {
-        "name": "skill_4",
-        "rating": 3
+        "name": "IntelliJ",
+        "rating": 2
       },
       {
-        "name": "skill_5",
-        "rating": 3
+        "name": "Java",
+        "rating": 2
       },
       {
-        "name": "skill_6",
-        "rating": 3
+        "name": "JavaScript",
+        "rating": 2
       },
       {
-        "name": "skill_7",
-        "rating": 3
+        "name": "JUnit",
+        "rating": 2
       },
       {
-        "name": "skill_8",
-        "rating": 3
+        "name": "React",
+        "rating": 2
       },
       {
-        "name": "skill_9",
-        "rating": 3
+        "name": "Scrum",
+        "rating": 2
       },
       {
-        "name": "skill_10",
-        "rating": 3
+        "name": "SQL Server",
+        "rating": 2
       }
     ],
     "languages_spoken": [
       {
         "name": "English",
-        "rating": 4
+        "rating": 3
+      },
+      {
+        "name": "French",
+        "rating": 3
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 1
       }
     ]
   },
@@ -665,7 +649,7 @@
     "url": "marcela-folis",
     "city": "Stockholmn",
     "willing_to_relocate": true,
-    "description": "Loremp ipsum",
+    "description": "Loremp_Ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
       {
@@ -778,7 +762,7 @@
     "url": "natalia-federova",
     "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Loremp ipsum",
+    "description": "Loremp_Ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
       {
@@ -891,7 +875,7 @@
     "url": "olga-pinchuk",
     "city": "Stockholmn",
     "willing_to_relocate": true,
-    "description": "Loremp ipsum",
+    "description": "Loremp_Ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
       {
@@ -1004,7 +988,7 @@
     "url": "sailatha-tammana",
     "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Loremp ipsum",
+    "description": "Loremp_Ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
       {
@@ -1117,7 +1101,7 @@
     "url": "snehal-kadam",
     "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Loremp ipsum",
+    "description": "Loremp_Ipsum",
     "portofolio_url": "http://www.google.com",
     "education": [
       {
