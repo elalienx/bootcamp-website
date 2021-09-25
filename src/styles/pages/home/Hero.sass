@@ -15,19 +15,12 @@
     margin-bottom: 5px
 
   .subtitle
-    font-size: 15px // refactor same as <p>
-    line-height: 21px
+    @include standard-text-mobile
+
     text-transform: uppercase
     font-weight: lighter
     opacity: 0.5
-
-  .button
-    background-color: $color-secondary
-    color: $color-primary
-
-  // To clean the margin of the last child
-  .container > :last-child
-    margin-bottom: 0
+    margin-bottom: 0 // To clean the margin of the last child
 
 @media (min-width: $media-desktop)
   #home .hero
@@ -39,5 +32,4 @@
       line-height: 56px
 
     .subtitle
-      font-size: 20px // refactor same as <p>
-      line-height: 29px
+      @include standard-text-desktop

@@ -1,37 +1,48 @@
 @import "styles/base/variables"
 
 .item-resume
-    display: flex
-    list-style: none
+  display: flex
+  list-style: none
 
-    // layout
-    .period
-        flex-shrink: 0 // to avoid flex shinking it
-        box-sizing: border-box
-        width: 64px
-        padding-right: $space-small
-        border-right: solid thin $color-gray
+  // layout
+  .period
+    flex-shrink: 0 // to avoid flex shinking it
+    box-sizing: border-box
+    width: 64px
+    padding-right: $space-small
+    border-right: solid thin $color-gray
 
-    .content
-        flex-grow: 1
-        padding-left: $space-small
+  .content
+    flex-grow: 1
+    padding-left: $space-small
 
-    // text styles
-    .period 
-        font-weight: bold
+  // text styles
+  .title, 
+  .institution,
+    margin-bottom: 5px
 
-    .title
-        text-transform: uppercase
-    
-    .institution
-        margin-bottom: 5px
+  .period 
+    font-weight: bold
 
-    .city
-        margin-bottom: $space-medium
-        font-weight: lighter
-        color: $color-gray
+  .title
+    text-transform: uppercase
+
+  .city-and-country
+    font-weight: lighter
+    color: $color-gray
+    margin-bottom: $space-medium // margin for the entire item in order to draw the line
 
 @media (min-width: $media-desktop) 
-    .item-resume
-        .period
-            width: 96px
+    .item-resume 
+      
+      // layout
+      .period
+        width: 96px
+
+      // text styles
+      .title, 
+      .institution,
+        margin-bottom: 11px
+
+      .city-and-country
+        margin-bottom: $space-big

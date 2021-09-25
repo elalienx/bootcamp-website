@@ -1,9 +1,7 @@
 @import "styles/base/variables"
 
 .item-candidate
-  margin-bottom: $space-medium // refactor consideration shall the children self position?
   list-style: none
-
 
   img
     $size: 36px
@@ -15,11 +13,11 @@
     vertical-align: middle
 
 
-
 @media (min-width: $media-desktop)
   .item-candidate
     img
-      $size: 48px
+      $size: $space-ultra
 
       width: $size
       height: $size
+       margin-right: $space-big
