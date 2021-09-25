@@ -14,11 +14,6 @@ img
   height: auto
   vertical-align: middle // to eliminate the weird 3px bug of images
 
-p:last-child
-  // refactor, is this needed? how many times it happen? if is just once, then clean it on the section that uses it.
-  // cleans the margin when is the last item of a container
-  margin-bottom: 0
-
 .App
   @include standard-text-mobile
 
@@ -30,14 +25,13 @@ p:last-child
 .container
   margin: $space-big
 
-
 .component-items
   display: grid
   grid-row-gap: $space-medium
   margin-bottom: $space-big
 
 .background-dark
-  overflow: auto // to respect its children margins
+  overflow: auto // to respect the container margin
   background-color: $color-tertiary
   color: white
 
