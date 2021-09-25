@@ -1,17 +1,19 @@
 @import "styles/base/variables"
 
 .item-skill
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-column-gap: $space-medium
     list-style: none
 
     .label
-        display: inline-block
-        width: 160px
         white-space: nowrap
         overflow: hidden
         text-overflow: ellipsis
 
     .boxes
-        float: right
+        display: flex
+        justify-content: space-between
 
     .boxes div
         $size: $space-big
@@ -19,21 +21,15 @@
         display: inline-block
         width: $size
         height: $size
-        margin-right: $space-small
         border: solid 2px $color-primary
-
-        &:last-child        
-            margin-right: 0 // remove last margin
 
     .boxes div.full
         background-color: $color-primary
 
 @media (min-width: $media-desktop)
     .item-skill
-        
         .boxes div
-            $size: $space-medium
+            $size: 20px
 
             width: $size
             height: $size
-            margin-right: $space-small/2

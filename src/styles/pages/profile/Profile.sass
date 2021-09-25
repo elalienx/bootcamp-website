@@ -1,20 +1,12 @@
 @import "styles/base/variables"
 
+#profile
+  ul
+    margin-bottom: $space-big
+
 @media (min-width: $media-desktop)
   #profile 
     .grid
       display: grid
       grid-template-columns: 8fr 4fr
       grid-column-gap: $space-medium
-
-    .skills
-      padding: $space-big
-      border-radius: $space-medium
-      background-color: $color-tertiary
-      color: white
-
-    .boxes div
-      border-color: $color-secondary
-
-    .boxes div.full
-      background-color: $color-secondary

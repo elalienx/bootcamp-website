@@ -1,6 +1,7 @@
 // Project files
 import Item from "components/ItemSkill";
 import PropsCandidate from "./PropsCandidate";
+import "styles/pages/profile/Skills.sass";
 
 export default function Resume({ candidate }: PropsCandidate) {
   // Components
