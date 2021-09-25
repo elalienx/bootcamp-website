@@ -6,9 +6,13 @@
 // 1. The about hero, a image that takes the 100% of the screen but only appears on mobile.
 // 2. The projects scrolling from left to right.
 #about
-  // Technologies happens to be in between the 2 sections with weird layouts,
-  // thus, instead of manually add code to each section to controll the space,
-  // technologies can take care of both.
-  .technologies .container
-    margin-top: 0
-    margin-bottom: 0
+  .introduction,
+  .technologies,
+    overflow: auto // so these parents respect their children margins
+
+    .container
+      margin-bottom: 0
+
+  .technologies
+    .component-items
+      margin-bottom: 0 // so the margin top of the next section dictates the space between sections

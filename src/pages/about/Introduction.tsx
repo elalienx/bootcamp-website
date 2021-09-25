@@ -3,13 +3,13 @@ import Image from "assets/images/about.jpg";
 import "styles/pages/about/Introduction.sass";
 
 export default function Introduction() {
+  const imageDescription =
+    "A group of people sitting on a table using their laptops";
+
   return (
     <header className="introduction">
-      <img
-        className="mobile-hero"
-        src={Image}
-        alt="A group of people sitting on a table using their laptops"
-      />
+      {/* Mobile hero */}
+      <img className="mobile-hero" src={Image} alt={imageDescription} />
 
       <div className="container">
         {/* Top - Left */}
@@ -27,11 +27,7 @@ export default function Introduction() {
         </div>
 
         {/* Bottom - Right */}
-        <img
-          className="support-picture"
-          src={Image}
-          alt="A group of people sitting on a table using their laptops"
-        />
+        <img className="support-picture" src={Image} alt={imageDescription} />
       </div>
     </header>
   );

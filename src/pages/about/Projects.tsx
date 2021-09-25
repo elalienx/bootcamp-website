@@ -15,7 +15,7 @@ export default function Technologies() {
         <div className="component-items desktop-items">{Items}</div>
       </div>
 
-      {/* Mobile items scroll horizontally */}
+      {/* Mobile projects scroll horizontally */}
       <div className="component-items mobile-items">{Items}</div>
     </section>
   );
