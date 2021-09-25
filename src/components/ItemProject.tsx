@@ -15,10 +15,10 @@ export default function ItemProject({ item }: iProps) {
   const imageFile = imageObject.default;
 
   return (
-    <li className="item-project">
+    <article className="item-project">
       <img src={imageFile} alt="Project thumbnail" />
       <h3>{name}</h3>
       <small>{description}</small>
-    </li>
+    </article>
   );
 }

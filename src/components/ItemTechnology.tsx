@@ -15,7 +15,7 @@ export default function ItemTechnology({ item }: iProps) {
   const { name, description, icon } = item;
 
   return (
-    <li className="item-technology">
+    <article className="item-technology">
       <div className="circle">
         <FontAwesomeIcon icon={["fab", icon as IconName]} />
       </div>
@@ -23,6 +23,6 @@ export default function ItemTechnology({ item }: iProps) {
         <h3>{name}</h3>
         <p>{description}</p>
       </div>
-    </li>
+    </article>
   );
 }

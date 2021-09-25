@@ -18,11 +18,9 @@ export default function ItemCandidate({ item }: iProps) {
   const imageFile = imageObject.default;
 
   return (
-    <li className="item-candidate">
-      <Link to={"/profile/" + url}>
-        <img src={imageFile} alt="Candidate thumbnail" />
-        {name}
-      </Link>
-    </li>
+    <Link className="item-candidate" to={"/profile/" + url}>
+      <img src={imageFile} alt="Candidate thumbnail" />
+      {name}
+    </Link>
   );
 }

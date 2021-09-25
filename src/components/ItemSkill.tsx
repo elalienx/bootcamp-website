@@ -11,7 +11,7 @@ export default function ItemSkill({ item }: iProps) {
   const { name, rating } = item;
 
   return (
-    <li className="item-skill">
+    <article className="item-skill">
       <span className="label">{name}</span>
       <div className="boxes">
         <div className={rating >= 1 ? "full" : ""}></div>
@@ -20,6 +20,6 @@ export default function ItemSkill({ item }: iProps) {
         <div className={rating >= 4 ? "full" : ""}></div>
         <div className={rating >= 5 ? "full" : ""}></div>
       </div>
-    </li>
+    </article>
   );
 }
