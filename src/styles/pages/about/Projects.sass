@@ -9,16 +9,16 @@
     overflow-x: scroll
     padding-bottom: $space-big // to give space for the scrollbar
 
-    li
+    .item-project
       width: 152px
       flex-shrink: 0 // to avoid the flex shink
       margin-right: $space-medium
 
     // to align with the container
-    li:first-child
+    .item-project:first-child
       margin-left: $space-big
 
-    li:last-child
+    .item-project:last-child
       box-sizing: content-box // to make the padding not count into the size
       padding-right: $space-big
 
