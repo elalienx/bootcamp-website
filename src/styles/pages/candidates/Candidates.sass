@@ -1,14 +1,15 @@
 @import "styles/base/variables"
 
 #candidates
-  ul li
-    margin-bottom: $space-medium
+  ul // refactor as a .map-items class
+    display: grid
+    grid-row-gap: $space-medium
+    margin-bottom: $space-big
 
 @media (min-width: $media-desktop)
   #candidates
-    header
-      display: grid
-      grid-template-columns: 8fr 4fr
+    ul
+      grid-row-gap: $space-big
     
-    ul li
-      margin-bottom: $space-big
+    p
+      max-width: 634px // refactor as a variable max reading width

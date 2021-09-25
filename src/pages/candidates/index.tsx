@@ -13,17 +13,15 @@ export default function Candidates() {
 
   return (
     <div id="candidates" className="container">
-      <div className="content">
-        <h1>All the candidates</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <ul>{Items}</ul>
-        <button className="button" onClick={() => history.goBack()}>
-          Go back
-        </button>
-      </div>
+      <h1>All the candidates</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <ul>{Items}</ul>
+      <button className="button" onClick={() => history.goBack()}>
+        Go back
+      </button>
     </div>
   );
 }
