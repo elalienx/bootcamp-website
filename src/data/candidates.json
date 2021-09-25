@@ -863,83 +863,65 @@
         "city_and_country": "Sweden"
       },
       {
-        "period": "2020",
-        "title": "education_3",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2015",
+        "title": "Front End web development courses",
+        "institution": "Viseven IT Academy",
+        "city_and_country": "Ukraine"
       },
       {
-        "period": "2020",
-        "title": "education_4",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020",
-        "title": "education_5",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2008",
+        "title": "Masters in Russian and English",
+        "institution": "Zhytomyr State ‘Ivan Franko’ University",
+        "city_and_country": "Ukraine"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "work_1",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020 - 2025",
-        "title": "work_2",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
-      },
-      {
-        "period": "2020 - 2025",
-        "title": "work_3",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2015 - 2020",
+        "title": "Front End Developer",
+        "institution": "Viseven",
+        "city_and_country": "Ukraine"
       }
     ],
     "tech_skills": [
       {
-        "name": "skill_1",
+        "name": "Angular",
+        "rating": 2
+      },
+      {
+        "name": "Git",
         "rating": 3
       },
       {
-        "name": "skill_2",
+        "name": "HTML/CSS",
+        "rating": 4
+      },
+      {
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
         "rating": 3
       },
       {
-        "name": "skill_3",
+        "name": "React",
         "rating": 3
       },
       {
-        "name": "skill_4",
-        "rating": 3
+        "name": "Scrum",
+        "rating": 2
       },
       {
-        "name": "skill_5",
-        "rating": 3
+        "name": "Spring",
+        "rating": 1
       },
       {
-        "name": "skill_6",
-        "rating": 3
+        "name": "Unit Testing",
+        "rating": 2
       },
       {
-        "name": "skill_7",
-        "rating": 3
-      },
-      {
-        "name": "skill_8",
-        "rating": 3
-      },
-      {
-        "name": "skill_9",
-        "rating": 3
-      },
-      {
-        "name": "skill_10",
+        "name": "Vue.js",
         "rating": 3
       }
     ],
@@ -949,8 +931,12 @@
         "rating": 4
       },
       {
+        "name": "Russian",
+        "rating": 5
+      },
+      {
         "name": "Swedish",
-        "rating": 2
+        "rating": 1
       }
     ]
   },
@@ -976,83 +962,59 @@
         "city_and_country": "Sweden"
       },
       {
-        "period": "2020",
-        "title": "education_3",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020",
-        "title": "education_4",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020",
-        "title": "education_5",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
+        "period": "2018",
+        "title": "Bachelor in Computer Science",
+        "institution": "DVR & Dr. HS MIC College of Technology and Science",
+        "city_and_country": "India"
       }
     ],
     "work_experience": [
       {
-        "period": "2017 - 2021",
-        "title": "work_1",
-        "institution": "Ipsum",
-        "city_and_country": "Upsala, Sweden"
-      },
-      {
-        "period": "2020 - 2025",
-        "title": "work_2",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
-      },
-      {
-        "period": "2020 - 2025",
-        "title": "work_3",
-        "institution": "Loremp",
-        "city_and_country": "Malmo, Sweden"
+        "period": "2018 - 2020",
+        "title": "SAP Associate Consultant",
+        "institution": "Serole Technologies",
+        "city_and_country": "India"
       }
     ],
     "tech_skills": [
       {
-        "name": "skill_1",
+        "name": "Git",
         "rating": 3
       },
       {
-        "name": "skill_2",
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
+        "rating": 2
+      },
+      {
+        "name": "React",
+        "rating": 2
+      },
+      {
+        "name": "SAP ABAP",
+        "rating": 2
+      },
+      {
+        "name": "SAP Fiori",
         "rating": 3
       },
       {
-        "name": "skill_3",
-        "rating": 3
+        "name": "SAP PQM",
+        "rating": 4
       },
       {
-        "name": "skill_4",
-        "rating": 3
+        "name": "Scrum",
+        "rating": 2
       },
       {
-        "name": "skill_5",
-        "rating": 3
+        "name": "Spring",
+        "rating": 1
       },
       {
-        "name": "skill_6",
-        "rating": 3
-      },
-      {
-        "name": "skill_7",
-        "rating": 3
-      },
-      {
-        "name": "skill_8",
-        "rating": 3
-      },
-      {
-        "name": "skill_9",
-        "rating": 3
-      },
-      {
-        "name": "skill_10",
+        "name": "Unit Testing",
         "rating": 3
       }
     ],
@@ -1063,7 +1025,11 @@
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 1
+      },
+      {
+        "name": "Telugu",
+        "rating": 5
       }
     ]
   },
