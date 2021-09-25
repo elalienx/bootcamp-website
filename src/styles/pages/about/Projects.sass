@@ -3,27 +3,30 @@
 #about .projects
   overflow: hidden
 
-  ul
+  // solution to enable a good scroll on mobile
+  .mobile-projects
     display: flex
     overflow-x: scroll
     padding-bottom: $space-big // to give space for the scrollbar
 
-  li
-    width: 152px // refactor the content is damagin this
-    flex-shrink: 0 // to avoid the flex shink
-    margin-right: $space-big
+    li
+      width: 152px
+      flex-shrink: 0 // to avoid the flex shink
+      margin-left: $space-medium
+
+    li:last-child
+      padding-right: $space-medium // to align with the container
+
+  .desktop-projects
+    display: none
 
 @media (min-width: $media-desktop)
   #about .projects
-    overflow: auto
-
-    ul // refactor consideration, if -tiem tech is inside a grid, i can handle its mobile spacing using row gap
+    .mobile-projects
+      display: none
+      
+    .desktop-projects
       display: grid
       grid-template-columns: repeat(4, 1fr)
       grid-column-gap: $space-medium
       grid-row-gap: $space-big
-      padding-bottom: 0 // to remove changes for the horizontal scroll
-
-    li
-      width: 100% // to remove changes for the horizontal scroll
-      margin: 0 // to remove changes for the horizontal scroll

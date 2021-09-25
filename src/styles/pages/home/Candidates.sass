@@ -1,15 +1,18 @@
 @import "styles/base/variables"
 
 #home .candidates
-  ul li
+  li
     margin-bottom: $space-medium
 
+    &:last-child
+      margin-bottom: $space-big
+  
   .support-picture
     display: none
 
 
 @media (min-width: $media-desktop) // refactor consideration, if I put item-candidate inside a grid, i can handle its mobile spacing using row gap
-  #home .candidates
+  #home .candidates    
     .container
       display: grid // refactor consideration should be this a mixing?
       grid-template-columns: repeat(2, 1fr)

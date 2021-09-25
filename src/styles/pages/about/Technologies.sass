@@ -1,9 +1,13 @@
 @import "styles/base/variables"
 
+#about .technologies
+  ul 
+    display: grid
+    grid-row-gap: $space-medium
+
 @media (min-width: $media-desktop)
   #about .technologies
-    ul // refactor consideration, if -tiem tech is inside a grid, i can handle its mobile spacing using row gap
-      display: grid
+    ul
       grid-template-columns: repeat(4, 1fr)
       grid-column-gap: $space-medium
       grid-row-gap: $space-big

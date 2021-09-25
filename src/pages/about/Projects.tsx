@@ -8,9 +8,12 @@ export default function Technologies() {
   const Items = data.map((item) => <Item key={item.id} item={item} />);
 
   return (
-    <section className="projects container">
-      <h2>Projects</h2>
-      <ul>{Items}</ul>
+    <section className="projects">
+      <div className="container">
+        <h2>Projects</h2>
+        <ul className="desktop-projects">{Items}</ul>
+      </div>
+      <ul className="mobile-projects">{Items}</ul>
     </section>
   );
 }
