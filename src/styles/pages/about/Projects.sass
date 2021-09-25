@@ -4,7 +4,7 @@
   overflow: hidden
 
   // solution to enable a good scroll on mobile
-  .mobile-projects
+  .mobile-items
     display: flex
     overflow-x: scroll
     padding-bottom: $space-big // to give space for the scrollbar
@@ -22,15 +22,15 @@
       box-sizing: content-box // to make the padding not count into the size
       padding-right: $space-big
 
-  .desktop-projects
+  .desktop-items
     display: none
 
 @media (min-width: $media-desktop)
   #about .projects
-    .mobile-projects
+    .mobile-items
       display: none
       
-    .desktop-projects
+    .desktop-items
       display: grid
       grid-template-columns: repeat(4, 1fr)
       grid-column-gap: $space-medium

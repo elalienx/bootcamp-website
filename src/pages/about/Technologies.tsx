@@ -11,7 +11,7 @@ export default function Technologies() {
     <section className="technologies">
       <div className="container">
         <h2>Tech stack</h2>
-        <ul>{Items}</ul>
+        <div className="component-items">{Items}</div>
       </div>
     </section>
   );

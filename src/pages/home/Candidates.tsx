@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Project files
 import data from "data/candidates.json";
 import iCandidate from "interfaces/iCandidate";
-import ItemCandidate from "components/ItemCandidate";
+import Item from "components/ItemCandidate";
 import Image from "assets/images/candidates.jpg";
 import "styles/pages/home/Candidates.sass";
 
@@ -16,8 +16,8 @@ export default function Candidates() {
   function randomCandidates(array: iCandidate[], length: number): iCandidate[] {
     // safeguard
     if (array.length < length) {
-      alert("You are trying to get more candidates than available");
-      return [];
+      console.warn("You are trying to get more candidates than available");
+      length = array.length;
     }
 
     const clonedArray = [...array];
@@ -28,9 +28,7 @@ export default function Candidates() {
   }
 
   // Components
-  const CandidateItems = candidates.map((item) => (
-    <ItemCandidate key={item.id} item={item} />
-  ));
+  const Items = candidates.map((item) => <Item key={item.id} item={item} />);
 
   return (
     <section className="candidates background-dark">
@@ -41,7 +39,7 @@ export default function Candidates() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
           </p>
-          <ul id="foo">{CandidateItems}</ul>
+          <div className="component-items">{Items}</div>
           <Link className="button" to="/candidates">
             View all candidates
           </Link>

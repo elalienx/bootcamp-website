@@ -11,9 +11,12 @@ export default function Technologies() {
     <section className="projects">
       <div className="container">
         <h2>Projects</h2>
-        <ul className="desktop-projects">{Items}</ul>
+        {/* Desktop items align to a grid */}
+        <div className="component-items desktop-items">{Items}</div>
       </div>
-      <ul className="mobile-projects">{Items}</ul>
+
+      {/* Mobile items scroll horizontally */}
+      <div className="component-items mobile-items">{Items}</div>
     </section>
   );
 }

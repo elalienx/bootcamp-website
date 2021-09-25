@@ -10,16 +10,14 @@ body
   min-height: 100vh // for footer
 
 img
-  vertical-align: middle // to eliminate the weird 3px bug of images
   max-width: 100%
   height: auto
-
-ul
-  margin: 0
-  padding: 0
+  vertical-align: middle // to eliminate the weird 3px bug of images
 
 p:last-child
-  margin-bottom: 0 // cleans the margin when is the last item of a container
+  // refactor, is this needed? how many times it happen? if is just once, then clean it on the section that uses it.
+  // cleans the margin when is the last item of a container
+  margin-bottom: 0
 
 .App
   @include standard-text-mobile
@@ -31,6 +29,12 @@ p:last-child
 
 .container
   margin: $space-big
+
+
+.component-items
+  display: grid
+  grid-row-gap: $space-medium
+  margin-bottom: $space-big
 
 .background-dark
   overflow: auto // to respect its children margins

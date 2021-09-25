@@ -18,7 +18,7 @@ export default function Candidates() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
-      <ul>{Items}</ul>
+      <div className="component-items">{Items}</div>
       <button className="button" onClick={() => history.goBack()}>
         Go back
       </button>

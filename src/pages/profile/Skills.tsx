@@ -4,11 +4,13 @@ import PropsCandidate from "./PropsCandidate";
 import "styles/pages/profile/Skills.sass";
 
 export default function Resume({ candidate }: PropsCandidate) {
+  const { tech_skills, languages_spoken } = candidate;
+
   // Components
-  const TechItems = candidate.tech_skills.map((item, index) => (
+  const TechItems = tech_skills.map((item, index) => (
     <Item key={index} item={item} />
   ));
-  const LanguagesItems = candidate.languages_spoken.map((item, index) => (
+  const LanguagesItems = languages_spoken.map((item, index) => (
     <Item key={index} item={item} />
   ));
 
