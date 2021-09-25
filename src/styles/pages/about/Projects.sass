@@ -12,10 +12,15 @@
     li
       width: 152px
       flex-shrink: 0 // to avoid the flex shink
-      margin-left: $space-medium
+      margin-right: $space-medium
+
+    // to align with the container
+    li:first-child
+      margin-left: $space-big
 
     li:last-child
-      padding-right: $space-medium // to align with the container
+      box-sizing: content-box // to make the padding not count into the size
+      padding-right: $space-big
 
   .desktop-projects
     display: none

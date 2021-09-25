@@ -1,0 +1,14 @@
+@import "styles/base/variables"
+
+#candidates
+  ul li
+    margin-bottom: $space-medium
+
+@media (min-width: $media-desktop)
+  #candidates
+    header
+      display: grid
+      grid-template-columns: 8fr 4fr
+    
+    ul li
+      margin-bottom: $space-big

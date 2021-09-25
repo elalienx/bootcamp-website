@@ -2,6 +2,7 @@
 import { useHistory } from "react-router-dom";
 import data from "data/candidates.json";
 import Item from "components/ItemCandidate";
+import "styles/pages/candidates/Candidates.sass";
 
 export default function Candidates() {
   // Properties
@@ -12,12 +13,16 @@ export default function Candidates() {
 
   return (
     <div id="candidates" className="container">
-      <h1>All the candidates</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.{" "}
-      </p>
-      <ul id="bar">{Items}</ul>
+      <header>
+        <div className="content">
+          <h1>All the candidates</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </header>
+      <ul>{Items}</ul>
       <button className="button" onClick={() => history.goBack()}>
         Go back
       </button>
