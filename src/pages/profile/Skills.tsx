@@ -18,11 +18,11 @@ export default function Resume({ candidate }: PropsCandidate) {
     <aside className="skills">
       {/* Tech skills */}
       <h2>Tech skills</h2>
-      <ul className="list-skill">{TechItems}</ul>
+      <div className="component-items">{TechItems}</div>
 
       {/* Languages */}
       <h2>Languages spoken</h2>
-      <ul className="list-skill">{LanguagesItems}</ul>
+      <div className="component-items">{LanguagesItems}</div>
     </aside>
   );
 }
