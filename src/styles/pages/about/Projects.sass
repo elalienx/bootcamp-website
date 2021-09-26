@@ -5,12 +5,11 @@
   .mobile-items
     display: flex
     overflow-x: scroll
-    padding-bottom: $space-medium // to avoid the scrollbar touching the text
 
     .item-project
       flex-shrink: 0 // to avoid the flex shink
-      width: 152px
-      margin-right: $space-medium
+      width: 180px
+      margin-right: $space-big
 
     // to align items to the container
     .item-project:first-child
@@ -32,5 +31,5 @@
     .desktop-items
       display: grid
       grid-template-columns: repeat(4, 1fr)
-      grid-column-gap: $space-medium
+      grid-column-gap: $space-big
       grid-row-gap: $space-big
