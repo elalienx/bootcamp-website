@@ -1,23 +1,24 @@
 @import "styles/base/variables"
 
 #about .projects
-  // solution to enable a good scroll on mobile
+  // solution to enable horizontal scroll on mobile
   .mobile-items
     display: flex
     overflow-x: scroll
-    padding-bottom: $space-big // to give space for the scrollbar
+    padding-bottom: $space-medium // to avoid the scrollbar touching the text
 
     .item-project
-      width: 152px
       flex-shrink: 0 // to avoid the flex shink
+      width: 152px
       margin-right: $space-medium
 
-    // to align with the container
+    // to align items to the container
     .item-project:first-child
-      margin-left: $space-big
+      box-sizing: content-box // to make the padding not count into the size
+      padding-left: $space-big
 
     .item-project:last-child
-      box-sizing: content-box // to make the padding not count into the size
+      box-sizing: content-box
       padding-right: $space-big
 
   .desktop-items

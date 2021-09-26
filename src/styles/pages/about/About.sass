@@ -8,11 +8,17 @@
 #about
   .introduction,
   .technologies,
+  .projects,
     overflow: auto // so these parents respect their children margins
 
     .container
-      margin-bottom: 0
+      margin-top: 0
 
-  .technologies
-    .component-items
-      margin-bottom: 0 // so the margin top of the next section dictates the space between sections
+  .introduction
+    .mobile-hero
+      margin-bottom: $space-big // to help with the layout
+
+@media (min-width: $media-desktop)
+  #about
+    .introduction .container
+      margin-top: $space-ultra // to restore the container spacing
