@@ -1,7 +1,8 @@
+// NPM packages
 import { useState, useEffect, useRef } from "react";
-
-import * as THREE from "three";
-import GLOBE from "scripts/vanta.globe.min.js";
+import * as THREE from "three"; // v124
+// @ts-ignore
+import GLOBE from "vanta/dist/vanta.globe.min"; // v5.31
 
 // Project files
 import "styles/pages/home/Hero.sass";
@@ -10,12 +11,14 @@ export default function Hero() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
 
+  // Methods
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
         GLOBE({
           el: myRef.current,
           THREE: THREE,
+          backgroundColor: 0x522b45,
         })
       );
     }
@@ -26,7 +29,7 @@ export default function Hero() {
   }, [vantaEffect]);
 
   return (
-    <header id="vanta-hero" ref={myRef} className="hero">
+    <header className="hero" ref={myRef}>
       <div className="container">
         <h1 className="title">
           Front
