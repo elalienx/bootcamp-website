@@ -7,8 +7,7 @@ import "styles/pages/about/MoreInformation.sass";
 
 export default function MoreInformation() {
   // Properties
-  const SLIDES_URL =
-    "https://www.icloud.com/keynote/06byT0mJz_-qmghPbfRscHL8g#Marketing_presentation";
+  const SLIDES_URL = "http://novare-tech-education.web.app/files/course.pdf";
 
   return (
     <section className="more-information background-dark">
