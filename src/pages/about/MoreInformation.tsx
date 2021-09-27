@@ -15,8 +15,9 @@ export default function MoreInformation() {
         <div className="content">
           <h2>Want to know more?</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            Are you interested in the content of the course but one to know even
+            more technical details? Then click the button below to download our
+            full program curricula.
           </p>
           <a
             className="button"

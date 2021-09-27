@@ -15,8 +15,9 @@ export default function Candidates() {
     <div id="candidates" className="container">
       <h1>All the candidates</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Here is the full list of the students taking the 2021 Front End Course.
+        Feel free to explore all the profiles to discover the unique set of
+        skills each student can bring to your company.
       </p>
       <div className="component-items">{Items}</div>
       <button className="button" onClick={() => history.goBack()}>

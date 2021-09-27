@@ -36,8 +36,9 @@ export default function Candidates() {
         <div className="content">
           <h2>Meet the candidates</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            Here is an small sample of our latest students taking the course.
+            Click on any of them to see their profiles, or press the button
+            below to see all the students.
           </p>
           <div className="component-items">{Items}</div>
           <Link className="button" to="/candidates">
