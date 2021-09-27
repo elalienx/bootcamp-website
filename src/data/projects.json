@@ -21,13 +21,13 @@
     "id": 4,
     "name": "Todo list",
     "image_name": "todo",
-    "description": "Practice Test Driven Development testing techniques on a of project that every developer is familiar with, so the student focus on learning unit testing without pressure."
+    "description": "Practice Test Driven Development testing techniques on a project that every developer is familiar with, so the student focuses on learning unit testing without pressure."
   },
   {
     "id": 5,
     "name": "E-Commerce",
     "image_name": "e-commerce",
-    "description": "We move from building front end sites for consumers, to building an administrator panel of a e-commerce store, where the owner can add categories and products to sell."
+    "description": "We move from building front end sites for consumers, to building an administrator panel of an e-commerce store, where the owner can add categories and products to sell."
   },
   {
     "id": 6,
@@ -45,6 +45,6 @@
     "id": 8,
     "name": "Netflix clone",
     "image_name": "netflix",
-    "description": "The final project that to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience."
+    "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience."
   }
 ]
