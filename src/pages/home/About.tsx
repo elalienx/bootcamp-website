@@ -19,9 +19,12 @@ export default function About() {
         <div className="content">
           <h2>About the Academy</h2>
           <p>
-            All participants have completed a 4 months Software Development
-            Academy. They learnt both basics and more advanced aspects of object
-            oriented programming with focus on Java.
+            This Academy is a 3 month accelerated learning course, with focus on
+            Frontend development and particularly React. It consists of 7
+            individual projects with set requirements and increasing complexity.
+            The students have daily lectures and mentor meetings and the aspect
+            of software engineering practices is taken into to consideration, so
+            that the students can produce code that creates value not bugs.
           </p>
           <Link className="button" to="/about">
             Learn more
