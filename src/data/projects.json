@@ -25,24 +25,18 @@
   },
   {
     "id": 5,
-    "name": "E-Commerce",
-    "image_name": "e-commerce",
-    "description": "We move from building front end sites for consumers, to building an administrator panel of an e-commerce store, where the owner can add categories and products to sell."
-  },
-  {
-    "id": 6,
     "name": "BBQ restaurant",
     "image_name": "bbq",
     "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects."
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Educational platform",
     "image_name": "lms",
     "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features."
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Netflix clone",
     "image_name": "netflix",
     "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience."

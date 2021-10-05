@@ -14,14 +14,23 @@ export default function Introduction() {
       <div className="container">
         {/* Top - Left */}
         <div className="content">
-          <h2>About the Academy</h2>
+          <h2>About the Program</h2>
           <p>
-            This Academy is a 3 month accelerated learning course, with focus on
-            Frontend development and particularly React. It consists of 7
-            individual projects with set requirements and increasing complexity.
-            The students have daily lectures and mentor meetings and the aspect
-            of software engineering practices is taken into to consideration, so
-            that the students can produce code that creates value not bugs.
+            A 3 month accelerated learning program, with focus on Frontend and
+            particularly React. It consists of 7 individual projects with set
+            requirements and increasing complexity. The students have daily
+            lectures and mentor meetings. Software engineering practices is
+            taken into to consideration, so students can produce code with high
+            value.
+          </p>
+          <p>
+            The participants completed a 4 month intensive course at the
+            Software Development Academy, that Novare Potential arranged in
+            collaboration with KTH. They learnt the foundations of Object
+            Oriented Programming using Java. The goal with this Academy is that
+            the students will be able to call themselves Junior Frontend
+            Developers and that they will be ready to be productive from day 1
+            when hired.
           </p>
         </div>
 
