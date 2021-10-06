@@ -24,11 +24,11 @@ export default function Introduction() {
             value.
           </p>
           <p>
-            The participants completed a 4 month intensive course at the
-            Software Development Academy, that Novare Potential arranged in
-            collaboration with KTH. They learnt the foundations of Object
-            Oriented Programming using Java. The goal with this Academy is that
-            the students will be able to call themselves Junior Frontend
+            Before the Frontend course, the participants completed a 4 month
+            intensive at the Software Development Academy, that Novare Potential
+            arranged in collaboration with KTH. They learnt the foundations of
+            Object Oriented Programming using Java. The goal with this Academy
+            is that the students will be able to call themselves Junior Frontend
             Developers and that they will be ready to be productive from day 1
             when hired.
           </p>
