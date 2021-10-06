@@ -36,7 +36,7 @@
     "work_experience": [
       {
         "period": "2020 - present",
-        "title": "Frontend Developer intership",
+        "title": "Frontend Developer internship",
         "institution": "Beeanco",
         "city_and_country": "Vienna, Austria"
       },
@@ -104,8 +104,8 @@
     "id": 2,
     "name": "Clement C",
     "url": "clement-cardona",
-    "city": "Stockholmn",
-    "willing_to_relocate": true,
+    "city": "Stockholm",
+    "willing_to_relocate": false,
     "description": "Clément has a Master in Architecture and has been working as an architect for 6 years. Programming is his passion and now he wants to pursue a career as a developer. Clément is a creative problem solver who loves challenges and to go out of his comfort zone. With his social personality and positive attitude, he is a true team-player. ",
     "portofolio_url": "https://npa-portfolio.web.app/",
     "education": [
@@ -132,13 +132,13 @@
       {
         "period": "2020 - Present",
         "title": "Rider Captain",
-        "institution": "Fodora",
+        "institution": "Foodora",
         "city_and_country": "Sweden"
       },
       {
         "period": "2019 - 2020",
         "title": "Bicycle courier",
-        "institution": "Fodora",
+        "institution": "Foodora",
         "city_and_country": "Sweden"
       },
       {
@@ -330,9 +330,9 @@
     "id": 4,
     "name": "Emmanuel I",
     "url": "emmanuel-imhontu",
-    "city": "Lund",
+    "city": "Halmstad",
     "willing_to_relocate": true,
-    "description": "Emmanuel has a Bachelor’s Degree in Computer Science from Nigeria and a Master’s Degree in Computer System Engineering from Halmstad University in Sweden as well as working experience from as a web developer in Sweden. He possesses great skills in C#/.NET, Java and Scrum methodology. Emmanuel is an analytical and customer-focused software developer and a great team player who loves challenges. Emmanuel would be an asset to have in any team.",
+    "description": "Emmanuel has a Bachelor’s Degree in Computer Science from Nigeria and a Master’s Degree in Computer System Engineering from Halmstad University in Sweden as well as working experience as a web developer in Sweden. He possesses great skills in C#/.NET, Java and Scrum methodology. Emmanuel is an analytical and customer-focused software developer and a great team player who loves challenges. Emmanuel would be an asset to have in any team.",
     "portofolio_url": "https://emmanuel-1eea2.web.app/",
     "education": [
       {
@@ -441,8 +441,8 @@
     "id": 5,
     "name": "Giang Ngo",
     "url": "giang-ngo",
-    "city": "Stockholmn",
-    "willing_to_relocate": true,
+    "city": "Stockholm",
+    "willing_to_relocate": false,
     "description": "Giang has a Bachelor in International Economics and Business and has experience working in a big media company in Japan in a role where she was working closely with the in-house development team and tech start ups in the US. Giang is motivated by challenges, is a fast learner and accustomed to working in a high paced environment. With a kind, social and flexible personality, she is a great team player.",
     "portofolio_url": "https://giangofcode.web.app/",
     "education": [
@@ -479,7 +479,7 @@
         "city_and_country": "Japan"
       },
       {
-        "period": "2020 - 2025",
+        "period": "2013 - 2015",
         "title": "Entry Management Consultant",
         "institution": "Link and Motivation Inc.",
         "city_and_country": "Japan"
@@ -542,7 +542,7 @@
     "id": 6,
     "name": "Hassan O",
     "url": "hassan-o",
-    "city": "Stockholmn",
+    "city": "Stockholm",
     "willing_to_relocate": true,
     "description": "Hassan holds a Bachelor in Information Systems. He has solid technical work experience from SQL programming, website creation and technical installations, and he is passionate to become a Software Developer. His previous experience spans the Accounting and E-commerce industries. As a person he is calm, creative and quick to pick up new skills. He also likes to help others and has the ability to focus and work hard. ",
     "portofolio_url": "https://hassan-obeid-portfolio-f6d36.web.app/",
@@ -647,7 +647,7 @@
     "id": 7,
     "name": "Marcela F",
     "url": "marcela-folis",
-    "city": "Stockholmn",
+    "city": "Stockholm",
     "willing_to_relocate": false,
     "description": "Marcela has an education and work experience in the Healthcare sector and now wants to change career and become a Software Developer. Her determination, focus and motivation will help her to reach her goal. Marcela is an open and honest person who loves to help others.",
     "portofolio_url": "https://marcelaf-portfolio.web.app/",
@@ -680,9 +680,9 @@
     "work_experience": [
       {
         "period": "2013 - 2016",
-        "title": "woClinical Embryologistrk_1",
+        "title": "Clinical Embryologist",
         "institution": "Livio Fertilitetscentrum",
-        "city_and_country": "Kungsholmen, Sweden"
+        "city_and_country": "Sweden"
       },
       {
         "period": "2011",
@@ -752,9 +752,9 @@
     "id": 8,
     "name": "Natalia F",
     "url": "natalia-federova",
-    "city": "Stockholmn",
+    "city": "Stockholm",
     "willing_to_relocate": false,
-    "description": "Natalia Fedorova has an academic background in Business Administration, where she studied among others strategy and business management in international environments, finance, marketing, and HR management, as well as obtaining a diploma in IT Project Management where she learned about Scrum Master and Agile methodology. This is when she discovered her passion for the IT world. Natalia is very ambitious, and goal oriented. In her free-time she studies languages and different IT programs.",
+    "description": "Natalia Fedorova has an academic background in Business Administration, where she studied among others strategy and business management in international environments, finance, marketing, and HR management. She has also obtained a diploma in IT Project Management where she learned about Scrum Master and Agile methodology. This is when she discovered her passion for the IT world. Natalia is very ambitious, and goal oriented. In her free-time she studies languages and different IT programs.",
     "portofolio_url": "https://portfolio-nf.web.app/",
     "education": [
       {
@@ -779,7 +779,7 @@
         "period": "2011",
         "title": "Master of Science in Economics, Specialization in World Economy",
         "institution": "Moscow University of Finance and Industry",
-        "city_and_country": "Moscow, Russia"
+        "city_and_country": "Russia"
       }
     ],
     "work_experience": [
@@ -787,13 +787,13 @@
         "period": "2020",
         "title": "Scrum Master Trainee / Project Management in IT",
         "institution": "Beetroot Academy AB",
-        "city_and_country": "Stockholm, Sweden"
+        "city_and_country": "Sweden"
       },
       {
         "period": "2020 - 20201",
         "title": "Regional Co-ordinator ",
         "institution": "Beetroot Academy AB",
-        "city_and_country": "Stockholm, Sweden"
+        "city_and_country": "Sweden"
       }
     ],
     "tech_skills": [
@@ -843,9 +843,9 @@
   },
   {
     "id": 9,
-    "name": "Olga P",
+    "name": "Olha P",
     "url": "olga-pinchuk",
-    "city": "Stockholmn",
+    "city": "Stockholm",
     "willing_to_relocate": false,
     "description": "Olha holds a Master’s degree in Russian and English and 5 years of working experience as a project manager, team-lead and Front-End Developer. She is responsible, curious about new technologies and enjoys working in groups. She finds it very interesting to lead a Tech team, as well as projects. Olha is communicative, sociable and people-oriented.",
     "portofolio_url": "https://olga-pinchuk-portfolio.web.app/",
@@ -1037,7 +1037,7 @@
     "id": 11,
     "name": "Snehal K",
     "url": "snehal-kadam",
-    "city": "Stockholmn",
+    "city": "Stockholm",
     "willing_to_relocate": false,
     "description": "Snehal has a Bachelor in Information Technology. She has worked for 4 years as Applications Software Developer mainly using ASP.NET and has a strong knowledge in creating and designing web applications. As a person she is positive, humble and social and has a full focus on working with Front-end development.",
     "portofolio_url": "https://snehal-portfolio.web.app/",
@@ -1058,13 +1058,13 @@
         "period": "2013",
         "title": "Diploma in .Net Certification",
         "institution": "NIIT Training Centre",
-        "city_and_country": "Not specified"
+        "city_and_country": "India"
       },
       {
         "period": "2011",
         "title": "Bachelor of Science in Information Technology",
         "institution": "University of Mumbai",
-        "city_and_country": "Mumbai, India"
+        "city_and_country": "India"
       }
     ],
     "work_experience": [
