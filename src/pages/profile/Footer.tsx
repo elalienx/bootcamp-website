@@ -12,7 +12,6 @@ export default function Footer({ candidate }: PropsCandidate) {
 
   return (
     <footer className="container">
-      <p></p>
       <a
         className="button"
         href={portofolio_url}

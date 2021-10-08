@@ -13,7 +13,7 @@ export default function Footer() {
     },
     {
       name: "Malin Crona",
-      phone: "073-032 57 12",
+      phone: "072-308 72 94",
       email: "malin.crona@novarepotential.se",
     },
   ];
@@ -29,7 +29,6 @@ export default function Footer() {
         />
         {item.phone}
       </a>
-      ,
       <a href={`mailto:${item.email}?subject=Recruit candidates`}>
         <FontAwesomeIcon
           className="icon"

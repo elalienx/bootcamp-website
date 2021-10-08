@@ -13,7 +13,7 @@
     list-style-type: none
 
   a
-    margin-left: $space-small
+    display: block // to display then vertically
     color: $color-secondary
   
   .icon
@@ -23,3 +23,7 @@
 @media (min-width: $media-desktop)
   #footer .container
     margin: $space-medium auto
+
+    a
+      display: inline
+      margin-left: $space-medium
