@@ -1,16 +1,25 @@
 @import "styles/base/variables"
 
 #footer
-  position: absolute
-  bottom: 0
-  width: 100%
-  height: $footer-height-mobile
+  overflow: auto
   background-color: $color-primary
   color: white
-  text-align: center
   line-height: $footer-height-mobile
 
+  ul
+    padding-left: 0
+
+  li
+    list-style-type: none
+
+  a
+    margin-left: $space-small
+    color: $color-secondary
+  
+  .icon
+    margin-right: $space-small
+
+
 @media (min-width: $media-desktop)
-  #footer
-    height: $footer-height-desktop
-    line-height: $footer-height-desktop
+  #footer .container
+    margin: $space-medium auto

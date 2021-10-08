@@ -2,7 +2,6 @@
 import { useHistory } from "react-router-dom";
 import data from "data/candidates.json";
 import Item from "components/ItemCandidate";
-import "styles/pages/candidates/Candidates.sass";
 
 export default function Candidates() {
   // Properties

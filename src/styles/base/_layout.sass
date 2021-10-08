@@ -17,7 +17,6 @@ img
 .App
   @include standard-text-mobile
 
-  padding-bottom: $footer-height-mobile
   color: $color-text
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,9 +47,7 @@ img
 @media (min-width: $media-desktop)
   .App
     @include standard-text-desktop
-    
-    padding-bottom: $footer-height-desktop
-    
+
   .container
     margin: $space-ultra auto
     max-width: 960px
