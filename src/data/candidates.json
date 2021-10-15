@@ -5,7 +5,7 @@
     "url": "armin-diszar",
     "city": "Stockholm",
     "willing_to_relocate": false,
-    "description": "Armin is a skilled manual tester and IT enthusiast. He has very good skills in programming with a background in IT-Business. As a person he is positive, driven and likeable. His passion for graphic design and software development drives him to do self-studies and training to be able to work in the domain that he thrives in. ",
+    "description": "Armin is a skilled frontenddeveloper and blockchain enthusiast. He has very good skills in programmingwith a background \nin IT-Business. As aperson he is positive, driven and likeable. His passion for graphic design andsoftware development \ndrives him to doself-studies and training to be able to work in the domain that he thrives in.",
     "portofolio_url": "https://armin-dizdar-portofolio.web.app",
     "education": [
       {
@@ -36,7 +36,7 @@
     "work_experience": [
       {
         "period": "2020 - present",
-        "title": "Frontend Developer internship",
+        "title": "Frontend Developer intership",
         "institution": "Beeanco",
         "city_and_country": "Vienna, Austria"
       },
@@ -49,15 +49,15 @@
     ],
     "tech_skills": [
       {
-        "name": "Android",
-        "rating": 2
-      },
-      {
-        "name": "C#",
+        "name": ".NET",
         "rating": 1
       },
       {
-        "name": "Git",
+        "name": "React",
+        "rating": 2
+      },
+      {
+        "name": "SASS",
         "rating": 2
       },
       {
@@ -77,7 +77,7 @@
         "rating": 2
       },
       {
-        "name": "Manual testing on Oracle severs version 5.0+ on Windows NT embed",
+        "name": "Typescript",
         "rating": 2
       },
       {
@@ -85,7 +85,7 @@
         "rating": 2
       },
       {
-        "name": "XML",
+        "name": "Firebase",
         "rating": 2
       }
     ],
@@ -104,8 +104,8 @@
     "id": 2,
     "name": "Clement C",
     "url": "clement-cardona",
-    "city": "Stockholm",
-    "willing_to_relocate": false,
+    "city": "Stockholmn",
+    "willing_to_relocate": true,
     "description": "Clément has a Master in Architecture and has been working as an architect for 6 years. Programming is his passion and now he wants to pursue a career as a developer. Clément is a creative problem solver who loves challenges and to go out of his comfort zone. With his social personality and positive attitude, he is a true team-player. ",
     "portofolio_url": "https://npa-portfolio.web.app/",
     "education": [
@@ -132,13 +132,13 @@
       {
         "period": "2020 - Present",
         "title": "Rider Captain",
-        "institution": "Foodora",
+        "institution": "Fodora",
         "city_and_country": "Sweden"
       },
       {
         "period": "2019 - 2020",
         "title": "Bicycle courier",
-        "institution": "Foodora",
+        "institution": "Fodora",
         "city_and_country": "Sweden"
       },
       {
@@ -154,12 +154,12 @@
         "rating": 4
       },
       {
-        "name": "Android/iOS",
+        "name": "SASS",
         "rating": 2
       },
       {
-        "name": "Git",
-        "rating": 3
+        "name": "HTML",
+        "rating": 2
       },
       {
         "name": "Java",
@@ -170,8 +170,8 @@
         "rating": 3
       },
       {
-        "name": "MySQL",
-        "rating": 1
+        "name": "Typescript",
+        "rating": 2
       },
       {
         "name": "PHP",
@@ -182,12 +182,12 @@
         "rating": 3
       },
       {
-        "name": "Scrum",
+        "name": "Firebase",
         "rating": 2
       },
       {
-        "name": "Spring",
-        "rating": 1
+        "name": "CSS",
+        "rating": 2
       }
     ],
     "languages_spoken": [
@@ -201,7 +201,128 @@
       },
       {
         "name": "Swedish",
-        "rating": 4
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dakouri M",
+    "url": "dakouri-kobri",
+    "city": "Stockholmn",
+    "willing_to_relocate": true,
+    "description": "Dakouri Maurille-Constant has a MPhil in Pharmacology and Biotechnology and certificates in Complete Python Developer in 2020: Zero to Mastery. After 7 years within the research domain, he now has decided to follow is true passion of IT. As a person he is detailed, solution oriented and a team player.",
+    "portofolio_url": "#",
+    "education": [
+      {
+        "period": "2021",
+        "title": "Intensive Frontend Course",
+        "institution": "Novare Potential",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Software Development Academy",
+        "institution": "KTH",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2001",
+        "title": "Master in Pharmacology",
+        "institution": "University d’Abidjan",
+        "city_and_country": "Ivory Coast"
+      },
+      {
+        "period": "1998",
+        "title": "Master of Science in Drug Science ",
+        "institution": "University d’Abobo-Adjame",
+        "city_and_country": "Ivory Coast"
+      },
+      {
+        "period": "1996",
+        "title": "Bachelor of Science in Drug Science",
+        "institution": "University d’Abobo-Adjame",
+        "city_and_country": "Ivory Coast"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2019",
+        "title": "Organic Chemistry Researcher",
+        "institution": "Chalmers University of Technology",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2013 - 2019",
+        "title": "Event Promoter / General Manager",
+        "institution": "AfroDance Rhythm",
+        "city_and_country": "Stockholm, Sweden"
+      },
+      {
+        "period": "2012",
+        "title": "Toxicology Researcher",
+        "institution": "National Centre of Biomedical Engineering",
+        "city_and_country": "Galway, Ireland"
+      }
+    ],
+    "tech_skills": [
+      {
+        "name": "Git",
+        "rating": 3
+      },
+      {
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
+        "rating": 2
+      },
+      {
+        "name": "Node.js",
+        "rating": 2
+      },
+      {
+        "name": "Python",
+        "rating": 2
+      },
+      {
+        "name": "React",
+        "rating": 2
+      },
+      {
+        "name": "Scrum",
+        "rating": 2
+      },
+      {
+        "name": "Spring",
+        "rating": 1
+      },
+      {
+        "name": "SQL Server",
+        "rating": 2
+      },
+      {
+        "name": "UI/UX",
+        "rating": 2
+      }
+    ],
+    "languages_spoken": [
+      {
+        "name": "Dida",
+        "rating": 5
+      },
+      {
+        "name": "English",
+        "rating": 5
+      },
+      {
+        "name": "French",
+        "rating": 5
+      },
+      {
+        "name": "Swedish",
+        "rating": 2
       }
     ]
   },
@@ -209,9 +330,9 @@
     "id": 4,
     "name": "Emmanuel I",
     "url": "emmanuel-imhontu",
-    "city": "Halmstad",
+    "city": "Lund",
     "willing_to_relocate": true,
-    "description": "Emmanuel has a Bachelor’s Degree in Computer Science from Nigeria and a Master’s Degree in Computer System Engineering from Halmstad University in Sweden as well as working experience as a web developer in Sweden. He possesses great skills in C#/.NET, Java and Scrum methodology. Emmanuel is an analytical and customer-focused software developer and a great team player who loves challenges. Emmanuel would be an asset to have in any team.",
+    "description": "Emmanuel has a Bachelor’s Degree in Computer Science from Nigeria and a Master’s Degree in Computer System Engineering from Halmstad University in Sweden as well as working experience from as a web developer in Sweden. He possesses great skills in C#/.NET, Java and Scrum methodology. Emmanuel is an analytical and customer-focused software developer and a great team player who loves challenges. Emmanuel would be an asset to have in any team.",
     "portofolio_url": "https://emmanuel-1eea2.web.app/",
     "education": [
       {
@@ -265,11 +386,11 @@
         "rating": 2
       },
       {
-        "name": "C#",
-        "rating": 2
+        "name": "C#/.NET",
+        "rating": 3
       },
       {
-        "name": "Git",
+        "name": "Firebase",
         "rating": 2
       },
       {
@@ -278,41 +399,41 @@
       },
       {
         "name": "Java",
+        "rating": 3
+      },
+      {
+        "name": "Typescript",
         "rating": 2
       },
       {
-        "name": "JavaScript",
-        "rating": 2
-      },
-      {
-        "name": "Scrum",
-        "rating": 2
+        "name": "SASS",
+        "rating": 1
       },
       {
         "name": "SQL",
-        "rating": 2
+        "rating": 3
       },
       {
         "name": "UX/UI",
-        "rating": 2
+        "rating": 3
       },
       {
         "name": "React",
-        "rating": 1
+        "rating": 2
       }
     ],
     "languages_spoken": [
       {
         "name": "English",
-        "rating": 3
+        "rating": 4
       },
       {
         "name": "Swedish",
-        "rating": 1
+        "rating": 2
       },
       {
         "name": "Ishan",
-        "rating": 3
+        "rating": 5
       }
     ]
   },
@@ -320,10 +441,10 @@
     "id": 5,
     "name": "Giang Ngo",
     "url": "giang-ngo",
-    "city": "Stockholm",
-    "willing_to_relocate": false,
+    "city": "Stockholmn",
+    "willing_to_relocate": true,
     "description": "Giang has a Bachelor in International Economics and Business and has experience working in a big media company in Japan in a role where she was working closely with the in-house development team and tech start ups in the US. Giang is motivated by challenges, is a fast learner and accustomed to working in a high paced environment. With a kind, social and flexible personality, she is a great team player.",
-    "portofolio_url": "https://giangofcode.web.app/",
+    "portofolio_url": "https://giang-of-code.web.app/",
     "education": [
       {
         "period": "2021",
@@ -358,7 +479,7 @@
         "city_and_country": "Japan"
       },
       {
-        "period": "2013 - 2015",
+        "period": "2020 - 2025",
         "title": "Entry Management Consultant",
         "institution": "Link and Motivation Inc.",
         "city_and_country": "Japan"
@@ -366,15 +487,15 @@
     ],
     "tech_skills": [
       {
-        "name": "API/REST",
-        "rating": 1
-      },
-      {
-        "name": "Git",
+        "name": "HTML",
         "rating": 3
       },
       {
-        "name": "Java",
+        "name": "CSS-SCSS-SASS",
+        "rating": 2
+      },
+      {
+        "name": "Typescript",
         "rating": 2
       },
       {
@@ -382,19 +503,19 @@
         "rating": 2
       },
       {
-        "name": "Python",
-        "rating": 1
+        "name": "Typescript",
+        "rating": 2
       },
       {
         "name": "React",
         "rating": 2
       },
       {
-        "name": "Scrum",
+        "name": "Typescript",
         "rating": 2
       },
       {
-        "name": "Spring",
+        "name": "Firebase",
         "rating": 2
       }
     ],
@@ -421,7 +542,7 @@
     "id": 6,
     "name": "Hassan O",
     "url": "hassan-o",
-    "city": "Stockholm",
+    "city": "Stockholmn",
     "willing_to_relocate": true,
     "description": "Hassan holds a Bachelor in Information Systems. He has solid technical work experience from SQL programming, website creation and technical installations, and he is passionate to become a Software Developer. His previous experience spans the Accounting and E-commerce industries. As a person he is calm, creative and quick to pick up new skills. He also likes to help others and has the ability to focus and work hard. ",
     "portofolio_url": "https://hassan-obeid-portfolio-f6d36.web.app/",
@@ -467,12 +588,12 @@
     ],
     "tech_skills": [
       {
-        "name": "Git",
+        "name": "Typescript",
         "rating": 2
       },
       {
-        "name": "ESLint/Jest",
-        "rating": 1
+        "name": "SASS",
+        "rating": 2
       },
       {
         "name": "HTML/CSS",
@@ -483,7 +604,7 @@
         "rating": 2
       },
       {
-        "name": "Java",
+        "name": "Firebase",
         "rating": 2
       },
       {
@@ -491,7 +612,7 @@
         "rating": 2
       },
       {
-        "name": "JUnit",
+        "name": "Node.JS",
         "rating": 2
       },
       {
@@ -525,10 +646,10 @@
   {
     "id": 7,
     "name": "Marcela F",
-    "url": "marcela-folis",
-    "city": "Stockholm",
+    "url": "marcela-fortis",
+    "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Marcela has an education and work experience in the Healthcare sector and now wants to change career and become a Software Developer. Her determination, focus and motivation will help her to reach her goal. Marcela is an open and honest person who loves to help others.",
+    "description": "Marcela is educated and has work experience in the Healthcare sector and now she wants to change her career and become a Software Developer. Marcela is determined, focused and motivated as a person. Marcela is an open and honest person who loves to help others.",
     "portofolio_url": "https://marcelaf-portfolio.web.app/",
     "education": [
       {
@@ -550,8 +671,8 @@
         "city_and_country": "Sweden"
       },
       {
-        "period": "2013",
-        "title": "Master of Science – Genetics and Biology",
+        "period": "2015",
+        "title": "Master of Science – Genetics and Molecular Biology",
         "institution": "Federal University Rio Grande do Sol ",
         "city_and_country": "Brazil"
       }
@@ -559,12 +680,12 @@
     "work_experience": [
       {
         "period": "2013 - 2016",
-        "title": "Clinical Embryologist",
+        "title": "woClinical Embryologistrk_1",
         "institution": "Livio Fertilitetscentrum",
         "city_and_country": "Sweden"
       },
       {
-        "period": "2011",
+        "period": "2011 - 2015",
         "title": "Clinical Embryologist",
         "institution": "Human Production Center Nilo Frantz",
         "city_and_country": "Brazil"
@@ -572,12 +693,12 @@
     ],
     "tech_skills": [
       {
-        "name": "Git",
-        "rating": 3
+        "name": "HTML/CSS",
+        "rating": 2
       },
       {
-        "name": "Java",
-        "rating": 2
+        "name": "Typescript",
+        "rating": 1
       },
       {
         "name": "JavaScript",
@@ -588,7 +709,7 @@
         "rating": 1
       },
       {
-        "name": "Python",
+        "name": "SASS",
         "rating": 1
       },
       {
@@ -601,15 +722,15 @@
       },
       {
         "name": "Spring",
-        "rating": 1
+        "rating": 2
       },
       {
         "name": "Vue.js",
-        "rating": 1
+        "rating": 2
       },
       {
-        "name": "skill_10",
-        "rating": 3
+        "name": "Firebase",
+        "rating": 2
       }
     ],
     "languages_spoken": [
@@ -623,7 +744,7 @@
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 3
       }
     ]
   },
@@ -631,9 +752,9 @@
     "id": 8,
     "name": "Natalia F",
     "url": "natalia-federova",
-    "city": "Stockholm",
+    "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Natalia Fedorova has an academic background in Business Administration, where she studied among others strategy and business management in international environments, finance, marketing, and HR management. She has also obtained a diploma in IT Project Management where she learned about Scrum Master and Agile methodology. This is when she discovered her passion for the IT world. Natalia is very ambitious, and goal oriented. In her free-time she studies languages and different IT programs.",
+    "description": "Natalia Fedorova has an academic background in Business Administration, where she studied among others strategy and business management in international environments, finance, marketing, and HR management, as well as obtaining a diploma in IT Project Management where she learned about Scrum Master and Agile methodologies. This is when she discovered her passion for the IT world. Natalia is very ambitious, and goal oriented. In her free-time she studies languages and different IT programs.",
     "portofolio_url": "https://portfolio-nf.web.app/",
     "education": [
       {
@@ -658,7 +779,7 @@
         "period": "2011",
         "title": "Master of Science in Economics, Specialization in World Economy",
         "institution": "Moscow University of Finance and Industry",
-        "city_and_country": "Russia"
+        "city_and_country": "Moscow, Russia"
       }
     ],
     "work_experience": [
@@ -666,18 +787,18 @@
         "period": "2020",
         "title": "Scrum Master Trainee / Project Management in IT",
         "institution": "Beetroot Academy AB",
-        "city_and_country": "Sweden"
+        "city_and_country": "Stockholm, Sweden"
       },
       {
         "period": "2020 - 20201",
-        "title": "Regional Co-ordinator ",
+        "title": "Regional Coordinator ",
         "institution": "Beetroot Academy AB",
-        "city_and_country": "Sweden"
+        "city_and_country": "Stockholm, Sweden"
       }
     ],
     "tech_skills": [
       {
-        "name": "Git",
+        "name": "HTML/CSS",
         "rating": 3
       },
       {
@@ -685,7 +806,7 @@
         "rating": 2
       },
       {
-        "name": "JavaScript",
+        "name": "JavaScript/Typescript",
         "rating": 2
       },
       {
@@ -693,11 +814,11 @@
         "rating": 2
       },
       {
-        "name": "Scrum",
-        "rating": 2
+        "name": "SASS",
+        "rating": 1
       },
       {
-        "name": "Spring",
+        "name": "Firebase",
         "rating": 1
       }
     ],
@@ -722,11 +843,11 @@
   },
   {
     "id": 9,
-    "name": "Olha P",
+    "name": "Olga P",
     "url": "olga-pinchuk",
-    "city": "Stockholm",
+    "city": "Stockholmn",
     "willing_to_relocate": false,
-    "description": "Olha holds a Master’s degree in Russian and English and 5 years of working experience as a project manager, team-lead and Front-End Developer. She is responsible, curious about new technologies and enjoys working in groups. She finds it very interesting to lead a Tech team, as well as projects. Olha is communicative, sociable and people-oriented.",
+    "description": "Olha holds a Master’s degree in Russian and English and 5 years of working experience as a project leader, team-lead and Front-End Developer. She is responsible, curious about new technologies and enjoys working in groups. She finds it very interesting to lead a Tech team, as well as projects. Olha is communicative, sociable and people-oriented.",
     "portofolio_url": "https://olga-pinchuk-portfolio.web.app/",
     "education": [
       {
@@ -764,12 +885,12 @@
     ],
     "tech_skills": [
       {
-        "name": "Angular",
+        "name": "Firebase",
         "rating": 2
       },
       {
-        "name": "Git",
-        "rating": 3
+        "name": "SASS",
+        "rating": 2
       },
       {
         "name": "HTML/CSS",
@@ -785,15 +906,15 @@
       },
       {
         "name": "React",
-        "rating": 3
+        "rating": 2
       },
       {
         "name": "Scrum",
         "rating": 2
       },
       {
-        "name": "Spring",
-        "rating": 1
+        "name": "Typescript",
+        "rating": 2
       },
       {
         "name": "Unit Testing",
@@ -825,7 +946,7 @@
     "url": "sailatha-tammana",
     "city": "Lund",
     "willing_to_relocate": false,
-    "description": "SaiLatha has a Bachelor’s degree in Computer Science with a keen interest in software development. She has 2.5 years of domain experience as a SAP developer. This solidified her qualities of being responsible and an active team player who has the desire to learn the unknown.",
+    "description": "SaiLatha has a Bachelor’s degree in Computer Science with a keen interest in software development. She has \n2.5 years of domain experience as a Software developer. This solidified her qualities of being responsible and an \nactive team player who has the desire to learn the unknown.",
     "portofolio_url": "https://latha-portfolio.web.app/",
     "education": [
       {
@@ -857,8 +978,8 @@
     ],
     "tech_skills": [
       {
-        "name": "Git",
-        "rating": 3
+        "name": "HTML/CSS",
+        "rating": 2
       },
       {
         "name": "Java",
@@ -873,23 +994,23 @@
         "rating": 2
       },
       {
-        "name": "SAP ABAP",
-        "rating": 2
+        "name": "SQL",
+        "rating": 3
       },
       {
-        "name": "SAP Fiori",
-        "rating": 3
+        "name": "Firebase",
+        "rating": 2
       },
       {
         "name": "SAP PQM",
         "rating": 4
       },
       {
-        "name": "Scrum",
-        "rating": 2
+        "name": "SASS",
+        "rating": 1
       },
       {
-        "name": "Spring",
+        "name": "Typescript",
         "rating": 1
       },
       {
@@ -916,7 +1037,7 @@
     "id": 11,
     "name": "Snehal K",
     "url": "snehal-kadam",
-    "city": "Stockholm",
+    "city": "Stockholmn",
     "willing_to_relocate": false,
     "description": "Snehal has a Bachelor in Information Technology. She has worked for 4 years as Applications Software Developer mainly using ASP.NET and has a strong knowledge in creating and designing web applications. As a person she is positive, humble and social and has a full focus on working with Front-end development.",
     "portofolio_url": "https://snehal-portfolio.web.app/",
@@ -937,13 +1058,13 @@
         "period": "2013",
         "title": "Diploma in .Net Certification",
         "institution": "NIIT Training Centre",
-        "city_and_country": "India"
+        "city_and_country": "Not specified"
       },
       {
         "period": "2011",
         "title": "Bachelor of Science in Information Technology",
         "institution": "University of Mumbai",
-        "city_and_country": "India"
+        "city_and_country": "Mumbai, India"
       }
     ],
     "work_experience": [
@@ -976,7 +1097,7 @@
         "rating": 2
       },
       {
-        "name": "Git",
+        "name": "Firebase",
         "rating": 2
       },
       {
@@ -992,12 +1113,12 @@
         "rating": 2
       },
       {
-        "name": "Scrum",
-        "rating": 2
+        "name": "Typescript",
+        "rating": 1
       },
       {
         "name": "UI/UX",
-        "rating": 1
+        "rating": 2
       },
       {
         "name": "SQL",
@@ -1006,6 +1127,10 @@
       {
         "name": "React",
         "rating": 2
+      },
+      {
+        "name": "SASS",
+        "rating": 1
       }
     ],
     "languages_spoken": [
