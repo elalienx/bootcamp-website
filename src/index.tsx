@@ -1,6 +1,7 @@
 // NPM Packages
 import React from "react";
 import ReactDOM from "react-dom";
+import { logEvent } from "@firebase/analytics";
 
 // Project files
 import { analytics } from "scripts/firebase";
@@ -13,4 +14,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-console.log("Google Analytics enabled", analytics);
+logEvent(analytics, "notification_received");
