@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "Carl Johan",
+    "phone": "073-032 57 12",
+    "email": "carljohan.degeer@novare.se"
+  },
+  {
+    "id": 1,
+    "name": "Malin Crona",
+    "phone": "072-308 72 94",
+    "email": "malin.crona@novarepotential.se"
+  }
+]

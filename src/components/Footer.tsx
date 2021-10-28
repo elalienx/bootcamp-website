@@ -1,42 +1,12 @@
 // Project files
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconName } from "@fortawesome/fontawesome-svg-core";
+import ItemContact from "components/ItemContact";
+import data from "data/contact.json";
 import "styles/components/Footer.sass";
 
 export default function Footer() {
-  // Properties
-  const data = [
-    {
-      name: "Carl Johan",
-      phone: "073-032 57 12",
-      email: "carljohan.degeer@novare.se",
-    },
-    {
-      name: "Malin Crona",
-      phone: "072-308 72 94",
-      email: "malin.crona@novarepotential.se",
-    },
-  ];
-
   // Components
-  const ItemContact = data.map((item, index) => (
-    <li key={index}>
-      {item.name}:
-      <a href={`tel:${item.phone}`}>
-        <FontAwesomeIcon
-          className="icon"
-          icon={["fas", "mobile-alt" as IconName]}
-        />
-        {item.phone}
-      </a>
-      <a href={`mailto:${item.email}?subject=Recruit candidates`}>
-        <FontAwesomeIcon
-          className="icon"
-          icon={["fas", "envelope" as IconName]}
-        />
-        Write me
-      </a>
-    </li>
+  const Contacts = data.map((item) => (
+    <ItemContact key={item.id} item={item} />
   ));
 
   return (
@@ -49,7 +19,7 @@ export default function Footer() {
           more.
         </p>
 
-        <ul className="contact-list">{ItemContact}</ul>
+        <ul className="contact-list">{Contacts}</ul>
 
         <small>© 2021 Novare Human Capital</small>
       </div>
