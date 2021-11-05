@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import data from "data/candidates.json";
 import Item from "components/ItemCandidate";
 import Image from "assets/images/candidates.jpg";
-import randomCandidates from "./MiniCandidatesLogic";
+import randomCandidates from "./randomCandidates";
 import "styles/pages/home/Candidates.sass";
 
 export default function MiniCandidates() {
