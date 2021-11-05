@@ -8,7 +8,7 @@ import Item from "components/ItemCandidate";
 import Image from "assets/images/candidates.jpg";
 import "styles/pages/home/Candidates.sass";
 
-export default function Candidates() {
+export default function PreviewCandidates() {
   // Properties
   const candidates = randomCandidates(data, 3);
 

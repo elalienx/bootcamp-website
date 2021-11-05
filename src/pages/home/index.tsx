@@ -1,6 +1,6 @@
 // Project files
 import About from "./About";
-import Candidates from "./Candidates";
+import PreviewCandidates from "./PreviewCandidates";
 import Hero from "./Hero";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div id="home">
       <Hero />
       <About />
-      <Candidates />
+      <PreviewCandidates />
     </div>
   );
 }
