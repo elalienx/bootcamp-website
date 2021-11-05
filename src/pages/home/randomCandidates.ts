@@ -5,7 +5,6 @@ export default function randomCandidates(
   array: iCandidate[],
   length: number = 3
 ): iCandidate[] {
-  
   // safeguard
   if (array.length < length) {
     console.warn("You are trying to get more candidates than available");
@@ -18,4 +17,3 @@ export default function randomCandidates(
 
   return randomCandidates;
 }
-

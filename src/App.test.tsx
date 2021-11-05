@@ -7,6 +7,8 @@ import App from "./App";
 
 test("renders training program subtitle", () => {
   // Arrange
+  window.scrollTo = jest.fn();
+
   render(<App />);
 
   // Assert

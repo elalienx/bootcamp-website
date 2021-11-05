@@ -2,18 +2,26 @@
 import { Link } from "react-router-dom";
 
 // Project files
-import data from "data/candidates.json";
-import Item from "components/ItemCandidate";
 import Image from "assets/images/candidates.jpg";
+import Item from "components/ItemCandidate";
+import iCandidate from "interfaces/iCandidate";
 import randomCandidates from "./randomCandidates";
 import "styles/pages/home/Candidates.sass";
 
-export default function MiniCandidates() {
+interface iProps {
+  candidates: iCandidate[];
+}
+
+export default function MiniCandidates({ candidates }: iProps) {
   // Properties
-  const candidates = randomCandidates(data, 3);
+  const size = 3;
+  const myCandidates = randomCandidates(candidates, size);
 
   // Components
-  const Items = candidates.map((item) => <Item key={item.id} item={item} />);
+  const Items = myCandidates.map((item) => <Item key={item.id} item={item} />);
+  const InformationText = (
+    <p>⚠️ We don't have candidates to present, wait until we end the course.</p>
+  );
 
   return (
     <section className="candidates background-dark">
@@ -25,7 +33,9 @@ export default function MiniCandidates() {
             experience, education and personality. Make sure to check out their
             portfolios.
           </p>
-          <div className="component-items">{Items}</div>
+          <div className="component-items">
+            {myCandidates.length < size ? InformationText : Items}
+          </div>
           <Link className="button" to="/candidates">
             View all candidates
           </Link>
