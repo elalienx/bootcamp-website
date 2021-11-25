@@ -1,6 +1,7 @@
 // Project files
 import { useModal } from "state/ModalProvider";
 import ItemSkill from "./ItemSkill";
+import "styles/components/ModalSkills.sass";
 
 export default function ModalSkills() {
   // Global state

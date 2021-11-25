@@ -1,0 +1,21 @@
+
+@import "styles/base/variables"
+
+.modal-skills
+    @include standard-text-mobile
+
+    padding: $space-medium
+
+    .item-skill span
+        font-weight: bold
+        margin-bottom: $space-medium
+            
+
+@media (min-width: $media-desktop)
+    .modal-skills
+        @include standard-text-desktop
+
+        padding: $space-ultra
+
+        .item-skill
+            max-width: 320px
