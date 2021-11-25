@@ -1,6 +1,6 @@
 // Project files
 import candidates from "data/candidates.json";
-import randomCandidates from "pages/home/randomCandidates";
+import randomCandidates from "./randomCandidates";
 
 test("we return the maximum available lenght when someone ask for a bigger array", () => {
   // Arrange
@@ -19,14 +19,14 @@ test("we return the maximum available lenght when someone ask for a bigger array
 test("we need to test that the order of the array was randomized", () => {
   // Act
   // first pass
-  const randomOneArray = randomCandidates(candidates);
+  const randomOneArray = randomCandidates(candidates, 3);
   const randomOneId1 = randomOneArray[0].id;
   const randomOneId2 = randomOneArray[1].id;
   const randomOneId3 = randomOneArray[2].id;
   const randomOneTotal = randomOneId1 + randomOneId2 + randomOneId3;
 
   // second pass
-  const randomTwoArray = randomCandidates(candidates);
+  const randomTwoArray = randomCandidates(candidates, 3);
   const ramdomTwoId1 = randomTwoArray[0].id;
   const randomTwoId2 = randomTwoArray[1].id;
   const randomTwoId3 = randomTwoArray[2].id;

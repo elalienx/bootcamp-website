@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 
 // Project file
-import MiniCandidates from "pages/home/MiniCandidates";
+import MiniCandidates from "./MiniCandidates";
 
 // Mockup candidates
 const oneCandidate = [
