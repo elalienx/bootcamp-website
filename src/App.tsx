@@ -27,6 +27,7 @@ export default function App() {
           <Footer />
         </ScrollToTop>
       </BrowserRouter>
+      <Modal />
     </div>
   );
 }
