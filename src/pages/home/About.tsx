@@ -20,7 +20,7 @@ export default function About() {
           <h2>Interested in hiring Frontend Developers?</h2>
           <p>
             Are you looking for talented Frontend Developers? Look no more - in
-            early November, we will have 11 candidates ready to be hired and
+            early November, we will have many candidates ready to be hired and
             productive from day 1. All of them are coming from international
             backgrounds and they share the desire to become successful
             developers in Sweden.
