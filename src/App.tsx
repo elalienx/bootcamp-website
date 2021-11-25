@@ -2,9 +2,10 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 // Project files
+import Footer from "components/Footer";
+import Modal from "components/Modal";
 import ScrollToTop from "components/ScrollToTop";
-import NavigationBar from "./components/NavigationBar";
-import Footer from "./components/Footer";
+import NavigationBar from "components/NavigationBar";
 import About from "./pages/about";
 import Candidates from "./pages/candidates";
 import Home from "./pages/home";

@@ -4,9 +4,9 @@ import { createContext, useContext, useState } from "react";
 // Properties
 const ModalContext = createContext(null);
 
-export function ModalProvider({ children, initialState }) {
+export function ModalProvider({ children }) {
   // Local state
-  const [modal, setModal] = useState(initialState);
+  const [modal, setModal] = useState(null);
 
   // Property
   const PORTAL_ID = "portal";
