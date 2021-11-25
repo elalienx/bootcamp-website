@@ -1,6 +1,7 @@
-export default interface iProject {
+export default interface iTechnology {
   id: number;
   name: string;
-  icon: string;
+  IconPrefix: string;
+  iconName: string;
   description: string;
 }

@@ -1,6 +1,6 @@
 // NPM Packages
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconName } from "@fortawesome/fontawesome-svg-core";
+import { IconPrefix, IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Project files
 import iTechnology from "interfaces/iTechnology";
@@ -12,12 +12,14 @@ interface iProps {
 }
 
 export default function ItemTechnology({ item }: iProps) {
-  const { name, description, icon } = item;
+  const { name, description, IconPrefix, iconName } = item;
 
   return (
     <article className="item-technology">
       <div className="circle">
-        <FontAwesomeIcon icon={["fab", icon as IconName]} />
+        <FontAwesomeIcon
+          icon={[IconPrefix as IconPrefix, iconName as IconName]}
+        />
       </div>
       <div className="content">
         <h3>{name}</h3>
