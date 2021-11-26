@@ -1,5 +1,5 @@
 // NPM packages
-import { createContext, ReactElement, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 // Interfaces
 interface iProps {

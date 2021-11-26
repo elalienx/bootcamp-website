@@ -10,7 +10,7 @@ import { ModalProvider } from "state/ModalProvider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ModalProvider>
+    <ModalProvider initialState={null}>
       <App />
     </ModalProvider>
   </React.StrictMode>,
