@@ -1,6 +1,5 @@
 // NPM packages
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Interfaces
 interface iProps {
@@ -18,17 +17,11 @@ export default function ItemContact({ item }: iProps) {
     <li>
       {name}:
       <a href={`tel:${phone}`}>
-        <FontAwesomeIcon
-          className="icon"
-          icon={["fas", "mobile-alt" as IconName]}
-        />
+        <FontAwesomeIcon className="icon" icon={["fas", "mobile-alt"]} />
         {phone}
       </a>
       <a href={`mailto:${email}?subject=Recruit candidates`}>
-        <FontAwesomeIcon
-          className="icon"
-          icon={["fas", "envelope" as IconName]}
-        />
+        <FontAwesomeIcon className="icon" icon={["fas", "envelope"]} />
         Contact me
       </a>
     </li>
