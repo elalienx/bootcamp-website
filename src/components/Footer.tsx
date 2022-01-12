@@ -18,9 +18,7 @@ export default function Footer() {
           consultancy set up. Please contact Carl Johan or Malin to find out
           more.
         </p>
-
         <ul className="contact-list">{Contacts}</ul>
-
         <small>© 2021 Novare Human Capital</small>
       </div>
     </footer>

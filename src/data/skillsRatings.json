@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Initial",
+    "rating": 1,
+    "description": "Familiar with the language."
+  },
+  {
+    "name": "Basic",
+    "rating": 2,
+    "description": "Basic knowledge (Able to write simple programs, using the most common language features. Able to use the main tools used to develop, build, and test programs in the language. Able to understand parts of existing code bases, and make small changes to them.)"
+  },
+  {
+    "name": "Intermediate",
+    "rating": 3,
+    "description": "Intermediate (got work experience that needs to be updated)"
+  },
+  {
+    "name": "Advanced",
+    "rating": 4,
+    "description": "Advanced (Able to develop larger programs in the language. Competent at using most language features comfortably. Able to structure large programs so that they become easier to understand and manage. Able to design and document public APIs with a clear responsibility. Able to design entities so that they become testable and write tests for them.)"
+  },
+  {
+    "name": "Senior",
+    "rating": 5,
+    "description": "Senior (Able to design, develop, test, and maintain very large programs in the language. Highly competent at using virtually all language features. Competent at carrying out significant refactoring of large code bases. Highly competent at creating public APIs that are flexible, enabling composition and abstraction. Highly competent at testing at all levels, including integration testing.)"
+  }
+]

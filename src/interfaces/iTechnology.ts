@@ -1,7 +1,7 @@
 export default interface iTechnology {
   id: number;
   name: string;
-  IconPrefix: string;
-  iconName: string;
+  icon_prefix: string;
+  icon_name: string;
   description: string;
 }

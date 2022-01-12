@@ -1,12 +1,28 @@
 // NPM packages
 import { createContext, useContext, useState } from "react";
 
-// Properties
-const ModalContext = createContext(null);
+// Interfaces
+interface iProps {
+  children: JSX.Element;
+  initialState: JSX.Element | null;
+}
+interface iContext {
+  modal: JSX.Element | null;
+  setModal: Function;
+  PORTAL_ID: string;
+}
 
-export function ModalProvider({ children }) {
+// Properties
+const initialState = {
+  modal: null,
+  setModal: () => {},
+  PORTAL_ID: "",
+};
+const ModalContext = createContext<iContext>(initialState);
+
+export function ModalProvider({ children, initialState }: iProps) {
   // Local state
-  const [modal, setModal] = useState(null);
+  const [modal, setModal] = useState(initialState);
 
   // Property
   const PORTAL_ID = "portal";

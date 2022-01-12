@@ -12,13 +12,13 @@ interface iProps {
 }
 
 export default function ItemTechnology({ item }: iProps) {
-  const { name, description, IconPrefix, iconName } = item;
+  const { name, description, icon_prefix, icon_name } = item;
 
   return (
     <article className="item-technology">
       <div className="circle">
         <FontAwesomeIcon
-          icon={[IconPrefix as IconPrefix, iconName as IconName]}
+          icon={[icon_prefix as IconPrefix, icon_name as IconName]}
         />
       </div>
       <div className="content">
