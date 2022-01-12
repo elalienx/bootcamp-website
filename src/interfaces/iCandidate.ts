@@ -8,6 +8,7 @@ export default interface iCandidate {
   description: string;
   url: string;
   city: string;
+  isHired: boolean;
   willing_to_relocate: boolean;
   portofolio_url: string;
   education: iResume[];

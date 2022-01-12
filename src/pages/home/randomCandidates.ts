@@ -3,10 +3,7 @@ import iCandidate from "interfaces/iCandidate";
 
 export default function randomCandidates(array: iCandidate[], length: number) {
   // safeguard
-  if (array.length < length) {
-    console.warn("You are trying to get more candidates than available");
-    length = array.length;
-  }
+  if (array.length < length) length = array.length;
 
   const clonedArray = [...array];
   const shuffled = shuffleArray(clonedArray);
