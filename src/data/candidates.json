@@ -744,7 +744,7 @@
     "name": "Olga P",
     "url": "olga-p",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Olga holds a Master’s degree in Linguistics (Russian and English). She has 5 years of working experience as project-, and team-lead and also as a Frontend Developer. She is responsible, curious about new technologies and enjoys working in groups. She finds it very interesting to lead a Tech team, as well as projects. Olga is communicative, sociable and people-oriented.",
     "portofolio_url": "https://olga-pinchuk-portfolio.web.app/",
