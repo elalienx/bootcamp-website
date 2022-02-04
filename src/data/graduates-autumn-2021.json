@@ -4,7 +4,7 @@
     "name": "Armin D",
     "url": "armin-d",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Armin is a skilled Frontend developer and blockchain enthusiast. He obtains good skills in programming and has a background in the IT-Business. As a person he is positive, driven and likeable. His passion for graphic design and software development drives him to do self-studies and training to be able to work in the domain that he thrives in.",
     "portofolio_url": "https://armin-dizdar-portofolio.web.app",
@@ -13,6 +13,7 @@
         "period": "2021",
         "title": "Intensive Frontend Course",
         "institution": "Novare Potential",
+
         "city_and_country": "Stockholm, Sweden"
       },
       {
@@ -332,7 +333,7 @@
     "name": "Giang Ngo",
     "url": "giang-n",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Giang holds a Bachelor in International Economics and Business. She has experience from working in a big media company in Japan - where she was working closely with the in-house development team. Furthermore she has worked with tech start ups in the US and Israel. Giang is motivated by challenges, a fast learner and accustomed to working in a high paced environment. With a kind, social and flexible personality, she is a great team player.",
     "portofolio_url": "https://giangofcode.web.app/",
@@ -540,7 +541,7 @@
     "name": "Marcela F",
     "url": "marcela-f",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Marcela holds a Master of Science in Genetics and Molecular Biology. Marcela has worked in the Healthcare sector for several years and now she wants to change her career to become a Software Developer. Marcela is determined, focused and motivated as a person. Marcela is an open and honest person who loves to help others.",
     "portofolio_url": "https://marcelaf-portfolio.web.app/",

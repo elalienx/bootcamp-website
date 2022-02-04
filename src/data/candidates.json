@@ -4,7 +4,7 @@
     "name": "Armin D",
     "url": "armin-d",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Armin is a skilled Frontend developer and blockchain enthusiast. He obtains good skills in programming and has a background in the IT-Business. As a person he is positive, driven and likeable. His passion for graphic design and software development drives him to do self-studies and training to be able to work in the domain that he thrives in.",
     "portofolio_url": "https://armin-dizdar-portofolio.web.app",
