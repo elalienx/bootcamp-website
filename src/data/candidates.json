@@ -646,7 +646,7 @@
     "name": "Natalia F",
     "url": "natalia-f",
     "city": "Stockholm",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Natalia has an academic background in Business Administration. She studied strategy and business management in international environments, finance, marketing, and HR management, as well as obtaining a diploma in IT Project Management where she learned about Scrum and Agile methodologies. This was when she discovered her passion for the IT world. Natalia is very ambitious, and goal oriented. In her free time she studies languages and different IT programs.",
     "portofolio_url": "https://portfolio-nf.web.app/",
