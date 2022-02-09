@@ -434,7 +434,7 @@
     "name": "Hassan O",
     "url": "hassan-o",
     "city": "Stockholm",
-    "isHired": true,
+    "isHired": false,
     "willing_to_relocate": true,
     "description": "Hassan holds a Bachelor in Information Systems. He has solid technical work experience from SQL programming, website creation and technical installations, and he is passionate to become a Software Developer. His previous experience spans the Accounting and E-commerce industries. As a person he is calm, creative and quick to pick up new skills. He also likes to help others and has the ability to focus and work hard. ",
     "portofolio_url": "https://hassan-obeid-portfolio-f6d36.web.app/",
