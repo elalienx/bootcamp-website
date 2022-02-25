@@ -15,8 +15,7 @@ export default function Footer() {
         <h2>Contact us</h2>
         <p>
           Candidates can be recruited through Novare Potential on an initial
-          consultancy set up. Please contact Carl Johan or Malin to find out
-          more.
+          consultancy set up. Please contact us to find out more:
         </p>
         <ul className="contact-list">{Contacts}</ul>
         <small>© 2021 Novare Human Capital</small>
