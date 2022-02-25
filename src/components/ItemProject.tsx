@@ -18,7 +18,7 @@ export default function ItemProject({ item }: iProps) {
     <article className="item-project">
       <img src={imageFile} alt="Project thumbnail" />
       <h3>{name}</h3>
-      <p>{description}</p>
+      <small>{description}</small>
     </article>
   );
 }

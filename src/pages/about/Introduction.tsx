@@ -16,21 +16,25 @@ export default function Introduction() {
         <div className="content">
           <h2>About the Program</h2>
           <p>
-            A 3 month accelerated learning program, with focus on Frontend and
-            particularly React. It consists of 7 individual projects with set
-            requirements and increasing complexity. The students have daily
-            lectures and mentor meetings. Software engineering practices is
-            taken into to consideration, so students can produce code with high
-            value.
+            Our front-end development course is a four-month accelerated
+            learning program focused on React. We use a project-based approach
+            to build seven individual projects with increasing requirements and
+            difficulty levels.
           </p>
           <p>
-            Before the Frontend course, the participants completed a 4 month
-            intensive at the Software Development Academy, that Novare Potential
-            arranged in collaboration with KTH. They learnt the foundations of
-            Object Oriented Programming using Java. The goal with this Academy
-            is that the students will be able to call themselves Junior Frontend
-            Developers and that they will be ready to be productive from day 1
-            when hired.
+            Before admitting students to the course, they undergo a screening
+            process for personality and logical tests. Then they proceed to
+            build an admission project to demonstrate their current coding
+            abilities.
+          </p>
+          <p>
+            To help students grow as developers, we start the course with
+            project management processes and software architecture principles to
+            enforce the best coding practices.
+          </p>
+          <p>
+            This course aims to have students ready to enter the workforce as
+            junior developers that can contribute to the codebase from day one.
           </p>
         </div>
 
