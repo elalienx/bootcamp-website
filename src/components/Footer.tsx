@@ -18,7 +18,7 @@ export default function Footer() {
           consultancy set up. Please contact us to find out more:
         </p>
         <ul className="contact-list">{Contacts}</ul>
-        <small>© 2021 Novare Human Capital</small>
+        <small>© 2022 Novare Human Capital</small>
       </div>
     </footer>
   );
