@@ -23,7 +23,7 @@ export default function ItemTechnology({ item }: iProps) {
       </div>
       <div className="content">
         <h3>{name}</h3>
-        <small>{description}</small>
+        <p>{description}</p>
       </div>
     </article>
   );
