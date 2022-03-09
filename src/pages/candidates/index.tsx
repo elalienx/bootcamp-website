@@ -1,5 +1,7 @@
 // NPM packages
 import { useHistory } from "react-router-dom";
+
+// Project files
 import data from "data/candidates.json";
 import Item from "components/ItemCandidate";
 
