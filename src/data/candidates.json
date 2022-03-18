@@ -17,9 +17,9 @@
       },
       {
         "period": "2020",
-        "title": "Front End Web Developer ",
+        "title": "Frontend Web Developer ",
         "institution": "UDACITY",
-        "city_and_country": "California, US"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2014",
@@ -31,7 +31,7 @@
         "period": "2012",
         "title": "Master's Degree in Interior Design",
         "institution": "Volga Region State University of Service",
-        "city_and_country": "Yoshkar-Ola, Russia"
+        "city_and_country": "Togliatti, Russia"
       }
     ],
     "work_experience": [
@@ -112,7 +112,7 @@
     "city": "Stockholm",
     "isHired": false,
     "willing_to_relocate": true,
-    "description": "Haiwei holds a Bachelor's and Master's degree in Surveying and Mapping. She worked as a geographic informatics engineer for three years and as a data engineer for over a year. In both her employments she has been coding. Haiwei is a structured and organized person who likes challenges. She has an easygoing personality and the ability to learn new things quickly. ",
+    "description": "Haiwei holds a Bachelor's and Master's degree in Surveying and Mapping. She worked as a Geographic Informatics Engineer for three years and as a Data Engineer for over a year. In both her employments she has been coding. Haiwei is a structured and organized person who likes challenges. She has an easygoing personality and the ability to learn new things quickly. ",
     "portofolio_url": "https://my-first-web-hosting-portfolio.web.app/",
     "education": [
       {
@@ -123,7 +123,7 @@
       },
       {
         "period": "2021",
-        "title": "Front End Developer",
+        "title": "Frontend Developer Course",
         "institution": "Lexicon Yrkesutbildning AB  ",
         "city_and_country": "Stockholm, Sweden"
       },
@@ -201,18 +201,18 @@
       },
       {
         "name": "Swedish",
-        "rating": 3
+        "rating": 2
       }
     ]
   },
   {
     "id": 4,
-    "name": "Monir Akhand",
+    "name": "Monir A",
     "url": "monir-a",
     "city": "Linköping",
     "isHired": false,
     "willing_to_relocate": true,
-    "description": "Moniruzzaman has a Bachelor's Degree in Chemical Engineering and a Master's Degree in Technology. Additionally, he is a certified accountant and worked in the industry for several years. Moniruzzman is creative and has experience in UX/UI. He is a quick learner and likes to help others with his great analytical skills. With his courteous approach, he would be a great asset to any team.",
+    "description": "Monir has a Bachelor's Degree in Chemical Engineering and a Master's Degree in Technology. Additionally, he is a certified accountant and worked in the industry for several years. Moniruzzman is creative and has experience in UX/UI. He is a quick learner and likes to help others with his great analytical skills. With his courteous approach, he would be a great asset to any team.",
     "portofolio_url": "https://portfolio-monir.web.app/",
     "education": [
       {
@@ -241,14 +241,14 @@
       },
       {
         "period": "2014",
-        "title": "Accountant",
+        "title": "Certified Accounting Economist",
         "institution": "Xpectrum",
         "city_and_country": "Stockholm, Sweden"
       },
       {
         "period": "2012",
         "title": "Master's degree in Technology",
-        "institution": "Borås Högskolan",
+        "institution": "Högskolan i Borås",
         "city_and_country": "Borås, Sweden"
       },
       {
@@ -326,7 +326,7 @@
     ],
     "languages_spoken": [
       {
-        "name": "Arabic",
+        "name": "Bengali",
         "rating": 5
       },
       {
@@ -335,31 +335,31 @@
       },
       {
         "name": "Swedish",
-        "rating": 2
+        "rating": 4
       }
     ]
   },
   {
     "id": 5,
-    "name": "Natalle Moura",
+    "name": "Natalle M",
     "url": "natalle-m",
     "city": "Stockholm",
     "isHired": false,
     "willing_to_relocate": false,
-    "description": "Natelle holds a Bachelor's Degree in Language and Linguistics. For the last two years until now she is voluntarily working as a translator and copyeditor at a magazine. Natalle is a self-learned coder and her motivation in life is learning new things. Furthermore, she has a good eye for detail and is calm and attentive. ",
+    "description": "Natelle holds a Bachelor's Degree in Language and Linguistics. For the last two years until now she is voluntarily working as a translator and copyeditor at a magazine. Natalle is a self-learned coder and her motivation in life is learning new things. Furthermore, she has a good eye for details and is calm and attentive. ",
     "portofolio_url": "https://nat-portfolio.web.app/",
     "education": [
       {
         "period": "2022 - present",
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
-        "city_and_country": "Sweden"
+        "city_and_country": "Stockholm, Sweden"
       },
       {
         "period": "2019",
         "title": "Web Development Course",
         "institution": "EmmsTech x VueVixens",
-        "city_and_country": "Not Spe"
+        "city_and_country": "Stockholm, Swedem"
       },
       {
         "period": "2019",
@@ -433,19 +433,15 @@
     "languages_spoken": [
       {
         "name": "English",
+        "rating": 4
+      },
+      {
+        "name": "Portuguese",
         "rating": 5
       },
       {
         "name": "Swedish",
-        "rating": 1
-      },
-      {
-        "name": "Vietnamese",
-        "rating": 5
-      },
-      {
-        "name": "Japanese",
-        "rating": 4
+        "rating": 2
       }
     ]
   },
@@ -456,7 +452,7 @@
     "city": "Södertälje",
     "isHired": false,
     "willing_to_relocate": false,
-    "description": "Radha has a solid academic background. She has a Bachelor's Degree in Computer Science, a Master's Degree in Mathematics, and a Ph.D. in Applied Mathematics. She has 6 months of work experience as a software developer in Sweden. Besides that, she worked as a data analyst for several years. Radha is a person who takes on a challenge, with her great communication skills and transparent personality she fits great in a team. ",
+    "description": "Radha has a solid academic background. She has a Bachelor's Degree in Computer Science, a Master's Degree in Mathematics, and a Ph.D. in Applied Mathematics. She has 6 months of work experience as a Software Developer in Sweden. Besides that, she worked as a Data Analyst for several years. Radha is a person who likes challenges and with her great communication skills and transparent personalityshe fits great in a team",
     "portofolio_url": "https://myportfolio-react-6a859.web.app",
     "education": [
       {
@@ -467,25 +463,19 @@
       },
       {
         "period": "2021",
-        "title": "Java Developer",
-        "institution": "Novare Potential",
-        "city_and_country": "Stockholm, Sweden"
-      },
-      {
-        "period": "2021",
-        "title": "Java Developer",
+        "title": "Software Development Academy",
         "institution": "KTH",
         "city_and_country": "Stockholm, Sweden"
       },
       {
         "period": "2015",
-        "title": "PhD Applied Mathematics",
+        "title": "PhD in Applied Mathematics",
         "institution": "Mother Teresa Women's University",
         "city_and_country": "Kodaikanal, India"
       },
       {
         "period": "2005",
-        "title": "Mater's degree in Mathematics",
+        "title": "Master's degree in Mathematics",
         "institution": "Bangalore University",
         "city_and_country": "Bengaluru, India"
       },
@@ -599,7 +589,7 @@
     "url": "raya-a",
     "city": "Göteborg",
     "isHired": false,
-    "willing_to_relocate": true,
+    "willing_to_relocate": false,
     "description": "Raya has a Bachelor's Degree in Network Engineering and Security and a Master's Degree in Computer Science. Her passion for coding started when she was using Java during her Master’s thesis. She studied in three countries, therefore, she adapts quickly to new environments. When Raya sets her mind on something she is determined and committed to reaching her goal. ",
     "portofolio_url": "https://portfolio-34c5a.web.app",
     "education": [
@@ -706,7 +696,7 @@
     "city": "Stockholm",
     "isHired": false,
     "willing_to_relocate": false,
-    "description": "Salah has a Bachelor's degree in Economics and a Master's Degree in Business and Management. He previously worked as an account manager and as a business development manager. Salah has been coding for over one year and he has some work experience in web development. He is perceived as a responsible, organized, and passionate person.",
+    "description": "Salah has a Bachelor's degree in Economics and a Master's Degree in Business and Management. He previously worked as an Account Manager and as a Business Development Manager. Salah has been coding for over one year and he has some work experience in web development. He is perceived as a responsible, organized, and passionate person.",
     "portofolio_url": "https://salah-portfolio-react.web.app/",
     "education": [
       {
@@ -717,7 +707,7 @@
       },
       {
         "period": "2022",
-        "title": "Diploma in Front End Development",
+        "title": "Frontend Development Course",
         "institution": "Changemaker Educations ",
         "city_and_country": "Stockholm, Sweden"
       },
@@ -820,7 +810,7 @@
     "city": "Lund",
     "isHired": false,
     "willing_to_relocate": false,
-    "description": "Stuart has a background in hospitality management. His enthusiasm for programming started when he moved to Sweden. He has two years of experience working as a web developer, mostly freelancing. Stuart has a calm and friendly approach. As a person, he is dedicated, persistent, and fearless in trying new things when it comes to coding. ",
+    "description": "Stuart has a background in hospitality management. His enthusiasm for programming started when he moved to Sweden in 2015. He has two years of experience working as a Web Developer, mostly freelancing. Stuart has a calm and friendly approach. As a person, he is dedicated, persistent, and fearless in trying new things when it comes to coding. ",
     "portofolio_url": "https://stu1612.netlify.app/stu1612",
     "education": [
       {
@@ -833,13 +823,13 @@
         "period": "2020",
         "title": "FullStack Software Development Academy",
         "institution": "Code Institute",
-        "city_and_country": "Remote"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2019",
         "title": "Building websites Intensive course",
         "institution": "Codecademy",
-        "city_and_country": "Remote"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2011",
@@ -875,7 +865,7 @@
       },
       {
         "period": "2015 - 2017",
-        "title": "Restaurant Consultant",
+        "title": "Restaurant Business Consultant",
         "institution": "Freelancer",
         "city_and_country": "Skåne, Sweden"
       },
@@ -956,22 +946,22 @@
         "city_and_country": "Stockholm, Sweden"
       },
       {
-        "period": "2021 - present",
+        "period": "2022",
         "title": "The Complete Web Developer in 2022: Zero to Mastery ",
         "institution": "Udemy",
-        "city_and_country": "Remote"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2022",
         "title": "React Course",
         "institution": "Cocademy",
-        "city_and_country": "Remote"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2021",
         "title": "JavaScript course",
         "institution": "Cocademy",
-        "city_and_country": "Remote"
+        "city_and_country": "Online, Not Specified"
       },
       {
         "period": "2019",
@@ -1056,7 +1046,7 @@
     "city": "Lund",
     "isHired": false,
     "willing_to_relocate": false,
-    "description": "Tshepiso has a Bachelor's Degree in Civil Engineering and a Master's Degree in Water Resource Engineering. Her interest in coding grew when she started working as a Content Marketer at Pink Programming. Tshepiso has strong knowledge of creating content and a passion for teaching. Thus, her dream job is to work as a developer advocate. As a person, she is confident and driven. ",
+    "description": "Tshepiso has a Bachelor's Degree in Civil Engineering and a Master's Degree in Water Resource Engineering. Her interest in coding grew when she started working as a Content Marketer at Pink Programming. Tshepiso has strong knowledge of creating content and a passion for teaching. Thus, her dream job is to work as a Developer Advocate. As a person, she is confident and driven. ",
     "portofolio_url": "https://portfolio-project-a2bb4.web.app/",
     "education": [
       {
@@ -1087,7 +1077,7 @@
       },
       {
         "period": "2020 - 2021",
-        "title": "Programme Coordinator",
+        "title": "Program Coordinator",
         "institution": "Minc",
         "city_and_country": "Malmö, Sweden"
       },
