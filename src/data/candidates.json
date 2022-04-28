@@ -450,7 +450,7 @@
     "name": "Radha D",
     "url": "radha-d",
     "city": "Södertälje",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Radha has a solid academic background. She has a Bachelor's Degree in Computer Science, a Master's Degree in Mathematics, and a Ph.D. in Applied Mathematics. She has 6 months of work experience as a Software Developer in Sweden. Besides that, she worked as a Data Analyst for several years. Radha is a person who likes challenges and with her great communication skills and transparent personalityshe fits great in a team",
     "portofolio_url": "https://myportfolio-react-6a859.web.app",
