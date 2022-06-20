@@ -8,17 +8,20 @@
 #about
   .introduction,
   .technologies,
-  .projects,
-    overflow: auto // so these parents respect their children margins
+  .projects
+    // so these parents respect their children margins
+    overflow: auto 
 
     .container
       margin-top: 0
 
   .introduction
     .mobile-hero
-      margin-bottom: $space-big // to help with the layout
+      // to help with the layout
+      margin-bottom: $space-big 
 
 @media (min-width: $media-desktop)
   #about
     .introduction .container
-      margin-top: $space-ultra // to restore the container spacing
+      // to restore the container spacing
+      margin-top: $space-ultra 
