@@ -4,13 +4,13 @@
     "name": "Eleonora K",
     "url": "eleonora-k",
     "city": "Uppsala",
-    "isHired": true,
+    "isHired": false,
     "willing_to_relocate": false,
     "description": "Eleonora holds a Master's Degree in Interior Design. Her interest in programming started eight years ago when she was working as an Information Specialist. For the last 6 months, she is volunteering as a Front-end developer at a start-up company. She is team-oriented and believes that exchanging ideas and respecting one another's opinions are crucial while collaborating in a team. Eleonora is an ambitious autodidact who believes that the sky is the limit.",
     "portofolio_url": "https://portfolio-814cf.web.app",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend Course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -116,7 +116,7 @@
     "portofolio_url": "https://my-first-web-hosting-portfolio.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend Course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -216,7 +216,7 @@
     "portofolio_url": "https://portfolio-monir.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -350,7 +350,7 @@
     "portofolio_url": "https://nat-portfolio.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -456,7 +456,7 @@
     "portofolio_url": "https://myportfolio-react-6a859.web.app",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -594,7 +594,7 @@
     "portofolio_url": "https://portfolio-34c5a.web.app",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -690,7 +690,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "SaiLatha T",
     "url": "sailatha-t",
     "city": "Lund",
@@ -700,7 +700,7 @@
     "portofolio_url": "https://latha-portfolio.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -715,7 +715,7 @@
         "period": "2018",
         "title": "Bachelor's degree in Computer Science",
         "institution": "DVR & Dr. HS MIC College of Technology",
-        "city_and_country": "Sweden"
+        "city_and_country": ""
       }
     ],
     "work_experience": [
@@ -794,7 +794,7 @@
     "portofolio_url": "https://portfolio-c7ce5.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -920,13 +920,13 @@
     "portofolio_url": "https://portfolio-7e9fc.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
       },
       {
-        "period": "2022",
+        "period": 2022,
         "title": "The Complete Web Developer in 2022: Zero to Mastery ",
         "institution": "Udemy",
         "city_and_country": "Online, Not Specified"
@@ -1020,17 +1020,17 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Tshepiso L",
     "url": "tshepiso-l",
     "city": "Lund",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Tshepiso has a Bachelor's Degree in Civil Engineering and a Master's Degree in Water Resource Engineering. Her interest in coding grew when she started working as a Content Marketer at Pink Programming. Tshepiso has strong knowledge of creating content and a passion for teaching. Thus, her dream job is to work as a Developer Advocate. As a person, she is confident and driven. ",
     "portofolio_url": "https://portfolio-project-a2bb4.web.app/",
     "education": [
       {
-        "period": "2022",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
