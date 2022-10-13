@@ -4,13 +4,13 @@
     "name": "Eleonora K",
     "url": "eleonora-k",
     "city": "Uppsala",
-    "isHired": true,
+    "isHired": false,
     "willing_to_relocate": false,
     "description": "Eleonora holds a Master's Degree in Interior Design. Her interest in programming started eight years ago when she was working as an Information Specialist. For the last 6 months, she is volunteering as a Front-end developer at a start-up company. She is team-oriented and believes that exchanging ideas and respecting one another's opinions are crucial while collaborating in a team. Eleonora is an ambitious autodidact who believes that the sky is the limit.",
     "portofolio_url": "https://portfolio-814cf.web.app",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend Course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -113,10 +113,10 @@
     "isHired": false,
     "willing_to_relocate": true,
     "description": "Haiwei holds a Bachelor's and Master's degree in Surveying and Mapping. She worked as a Geographic Informatics Engineer for three years and as a Data Engineer for over a year. In both her employments she has been coding. Haiwei is a structured and organized person who likes challenges. She has an easygoing personality and the ability to learn new things quickly. ",
-    "portofolio_url": "https://my-portfolio-b6614.web.app",
+    "portofolio_url": "https://my-first-web-hosting-portfolio.web.app/",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend Course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -216,7 +216,7 @@
     "portofolio_url": "https://portfolio-monir.web.app/",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -350,7 +350,7 @@
     "portofolio_url": "https://nat-portfolio.web.app/",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -456,7 +456,7 @@
     "portofolio_url": "https://myportfolio-react-6a859.web.app",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -584,6 +584,206 @@
     ]
   },
   {
+    "id": 7,
+    "name": "Raya A",
+    "url": "raya-a",
+    "city": "Göteborg",
+    "isHired": false,
+    "willing_to_relocate": false,
+    "description": "Raya has a Bachelor's Degree in Network Engineering and Security and a Master's Degree in Computer Science. Her passion for coding started when she was using Java during her Master’s thesis. She studied in three countries, therefore, she adapts quickly to new environments. When Raya sets her mind on something she is determined and committed to reaching her goal. ",
+    "portofolio_url": "https://portfolio-34c5a.web.app",
+    "education": [
+      {
+        "period": 2022,
+        "title": "Intensive Frontend course",
+        "institution": "Novare Potential",
+        "city_and_country": "Stockholm, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Master's degree in Computer Science",
+        "institution": "University of Gothenburg",
+        "city_and_country": "Göteborg, Sweden"
+      },
+      {
+        "period": "2016",
+        "title": "Bachelor's degree in Network Engineering and Security",
+        "institution": "Jordan University of Science and Technology",
+        "city_and_country": "Irbid, Jordan"
+      },
+      {
+        "period": "2011",
+        "title": "Informatics Engineering",
+        "institution": "Al Baath University",
+        "city_and_country": "Homs, Syria"
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2020 - 2021",
+        "title": "Master's Thesis Project",
+        "institution": "Combitech",
+        "city_and_country": "Göteborg, Sweden"
+      },
+      {
+        "period": "2016 - 2016",
+        "title": "Junior Solution and Account Manager",
+        "institution": "Careem Company",
+        "city_and_country": "Saudi Arabia"
+      }
+    ],
+    "tech_skills": [
+      {
+        "name": "C++/C",
+        "rating": 2
+      },
+      {
+        "name": "Google Firebase",
+        "rating": 2
+      },
+      {
+        "name": "HTML/CSS",
+        "rating": 2
+      },
+      {
+        "name": "Java",
+        "rating": 3
+      },
+      {
+        "name": "JavaScript",
+        "rating": 2
+      },
+      {
+        "name": "MySQL",
+        "rating": 2
+      },
+      {
+        "name": "React",
+        "rating": 2
+      },
+      {
+        "name": "Typescript",
+        "rating": 2
+      },
+      {
+        "name": "Unit Testing",
+        "rating": 2
+      },
+      {
+        "name": "UX/UI",
+        "rating": 2
+      }
+    ],
+    "languages_spoken": [
+      {
+        "name": "Arabic",
+        "rating": 5
+      },
+      {
+        "name": "English",
+        "rating": 5
+      },
+      {
+        "name": "Swedish",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "SaiLatha T",
+    "url": "sailatha-t",
+    "city": "Lund",
+    "isHired": false,
+    "willing_to_relocate": false,
+    "description": "SaiLatha has a Bachelor's Degree in Computer Science with a keen interest in software development. She has 2.5 years of domain experience as a Software Developer. This solidified her qualities of being responsible and an active team player who has the desire to learn the unknown. ",
+    "portofolio_url": "https://latha-portfolio.web.app/",
+    "education": [
+      {
+        "period": 2022,
+        "title": "Intensive Frontend course",
+        "institution": "Novare Potential",
+        "city_and_country": "Stockholm, Sweden"
+      },
+      {
+        "period": "2021",
+        "title": "Software Development Academy ",
+        "institution": "KTH",
+        "city_and_country": "Sweden"
+      },
+      {
+        "period": "2018",
+        "title": "Bachelor's degree in Computer Science",
+        "institution": "DVR & Dr. HS MIC College of Technology",
+        "city_and_country": ""
+      }
+    ],
+    "work_experience": [
+      {
+        "period": "2018 - 2020",
+        "title": "SAP Associate Consultant",
+        "institution": "Serole Technologies",
+        "city_and_country": "India"
+      }
+    ],
+    "tech_skills": [
+      {
+        "name": "Git",
+        "rating": 2
+      },
+      {
+        "name": "Google Firebase",
+        "rating": 2
+      },
+      {
+        "name": "HTML/CSS",
+        "rating": 2
+      },
+      {
+        "name": "Java",
+        "rating": 2
+      },
+      {
+        "name": "JavaScript",
+        "rating": 3
+      },
+      {
+        "name": "SQL",
+        "rating": 3
+      },
+      {
+        "name": "React",
+        "rating": 3
+      },
+      {
+        "name": "Typescript",
+        "rating": 2
+      },
+      {
+        "name": "Unit Testing",
+        "rating": 2
+      },
+      {
+        "name": "UX/UI",
+        "rating": 2
+      }
+    ],
+    "languages_spoken": [
+      {
+        "name": "English",
+        "rating": 4
+      },
+      {
+        "name": "Swedish",
+        "rating": 2
+      },
+      {
+        "name": "Telugu",
+        "rating": 5
+      }
+    ]
+  },
+  {
     "id": 9,
     "name": "Stuart B",
     "url": "stuart-b",
@@ -594,7 +794,7 @@
     "portofolio_url": "https://portfolio-c7ce5.web.app/",
     "education": [
       {
-        "period": "2022 - Present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -720,7 +920,7 @@
     "portofolio_url": "https://portfolio-7e9fc.web.app/",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
@@ -824,13 +1024,13 @@
     "name": "Tshepiso L",
     "url": "tshepiso-l",
     "city": "Lund",
-    "isHired": false,
+    "isHired": true,
     "willing_to_relocate": false,
     "description": "Tshepiso has a Bachelor's Degree in Civil Engineering and a Master's Degree in Water Resource Engineering. Her interest in coding grew when she started working as a Content Marketer at Pink Programming. Tshepiso has strong knowledge of creating content and a passion for teaching. Thus, her dream job is to work as a Developer Advocate. As a person, she is confident and driven. ",
     "portofolio_url": "https://portfolio-project-a2bb4.web.app/",
     "education": [
       {
-        "period": "2022 - present",
+        "period": 2022,
         "title": "Intensive Frontend course",
         "institution": "Novare Potential",
         "city_and_country": "Stockholm, Sweden"
