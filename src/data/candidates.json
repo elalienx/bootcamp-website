@@ -12,9 +12,30 @@
     "quote_text": "Katherine is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her  Bachelor's thesis on Testing the material resistance of blades for cutting sugarcane sets her apart from other developers as she understands the real-world implications of writing unit tests. Making her a great asset for any company where quality assurance is crucial.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
     "tech_skills": [
-      { "name": "", "icon": "", "skills": ["", "", ""] },
-      { "name": "", "icon": "", "skills": ["", "", ""] },
-      { "name": "", "icon": "", "skills": ["", "", ""] }
+      {
+        "name": "JavaScript",
+        "icon": "",
+        "skills": ["Functional programming", "Intermediate TypeScript"]
+      },
+      {
+        "name": "Agile/Scrum",
+        "icon": "",
+        "skills": [
+          "Hold SCRUM daily stand up meetings",
+          "Maintaining Product Backlogs",
+          "Pair programming"
+        ]
+      },
+      {
+        "name": "API's/Server",
+        "icon": "",
+        "skills": [
+          "Intermediate Node.js",
+          "API creation with Express.js",
+          "ORM with Objetion.js",
+          "Relational database with PostgreSQL"
+        ]
+      }
     ],
     "cv_url": "https://s3.eu-west-1.amazonaws.com/pnty-prs3/novarepotential/f9270f86-fc4a-439e-bb27-1024703f9e20?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D%22Katheryn%20Rojas%20Ortiz%20CV.pdf%22&AWSAccessKeyId=AKIAJMPKGV2Q56GQJT7A&Signature=DqU06o%2BYPynV8ZwAcxYCu2zAJWQ%3D&Expires=1676903820",
     "portfolio_url": "https://my-portfolio-4abe3.web.app/"
