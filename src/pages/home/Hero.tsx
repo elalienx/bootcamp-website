@@ -15,7 +15,7 @@ export default function Hero() {
         <h2 className="subtitle">
           Training Program
           <br />
-          Spring 2022
+          Winter 2022 - Spring 2023
         </h2>
       </div>
     </header>
