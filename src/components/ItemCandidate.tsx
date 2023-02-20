@@ -15,13 +15,12 @@ export default function ItemCandidate({ item }: iProps) {
 
   // Properties
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
-  const imageFile = imageObject.default;
   const showHired = hired ? <b>(Hired)</b> : "";
   const showGraduated = graduated ? <b>(Graduated)</b> : "";
 
   return (
     <Link className="item-candidate" to={"/profile/" + url}>
-      <img src={imageFile} alt="Candidate thumbnail" />
+      <img src={imageObject} alt="Candidate thumbnail" />
       {name} {showHired} {showGraduated}
     </Link>
   );

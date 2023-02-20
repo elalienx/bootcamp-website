@@ -12,11 +12,10 @@ export default function ItemProject({ item }: iProps) {
 
   // Properties
   const imageObject = require(`assets/images/projects/${image_name}.jpg`);
-  const imageFile = imageObject.default;
 
   return (
     <article className="item-project">
-      <img src={imageFile} alt="Project thumbnail" />
+      <img src={imageObject} alt="Project thumbnail" />
       <h3>{name}</h3>
       <p>{description}</p>
     </article>

@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 
 // Project files
 import data from "data/candidates.json";
-import "styles/pages/profile/Profile.sass";
 
 // Interface
 type PropParams = {
