@@ -11,17 +11,18 @@ interface iProps {
 }
 
 export default function ItemCandidate({ item }: iProps) {
-  const { isHired, name, url } = item;
+  const { url, hired, graduated, name } = item;
 
   // Properties
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
   const imageFile = imageObject.default;
-  const showIsHired = isHired ? <b>(hired)</b> : "";
+  const showHired = hired ? <b>(Hired)</b> : "";
+  const showGraduated = graduated ? <b>(Graduated)</b> : "";
 
   return (
     <Link className="item-candidate" to={"/profile/" + url}>
       <img src={imageFile} alt="Candidate thumbnail" />
-      {name} {showIsHired}
+      {name} {showHired} {showGraduated}
     </Link>
   );
 }
