@@ -9,15 +9,12 @@
     overflow: hidden
     text-overflow: ellipsis
     text-transform: uppercase
-
-  .boxes
-    max-width: 160px
-    display: flex
-    justify-content: space-between
+    margin-bottom: $space-small
 
   .boxes div
     $size: $space-big
     
+    margin-right: $space-small
     display: inline-block
     width: $size
     height: $size
@@ -29,7 +26,7 @@
 @media (min-width: $media-desktop)
   .item-rating
     .boxes div
-      $size: 20px
+      $size: 32px
 
       width: $size
       height: $size

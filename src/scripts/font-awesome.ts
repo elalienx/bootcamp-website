@@ -7,11 +7,12 @@ import {
   faLink,
   faMobileAlt,
   faPencilRuler,
-  faSearch,
-  faSitemap,
-  faTable,
-  faServer,
   faRecycle,
+  faSearch,
+  faServer,
+  faSitemap,
+  faSwatchbook,
+  faTable,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -21,9 +22,10 @@ library.add(
   faLink,
   faMobileAlt,
   faPencilRuler,
+  faRecycle,
   faSearch,
-  faSitemap,
-  faTable,
   faServer,
-  faRecycle
+  faSitemap,
+  faSwatchbook,
+  faTable
 );

@@ -71,9 +71,9 @@ export default function Profile() {
             You can check more details by checking {candidate.pronoun} CV and
             projece that has done with us during the boot camp
           </p>
-          <a target="_blank" className="button primary" href={candidate.cv_url}>
+          {/* <a target="_blank" className="button primary" href={candidate.cv_url}>
             Donwload CV
-          </a>
+          </a> */}
           <a target="_blank" className="button" href={candidate.portfolio_url}>
             View portfolio
           </a>
