@@ -1,6 +1,6 @@
 // Project files
 import iSkillSet from "interfaces/iSkillSet";
-import "styles/components/ItemSkillSet.sass";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Interface
 interface iProps {
@@ -14,11 +14,18 @@ interface iProps {
 export default function ItemSkillSet({ item }: iProps) {
   const { name, icon, skills } = item;
 
-  const Items = skills.map((item) => <li>{item}</li>);
+  const Items = skills.map((item) => (
+    <li>
+      <span className="label">{item}</span>
+      <span className="square">
+        <FontAwesomeIcon className="icon" icon={["fas", "check"]} />
+      </span>
+    </li>
+  ));
 
   return (
     <article className="item-skill-set">
-      <h3>
+      <h3 className="title">
         {icon} {name}
       </h3>
       <ul>{Items}</ul>

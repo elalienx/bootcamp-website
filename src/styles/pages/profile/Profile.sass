@@ -1,0 +1,69 @@
+#profile
+    background-color: red
+
+    .hero, .skills, .blockquote, .footer
+        overflow: auto // to respect the container margin
+
+    .hero
+        background-color: $swatch-purple
+        color: white
+
+        .star-rating
+            text-transform: uppercase
+
+    .skills
+        background-color: white
+
+        h2
+            text-align: center
+
+        .item-skill-set
+            
+            ul
+                list-style: none
+                padding: 0
+
+            li
+                $size: 50px
+
+                margin-bottom: $space-small
+                display: flex
+                align-items: center
+                height: $size
+                background-color: $swatch-blue
+                color: white
+
+                .label
+                    margin-left: $space-small
+                    margin-right: auto
+
+                .square
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    width: $size
+                    height: $size
+                    background-color: $swatch-cyan
+                    color: $swatch-blue
+
+    .blockquote
+        background-color: $color-tertiary
+        color: white
+        text-align: center
+
+        h2, .quote-author
+            color: $color-secondary
+
+        p
+            font-style: italic
+        
+        .quote-author
+            text-transform: uppercase
+            font-weight: bold
+
+    .footer
+        background-color: white
+        text-align: center
+
+        .button
+            margin-right: $space-small

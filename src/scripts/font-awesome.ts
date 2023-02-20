@@ -1,6 +1,7 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
+  faCheck,
   faCode,
   faEnvelope,
   faLink,
@@ -12,7 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
-  fab,
+  faCheck,
   faCode,
   faEnvelope,
   faLink,
