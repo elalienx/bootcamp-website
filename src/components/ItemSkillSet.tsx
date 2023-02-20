@@ -14,8 +14,8 @@ interface iProps {
 export default function ItemSkillSet({ item }: iProps) {
   const { name, icon, skills } = item;
 
-  const Items = skills.map((item) => (
-    <li>
+  const Items = skills.map((item, index) => (
+    <li key={index}>
       <span className="label">{item}</span>
       <span className="square">
         <FontAwesomeIcon className="icon" icon={["fas", "check"]} />
@@ -26,7 +26,8 @@ export default function ItemSkillSet({ item }: iProps) {
   return (
     <article className="item-skill-set">
       <h3 className="title">
-        {icon} {name}
+        {/* <FontAwesomeIcon className="icon" icon={["fas", icon]} /> */}
+        {name}
       </h3>
       <ul>{Items}</ul>
     </article>

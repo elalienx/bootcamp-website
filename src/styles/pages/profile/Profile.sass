@@ -1,12 +1,14 @@
 #profile
-    background-color: red
-
     .hero, .skills, .blockquote, .footer
         overflow: auto // to respect the container margin
 
     .hero
         background-color: $swatch-purple
         color: white
+
+        .container
+            display: flex
+            flex-direction: column-reverse
 
         .star-rating
             text-transform: uppercase
@@ -26,7 +28,7 @@
             li
                 $size: 50px
 
-                margin-bottom: $space-small
+                margin-bottom: $space-medium
                 display: flex
                 align-items: center
                 height: $size
@@ -36,11 +38,13 @@
                 .label
                     margin-left: $space-small
                     margin-right: auto
+                    line-height: 18px
 
                 .square
                     display: flex
                     align-items: center
                     justify-content: center
+                    flex-shrink: 0 // to avoid the label shrinking it
                     width: $size
                     height: $size
                     background-color: $swatch-cyan
@@ -56,6 +60,8 @@
 
         p
             font-style: italic
+            font-size: 21px
+            line-height: 24px
         
         .quote-author
             text-transform: uppercase
@@ -67,3 +73,27 @@
 
         .button
             margin-right: $space-small
+
+@media (min-width: $media-desktop)
+    #profile      
+        .hero .container
+            flex-direction: row
+            gap: $space-medium
+            
+            .content, img
+                width: 50%
+
+        .skills
+            .grid
+                display: grid
+                grid-template-columns: repeat(3, 1fr)
+                column-gap: $space-medium
+
+        .blockquote
+            p
+                font-size: 28px
+                line-height: 36px
+
+        .footer
+            width: 33%
+            margin: 0 auto

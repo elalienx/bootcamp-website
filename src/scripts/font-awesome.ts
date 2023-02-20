@@ -10,6 +10,8 @@ import {
   faSearch,
   faSitemap,
   faTable,
+  faServer,
+  faRecycle,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -21,5 +23,7 @@ library.add(
   faPencilRuler,
   faSearch,
   faSitemap,
-  faTable
+  faTable,
+  faServer,
+  faRecycle
 );

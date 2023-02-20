@@ -14,12 +14,12 @@
     "skill_set": [
       {
         "name": "JavaScript",
-        "icon": "",
+        "icon": "code",
         "skills": ["Functional programming", "Intermediate TypeScript"]
       },
       {
         "name": "Agile/Scrum",
-        "icon": "",
+        "icon": "recycle",
         "skills": [
           "Hold SCRUM daily stand up meetings",
           "Maintaining Product Backlogs",
@@ -28,7 +28,7 @@
       },
       {
         "name": "API's/Server",
-        "icon": "",
+        "icon": "server",
         "skills": [
           "Intermediate Node.js",
           "API creation with Express.js",
