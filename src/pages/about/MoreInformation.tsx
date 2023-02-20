@@ -7,8 +7,7 @@ import "styles/pages/about/MoreInformation.sass";
 
 export default function MoreInformation() {
   // Properties
-  const SLIDES_URL =
-    "http://novare-tech-education.web.app/files/curricula-spring-2022.pdf";
+  const SLIDES_URL = "http://novare-tech-education.web.app/files/curricula.pdf";
 
   return (
     <section className="more-information background-dark">
