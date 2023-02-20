@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 // Project files
 import ItemSkillSet from "components/ItemSkillSet";
 import data from "data/candidates.json";
+import ItemRatingt from "components/ItemRating";
 
 // Interface
 type PropParams = {
@@ -18,6 +19,10 @@ export default function Profile() {
 
   // Properties
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
+  const swedishRating = {
+    name: "Swedish level",
+    rating: candidate.swedish_level,
+  };
 
   // Components
   const ItemsSkillSet = candidate.skill_set.map((item, index) => (
@@ -35,9 +40,7 @@ export default function Profile() {
               {candidate.name}
             </h1>
             <p>{candidate.about}</p>
-            <span className="star-rating">
-              Swedish level: {candidate.swedish_level}
-            </span>
+            <ItemRatingt item={swedishRating} />
           </div>
           <img src={imageObject} alt="Candidate picture" />
         </div>
