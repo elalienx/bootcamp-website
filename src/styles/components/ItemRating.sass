@@ -1,0 +1,35 @@
+@import "styles/base/variables"
+
+.item-rating
+  display: flex
+  flex-direction: column
+
+  .label
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    text-transform: uppercase
+
+  .boxes
+    max-width: 160px
+    display: flex
+    justify-content: space-between
+
+  .boxes div
+    $size: $space-big
+    
+    display: inline-block
+    width: $size
+    height: $size
+    border: solid 2px $color-secondary
+
+  .boxes div.full
+    background-color: $color-secondary
+
+@media (min-width: $media-desktop)
+  .item-rating
+    .boxes div
+      $size: 20px
+
+      width: $size
+      height: $size

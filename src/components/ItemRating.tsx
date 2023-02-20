@@ -13,7 +13,7 @@ export default function ItemRatingt({ item }: iProps) {
   if (rating === 0) return null;
 
   return (
-    <div>
+    <div className="item-rating">
       <span className="label">{name}:</span>
       <div className="boxes">
         <div className={rating >= 1 ? "full" : ""}></div>
