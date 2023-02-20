@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "url": "katheryn-r",
+    "iteration": 3,
+    "hired": false,
+    "graduated": false,
+    "name": "Katheryn",
+    "about": "I'm Katheryn, a positive and ambitious person with a Bachelor's in Materials Engineering and in Software Development Technology. I studied full-stack development for six months at a boot camp before specializing in front-end at Novare Potential. I'm excited to apply my skills and collaborate with a fun and innovative team.",
+    "swedish_level": 3,
+    "pronoun": "her",
+    "quote_text": "Katherine is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her  Bachelor's thesis on Testing the material resistance of blades for cutting sugarcane sets her apart from other developers as she understands the real-world implications of writing unit tests. Making her a great asset for any company where quality assurance is crucial.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "skill_set": [
+      {
+        "name": "JavaScript",
+        "icon": "code",
+        "skills": ["Functional programming", "Intermediate TypeScript"]
+      },
+      {
+        "name": "Agile/Scrum",
+        "icon": "recycle",
+        "skills": [
+          "Hold SCRUM daily stand up meetings",
+          "Maintaining Product Backlogs",
+          "Pair programming"
+        ]
+      },
+      {
+        "name": "API's/Server",
+        "icon": "server",
+        "skills": [
+          "Intermediate Node.js",
+          "API creation with Express.js",
+          "ORM with Objetion.js",
+          "Relational database with PostgreSQL"
+        ]
+      }
+    ],
+    "cv_url": "https://s3.eu-west-1.amazonaws.com/pnty-prs3/novarepotential/f9270f86-fc4a-439e-bb27-1024703f9e20?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D%22Katheryn%20Rojas%20Ortiz%20CV.pdf%22&AWSAccessKeyId=AKIAJMPKGV2Q56GQJT7A&Signature=DqU06o%2BYPynV8ZwAcxYCu2zAJWQ%3D&Expires=1676903820",
+    "portfolio_url": "https://my-portfolio-4abe3.web.app/"
+  },
+  {
+    "id": 2,
+    "url": "nermeen-i",
+    "iteration": 3,
+    "hired": false,
+    "graduated": false,
+    "name": "Nermeen",
+    "about": "I'm Nermeen, a Computer and Information Science graduate. I have plenty of experience in User Interface design and web development. I am now specializing in React, and I'm excited to collaborate with a team that shares my passion for innovation and problem-solving.",
+    "swedish_level": 0,
+    "pronoun": "her",
+    "quote_text": "In a single phrase: Perfect CSS. Neermen's attention to detail is outstanding, often rivaling the teacher's results. Thus, the visual fidelity of her front-end applications rivals the quality of seasoned mid/senior developers. This design focus, combined with her previous senior roles, gives us plenty of confidence that Nermeen will become a valuable asset to your company.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "skill_set": [
+      {
+        "name": "Design",
+        "icon": "swatchbook",
+        "skills": [
+          "Mood boards & Style guides",
+          "Perfect mobile responsive design",
+          "Advanced knowledge of CSS",
+          "Mastery of CSS Flex box and Grid"
+        ]
+      },
+      {
+        "name": "JS + React",
+        "icon": "code",
+        "skills": [
+          "Functional programming",
+          "Great coding practices",
+          "Query API endpoints"
+        ]
+      },
+      {
+        "name": "Agile + Leadership",
+        "icon": "recycle",
+        "skills": [
+          "Work experience using Sprints",
+          "Create & maintain Product Backlogs",
+          "Experience as lead developer"
+        ]
+      }
+    ],
+    "cv_url": "cv_url",
+    "portfolio_url": "https://portfolio-9f77e.web.app/"
+  },
+  {
+    "id": 3,
+    "url": "poongothai-r",
+    "iteration": 3,
+    "hired": false,
+    "graduated": false,
+    "name": "Poongothai",
+    "about": "I'm Poongothai, a passionate and motivated person who is a great team player with an easygoing attitude. I have a Bachelor of Engineering in Electronics and Communication, and I am always on the lookout for opportunities to learn and improve. I consider myself to be well-structured and optimistic, and I believe in solving real-world problems with technology.",
+    "swedish_level": 2,
+    "pronoun": "her",
+    "quote_text": "Poongothai takes feedback in a great way and when reviewing her following projects, I can see the feedback implemented, and the project clearly shows that she keeps researching a particular topic to grow as a developer.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "skill_set": [
+      {
+        "name": "Design",
+        "icon": "swatchbook",
+        "skills": ["Basics of UI design", "Good level of CSS"]
+      },
+      {
+        "name": "JS + React",
+        "icon": "code",
+        "skills": [
+          "Functional programming",
+          "Great coding practices",
+          "Query API endpoints"
+        ]
+      },
+      {
+        "name": "API's/Server",
+        "icon": "server",
+        "skills": [
+          "Create API's with SpringBoot",
+          "Database setup and configuration",
+          "Authentication systems",
+          "Store media files in the server"
+        ]
+      }
+    ],
+    "cv_url": "cv_url",
+    "portfolio_url": "https://github.com/Poongothai-R/Portfolio_1"
+  },
+  {
+    "id": 4,
+    "url": "sulekha-j",
+    "iteration": 3,
+    "hired": false,
+    "graduated": false,
+    "name": "Sulekha",
+    "about": "I'm Sulekha, an aspiring Frontend developer with a Bachelor's in information technology, currently working in administration. I am motivated, driven, and a fast learner with a curiosity in art and technology, Looking forward to a new career opportunity and a career change.",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "Sulekha is a talented developer who excels in both frontend and backend development. She has a strong grasp of HTML, CSS, and JavaScript. Sulekha also has experience in database systems and can create dynamic web applications that can handle data storage and retrieval. With her ability to integrate frontend and backend technologies, Sulekha can create efficient web applications optimized for performance and ease of use.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "skill_set": [
+      {
+        "name": "Design",
+        "icon": "swatchbook",
+        "skills": ["Basics of UI design", "Good level of CSS"]
+      },
+      {
+        "name": "JS + React + Agile",
+        "icon": "code",
+        "skills": [
+          "Functional programming",
+          "Great coding practices",
+          "Query API endpoints",
+          "Pair programming"
+        ]
+      },
+      {
+        "name": "API's/Server",
+        "icon": "server",
+        "skills": [
+          "Create API's with SpringBoot",
+          "Database setup and configuration",
+          "Authentication systems"
+        ]
+      }
+    ],
+    "cv_url": "cv_url",
+    "portfolio_url": "https://sulekhajamaluddin-portfolio.web.app/"
+  },
+  {
+    "id": 5,
+    "url": "sylvia-t",
+    "iteration": 3,
+    "hired": false,
+    "graduated": false,
+    "name": "Sylvia",
+    "about": "I'm Sylvia, a dedicated and creative person with eight years of experience facilitating and supporting human interactions in software. I like to maintain user-centric designs while adhering to UI principles to create inviting interfaces for everything from mobile apps to complex systems. ",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "Sylvia is an accomplished UI designer with a keen eye for aesthetics and a deep understanding of user experience. Her designs look visually appealing and are also thoughtfully structured to create a good balance between graphic design and usability. But most importantly, Sylvia's greatest strength is her ability to translate her graphic designs into real web applications using React and CSS/SASS.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "skill_set": [
+      {
+        "name": "Design",
+        "icon": "swatchbook",
+        "skills": [
+          "Mood boards & Style guides",
+          "Perfect mobile responsive design",
+          "Advanced knowledge of CSS",
+          "Mastery of CSS Flex box and Grid"
+        ]
+      },
+      {
+        "name": "JS + React",
+        "icon": "code",
+        "skills": ["Functional programming", "Query API endpoints"]
+      },
+      {
+        "name": "Agile + Leadership",
+        "icon": "recycle",
+        "skills": [
+          "Work experience using Sprints",
+          "Create & maintain Product Backlogs",
+          "Pair programming"
+        ]
+      }
+    ],
+    "cv_url": "cv_url",
+    "portfolio_url": "https://portfolio-571e7.web.app/"
+  }
+]
