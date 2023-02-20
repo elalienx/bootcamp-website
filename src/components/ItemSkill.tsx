@@ -7,19 +7,16 @@ interface iProps {
   item: iSkill;
 }
 
+/**
+ * This will be re-utilized for the new skills that have the checkmark icon.
+ * Then another component will beused for the Swedish level that will behave like the old item skill
+ */
 export default function ItemSkill({ item }: iProps) {
-  const { name, rating } = item;
+  const { name } = item;
 
   return (
     <article className="item-skill">
       <span className="label">{name}</span>
-      <div className="boxes">
-        <div className={rating >= 1 ? "full" : ""}></div>
-        <div className={rating >= 2 ? "full" : ""}></div>
-        <div className={rating >= 3 ? "full" : ""}></div>
-        <div className={rating >= 4 ? "full" : ""}></div>
-        <div className={rating >= 5 ? "full" : ""}></div>
-      </div>
     </article>
   );
 }

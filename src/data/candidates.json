@@ -5,6 +5,18 @@
     "iteration": 3,
     "hired": false,
     "graduated": false,
-    "name": "Katheryn"
+    "name": "Katheryn",
+    "about": "I'm Katheryn, a positive and ambitious person with a Bachelor's in Materials Engineering and in Software Development Technology. I studied full-stack development for six months at a boot camp before specializing in front-end at Novare Potential. I'm excited to apply my skills and collaborate with a fun and innovative team.",
+    "swedish_level": 3,
+    "pronoun": "her",
+    "quote_text": "Katherine is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her  Bachelor's thesis on Testing the material resistance of blades for cutting sugarcane sets her apart from other developers as she understands the real-world implications of writing unit tests. Making her a great asset for any company where quality assurance is crucial.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "tech_skills": [
+      { "name": "", "icon": "", "skills": ["", "", ""] },
+      { "name": "", "icon": "", "skills": ["", "", ""] },
+      { "name": "", "icon": "", "skills": ["", "", ""] }
+    ],
+    "cv_url": "https://s3.eu-west-1.amazonaws.com/pnty-prs3/novarepotential/f9270f86-fc4a-439e-bb27-1024703f9e20?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D%22Katheryn%20Rojas%20Ortiz%20CV.pdf%22&AWSAccessKeyId=AKIAJMPKGV2Q56GQJT7A&Signature=DqU06o%2BYPynV8ZwAcxYCu2zAJWQ%3D&Expires=1676903820",
+    "portfolio_url": "https://my-portfolio-4abe3.web.app/"
   }
 ]
