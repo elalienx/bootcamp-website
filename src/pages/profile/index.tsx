@@ -17,6 +17,8 @@ export default function Profile() {
   // safeguard
   if (candidate === undefined) return <p>No candidate found</p>;
 
+  // Components
+
   return (
     <div id="profile">
       <header className="hero">

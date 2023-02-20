@@ -1,5 +1,5 @@
 // Project files
-import iSkill from "./iSkill";
+import iSkillSet from "./iSkillSet";
 
 export default interface iCandidate {
   // ID
@@ -18,7 +18,7 @@ export default interface iCandidate {
   pronoun: string;
   quote_text: string;
   quote_author: string;
-  tech_skills: iSkill[];
+  skill_set: iSkillSet[];
 
   // Links
   cv_url: string;
