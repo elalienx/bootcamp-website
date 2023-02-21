@@ -6,10 +6,10 @@
     "hired": false,
     "graduated": false,
     "name": "Katheryn",
-    "about": "I'm Katheryn, a positive and ambitious person with a Bachelor's in Materials Engineering and in Software Development Technology. I studied full-stack development for six months at a boot camp before specializing in front-end at Novare Potential. I'm excited to apply my skills and collaborate with a fun and innovative team.",
+    "about": "I'm Katheryn, a positive and ambitious person with a Bachelor's in Materials Engineering and another in Software Development Technology. I studied full-stack development for six months at a boot camp before specializing in  Frontend at Novare Potential. I'm excited to apply my skills and collaborate with a fun and innovative team.",
     "swedish_level": 3,
     "pronoun": "her",
-    "quote_text": "Katherine is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her  Bachelor's thesis on Testing the material resistance of blades for cutting sugarcane sets her apart from other developers as she understands the real-world implications of writing unit tests. Making her a great asset for any company where quality assurance is crucial.",
+    "quote_text": "Katheryn is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her Bachelor's thesis on Testing the material resistance of blades for cutting sugarcanes sets her apart from other developers as she understands the real-world implications of writing unit tests. She will be a great asset for any company where quality assurance is crucial.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
     "skill_set": [
       {
@@ -52,7 +52,7 @@
     "about": "I'm Nermeen, a Computer and Information Science graduate. I have plenty of experience in User Interface design and web development. I am now specializing in React, and I'm excited to collaborate with a team that shares my passion for innovation and problem-solving.",
     "swedish_level": 0,
     "pronoun": "her",
-    "quote_text": "In a single phrase: Perfect CSS. Neermen's attention to detail is outstanding, often rivaling the teacher's results. Thus, the visual fidelity of her front-end applications rivals the quality of seasoned mid/senior developers. This design focus, combined with her previous senior roles, gives us plenty of confidence that Nermeen will become a valuable asset to your company.",
+    "quote_text": "In a single phrase: Perfect CSS.Nermeen's attention to detail is outstanding, often rivaling the teacher's results. Thus, the visual fidelity of her front-end applications rivals the quality of seasoned mid/senior developers. This design focus, combined with her previous senior roles, gives us plenty of confidence that Nermeen will become a valuable asset to your company.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
     "skill_set": [
       {
@@ -139,7 +139,7 @@
     "hired": false,
     "graduated": false,
     "name": "Sulekha",
-    "about": "I'm Sulekha, an aspiring Frontend developer with a Bachelor's in information technology, currently working in administration. I am motivated, driven, and a fast learner with a curiosity in art and technology, Looking forward to a new career opportunity and a career change.",
+    "about": "I'm Sulekha, an aspiring Frontend developer with a Bachelor's in information technology. I'm a motivated and driven fast learner with a curiosity in art and technology, and I'm looking forward to a career within IT.",
     "swedish_level": 1,
     "pronoun": "her",
     "quote_text": "Sulekha is a talented developer who excels in both frontend and backend development. She has a strong grasp of HTML, CSS, and JavaScript. Sulekha also has experience in database systems and can create dynamic web applications that can handle data storage and retrieval. With her ability to integrate frontend and backend technologies, Sulekha can create efficient web applications optimized for performance and ease of use.",
@@ -182,7 +182,7 @@
     "hired": false,
     "graduated": false,
     "name": "Sylvia",
-    "about": "I'm Sylvia, a dedicated and creative person with eight years of experience facilitating and supporting human interactions in software. I like to maintain user-centric designs while adhering to UI principles to create inviting interfaces for everything from mobile apps to complex systems. ",
+    "about": "I'm Sylvia, a dedicated and creative person with eight years of experience in facilitating and supporting human interactions in software. I like to maintain user-centric designs while adhering to UI principles to create inviting interfaces for everything from mobile apps to complex systems. ",
     "swedish_level": 1,
     "pronoun": "her",
     "quote_text": "Sylvia is an accomplished UI designer with a keen eye for aesthetics and a deep understanding of user experience. Her designs look visually appealing and are also thoughtfully structured to create a good balance between graphic design and usability. But most importantly, Sylvia's greatest strength is her ability to translate her graphic designs into real web applications using React and CSS/SASS.",

@@ -6,7 +6,7 @@ interface iProps {
 }
 
 export default function Footer({ item }: iProps) {
-  const { url, pronoun, portfolio_url } = item;
+  const { url, name, pronoun, portfolio_url } = item;
 
   // Properties
   const CV_URL = `http://novare-tech-education.web.app/files/student-cv/${url}.pdf`;
@@ -14,10 +14,10 @@ export default function Footer({ item }: iProps) {
   return (
     <footer className="footer">
       <div className="container">
-        <h2>Are you interested in {pronoun}?</h2>
+        <h2>Are you interested in {name}?</h2>
         <p>
-          You can check more details by checking {pronoun} CV and the projects
-          that it has done with us during the boot camp.
+          See more details by checking {pronoun} CV and the projects that it has
+          done with us during the boot camp.
         </p>
         <a target="_blank" className="button primary" href={CV_URL}>
           Donwload CV

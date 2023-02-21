@@ -12,10 +12,7 @@ export default function Footer() {
     <footer id="footer">
       <div className="container">
         <h2>Contact us</h2>
-        <p>
-          Candidates can be recruited through Novare Potential on an initial
-          consultancy set up. Please contact us to find out more:
-        </p>
+        <p>Candidates can be recruited through Novare Potential</p>
         <ul className="contact-list">{Contacts}</ul>
         <small>© 2023 Novare Human Capital</small>
       </div>
