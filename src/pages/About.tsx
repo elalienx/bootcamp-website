@@ -1,9 +1,9 @@
 // Project files
-import Introduction from "./Introduction";
-import Technologies from "./Technologies";
-import Process from "./Process";
-import Projects from "./Projects";
-import MoreInformation from "./MoreInformation";
+import Introduction from "./about/Introduction";
+import Technologies from "./about/Technologies";
+import Process from "./about/Process";
+import Projects from "./about/Projects";
+import MoreInformation from "./about/MoreInformation";
 import "styles/pages/about/About.sass";
 
 export default function About() {

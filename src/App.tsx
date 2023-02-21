@@ -5,10 +5,10 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Footer from "components/Footer";
 import ScrollToTop from "components/ScrollToTop";
 import NavigationBar from "components/NavigationBar";
-import About from "pages/about";
-import Candidates from "pages/candidates";
-import Home from "pages/home";
-import Profile from "pages/profile";
+import About from "pages/About";
+import Candidates from "pages/Candidates";
+import Home from "pages/Home";
+import Profile from "pages/Profile";
 import "scripts/font-awesome";
 import "styles/style.sass";
 
