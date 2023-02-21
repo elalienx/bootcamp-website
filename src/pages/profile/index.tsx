@@ -66,10 +66,10 @@ export default function Profile() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <h2>Interested in {candidate.pronoun}?</h2>
+          <h2>Are you interested in {candidate.pronoun}?</h2>
           <p>
             You can check more details by checking {candidate.pronoun} CV and
-            projece that has done with us during the boot camp
+            the projects that it has done with us during the boot camp.
           </p>
           {/* <a target="_blank" className="button primary" href={candidate.cv_url}>
             Donwload CV
