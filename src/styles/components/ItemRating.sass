@@ -1,32 +1,21 @@
 @import "styles/base/variables"
 
 .item-rating
-  display: flex
-  flex-direction: column
+  $color: $color-secondary
 
   .label
-    white-space: nowrap
-    overflow: hidden
-    text-overflow: ellipsis
     text-transform: uppercase
-    margin-bottom: $space-small
 
-  .boxes div
-    $size: $space-big
-    
+  .box
+    border: solid 2px $color
+    padding: $space-small
     margin-right: $space-small
-    display: inline-block
-    width: $size
-    height: $size
-    border: solid 2px $color-secondary
 
-  .boxes div.full
-    background-color: $color-secondary
+    .icon
+      color: $color-primary
 
-@media (min-width: $media-desktop)
-  .item-rating
-    .boxes div
-      $size: 32px
+  .box.full
+    background-color: $color
 
-      width: $size
-      height: $size
+
+

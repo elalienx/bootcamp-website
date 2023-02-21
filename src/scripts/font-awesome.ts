@@ -12,6 +12,7 @@ import {
   faSearch,
   faServer,
   faSitemap,
+  faStar,
   faSwatchbook,
   faTable,
 } from "@fortawesome/free-solid-svg-icons";
@@ -28,6 +29,7 @@ library.add(
   faSearch,
   faServer,
   faSitemap,
+  faStar,
   faSwatchbook,
   faTable
 );

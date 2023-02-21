@@ -1,4 +1,5 @@
 // Project files
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import iRating from "interfaces/iRating";
 
 // Interface
@@ -12,15 +13,23 @@ export default function ItemRatingt({ item }: iProps) {
   // safeguard
   if (rating === 0) return null;
 
+  // Component
+  const IconStar = <FontAwesomeIcon className="icon" icon={["fas", "star"]} />;
+
+  // Methods
+  function boxFill(value: number, maxRating: number): string {
+    return maxRating >= value ? "box full" : "box";
+  }
+
   return (
     <div className="item-rating">
-      <span className="label">{name}:</span>
-      <div className="boxes">
-        <div className={rating >= 1 ? "full" : ""}></div>
-        <div className={rating >= 2 ? "full" : ""}></div>
-        <div className={rating >= 3 ? "full" : ""}></div>
-        <div className={rating >= 4 ? "full" : ""}></div>
-        <div className={rating >= 5 ? "full" : ""}></div>
+      <p className="label">{name}:</p>
+      <div>
+        <span className={boxFill(1, rating)}>{IconStar}</span>
+        <span className={boxFill(2, rating)}>{IconStar}</span>
+        <span className={boxFill(3, rating)}>{IconStar}</span>
+        <span className={boxFill(4, rating)}>{IconStar}</span>
+        <span className={boxFill(5, rating)}>{IconStar}</span>
       </div>
     </div>
   );
