@@ -1,6 +1,6 @@
 // Project files
 import iProject from "interfaces/iProject";
-import "styles/components/ItemProject.sass";
+
 
 // Interface
 interface iProps {

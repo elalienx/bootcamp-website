@@ -4,7 +4,7 @@ import { IconPrefix, IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Project files
 import iTechnology from "interfaces/iTechnology";
-import "styles/components/ItemTechnology.sass";
+
 
 // Interface
 interface iProps {

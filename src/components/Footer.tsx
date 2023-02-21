@@ -1,7 +1,6 @@
 // Project files
 import ItemContact from "components/ItemContact";
 import data from "data/contact.json";
-import "styles/components/Footer.sass";
 
 export default function Footer() {
   // Components

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Project files
 import iCandidate from "interfaces/iCandidate";
-import "styles/components/ItemCandidate.sass";
+
 
 // Interface
 interface iProps {

@@ -1,6 +1,8 @@
+// Node modules
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 // Project files
 import iSkillSet from "interfaces/iSkillSet";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Interface
 interface iProps {
@@ -8,8 +10,8 @@ interface iProps {
 }
 
 /**
- * This will be re-utilized for the new skills that have the checkmark icon.
- * Then another component will beused for the Swedish level that will behave like the old item skill
+ * ItemTechnology.tsx has the solution to put the dynamic icon inside the header
+ * using TypeScript props
  */
 export default function ItemSkillSet({ item }: iProps) {
   const { name, icon, skills } = item;
