@@ -1,0 +1,46 @@
+#profile .skills
+  background-color: white
+
+  h2
+    text-align: center
+
+  // This is the SASS code of ItemSkillSet
+  .item-skill-set
+    .title .icon
+      margin-right: $space-small
+      
+    ul
+      list-style: none
+      padding: 0
+
+    li
+      $size: 50px
+
+      margin-bottom: $space-medium
+      display: flex
+      align-items: center
+      height: $size
+      background-color: $swatch-blue
+      color: white
+
+      .label
+        margin-left: $space-small
+        margin-right: auto
+        line-height: 18px
+
+      .square
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-shrink: 0 // to avoid the label shrinking it
+        width: $size
+        height: $size
+        background-color: $swatch-cyan
+        color: $swatch-blue
+
+@media (min-width: $media-desktop)
+  #profile .skills
+    .grid
+      display: grid
+      grid-template-columns: repeat(3, 1fr)
+      column-gap: $space-medium

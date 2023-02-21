@@ -1,0 +1,20 @@
+#profile .hero
+  background-color: $swatch-purple
+  color: white
+
+  .container
+    display: flex
+    flex-direction: column-reverse
+
+  // Refactor this is a separate component (to add the starts)
+  .star-rating
+    text-transform: uppercase
+
+@media (min-width: $media-desktop)
+  #profile .hero 
+    .container
+      flex-direction: row
+      gap: $space-medium
+            
+      .content, img
+        width: 50%

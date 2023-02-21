@@ -30,6 +30,7 @@ export default function ItemSkillSet({ item }: iProps) {
     <article className="item-skill-set">
       <h3 className="title">
         <FontAwesomeIcon
+          className="icon"
           icon={[icon_prefix as IconPrefix, icon_name as IconName]}
         />
         {name}

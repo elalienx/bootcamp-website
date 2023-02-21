@@ -21,6 +21,6 @@ export default interface iCandidate {
   skill_set: iSkillSet[];
 
   // Links
-  cv_url: string;
   portfolio_url: string;
+  // Note the CV link is dynamically created by mixing the url + the folder with the cv's
 }

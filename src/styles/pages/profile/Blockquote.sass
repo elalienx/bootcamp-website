@@ -1,0 +1,26 @@
+#profile .blockquote
+  background-color: $color-tertiary
+  color: white
+  text-align: center
+
+  h2, .quote-author
+    color: $color-secondary
+
+  p
+    $size: 21px
+    
+    font-size: $size
+    line-height: calc($size * 1.5)
+    font-style: italic
+
+  .quote-author
+    text-transform: uppercase
+    font-weight: bold
+
+@media (min-width: $media-desktop)
+    #profile .blockquote
+      p
+        $size: 28px
+
+        font-size: $size
+        line-height: calc($size * 1.5)

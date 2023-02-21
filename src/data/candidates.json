@@ -40,7 +40,6 @@
         ]
       }
     ],
-    "cv_url": "https://s3.eu-west-1.amazonaws.com/pnty-prs3/novarepotential/f9270f86-fc4a-439e-bb27-1024703f9e20?response-content-type=application%2Fpdf&response-content-disposition=inline%3B%20filename%3D%22Katheryn%20Rojas%20Ortiz%20CV.pdf%22&AWSAccessKeyId=AKIAJMPKGV2Q56GQJT7A&Signature=DqU06o%2BYPynV8ZwAcxYCu2zAJWQ%3D&Expires=1676903820",
     "portfolio_url": "https://my-portfolio-4abe3.web.app/"
   },
   {
@@ -88,7 +87,6 @@
         ]
       }
     ],
-    "cv_url": "cv_url",
     "portfolio_url": "https://portfolio-9f77e.web.app/"
   },
   {
@@ -132,7 +130,6 @@
         ]
       }
     ],
-    "cv_url": "cv_url",
     "portfolio_url": "https://github.com/Poongothai-R/Portfolio_1"
   },
   {
@@ -176,7 +173,6 @@
         ]
       }
     ],
-    "cv_url": "cv_url",
     "portfolio_url": "https://sulekhajamaluddin-portfolio.web.app/"
   },
   {
@@ -220,7 +216,6 @@
         ]
       }
     ],
-    "cv_url": "cv_url",
     "portfolio_url": "https://portfolio-571e7.web.app/"
   }
 ]
