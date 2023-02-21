@@ -1,6 +1,3 @@
-// Project files
-import "styles/pages/home/Hero.sass";
-
 export default function Hero() {
   return (
     <header className="hero">

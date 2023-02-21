@@ -7,7 +7,6 @@ export default function randomCandidates(array: iCandidate[], length: number) {
 
   const clonedArray = [...array];
   const shuffled = shuffleArray(clonedArray);
-
   const randomCandidates = shuffled.slice(0, length);
 
   return randomCandidates;

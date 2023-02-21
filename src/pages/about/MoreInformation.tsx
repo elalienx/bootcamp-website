@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // Project files
 import Image from "assets/images/more-information.jpg";
-import "styles/pages/about/MoreInformation.sass";
 
 export default function MoreInformation() {
   // Properties

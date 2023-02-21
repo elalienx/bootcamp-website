@@ -6,7 +6,6 @@ import Image from "assets/images/candidates.jpg";
 import Item from "components/ItemCandidate";
 import iCandidate from "interfaces/iCandidate";
 import randomCandidates from "./randomCandidates";
-import "styles/pages/home/Candidates.sass";
 
 interface iProps {
   candidates: iCandidate[];

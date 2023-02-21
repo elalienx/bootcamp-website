@@ -1,6 +1,6 @@
 // Project files
 import Image from "assets/images/about.jpg";
-import "styles/pages/about/Introduction.sass";
+
 
 export default function Introduction() {
   const imageDescription =

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 // Project files
 import Image from "assets/images/about.jpg";
-import "styles/pages/home/About.sass";
 
 export default function About() {
   return (
@@ -15,7 +14,6 @@ export default function About() {
       />
 
       <div className="container">
-        {/* Top - Left */}
         <div className="content">
           <h2>Interested in hiring Frontend Developers?</h2>
           <p>
@@ -30,7 +28,6 @@ export default function About() {
           </Link>
         </div>
 
-        {/* Bottom - Right */}
         <img
           className="support-picture"
           src={Image}
