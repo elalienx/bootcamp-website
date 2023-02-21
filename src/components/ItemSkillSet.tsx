@@ -1,5 +1,6 @@
 // Node modules
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconPrefix, IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Project files
 import iSkillSet from "interfaces/iSkillSet";
@@ -14,7 +15,7 @@ interface iProps {
  * using TypeScript props
  */
 export default function ItemSkillSet({ item }: iProps) {
-  const { name, icon, skills } = item;
+  const { name, icon_prefix, icon_name, skills } = item;
 
   const Items = skills.map((item, index) => (
     <li key={index}>
@@ -28,7 +29,9 @@ export default function ItemSkillSet({ item }: iProps) {
   return (
     <article className="item-skill-set">
       <h3 className="title">
-        {/* <FontAwesomeIcon className="icon" icon={["fas", icon]} /> */}
+        <FontAwesomeIcon
+          icon={[icon_prefix as IconPrefix, icon_name as IconName]}
+        />
         {name}
       </h3>
       <ul>{Items}</ul>

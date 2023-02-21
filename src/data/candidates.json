@@ -14,12 +14,14 @@
     "skill_set": [
       {
         "name": "JavaScript",
-        "icon": "code",
+        "icon_prefix": "fab",
+        "icon_name": "js",
         "skills": ["Functional programming", "Intermediate TypeScript"]
       },
       {
         "name": "Agile/Scrum",
-        "icon": "recycle",
+        "icon_prefix": "fas",
+        "icon_name": "recycle",
         "skills": [
           "Hold SCRUM daily stand up meetings",
           "Maintaining Product Backlogs",
@@ -28,7 +30,8 @@
       },
       {
         "name": "API's/Server",
-        "icon": "server",
+        "icon_prefix": "fas",
+        "icon_name": "server",
         "skills": [
           "Intermediate Node.js",
           "API creation with Express.js",
@@ -55,7 +58,8 @@
     "skill_set": [
       {
         "name": "Design",
-        "icon": "swatchbook",
+        "icon_prefix": "fas",
+        "icon_name": "swatchbook",
         "skills": [
           "Mood boards & Style guides",
           "Perfect mobile responsive design",
@@ -65,7 +69,8 @@
       },
       {
         "name": "JS + React",
-        "icon": "code",
+        "icon_prefix": "fab",
+        "icon_name": "js",
         "skills": [
           "Functional programming",
           "Great coding practices",
@@ -74,7 +79,8 @@
       },
       {
         "name": "Agile + Leadership",
-        "icon": "recycle",
+        "icon_prefix": "fas",
+        "icon_name": "recycle",
         "skills": [
           "Work experience using Sprints",
           "Create & maintain Product Backlogs",
@@ -100,12 +106,14 @@
     "skill_set": [
       {
         "name": "Design",
-        "icon": "swatchbook",
+        "icon_prefix": "fas",
+        "icon_name": "swatchbook",
         "skills": ["Basics of UI design", "Good level of CSS"]
       },
       {
         "name": "JS + React",
-        "icon": "code",
+        "icon_prefix": "fab",
+        "icon_name": "js",
         "skills": [
           "Functional programming",
           "Great coding practices",
@@ -114,7 +122,8 @@
       },
       {
         "name": "API's/Server",
-        "icon": "server",
+        "icon_prefix": "fas",
+        "icon_name": "server",
         "skills": [
           "Create API's with SpringBoot",
           "Database setup and configuration",
@@ -141,12 +150,14 @@
     "skill_set": [
       {
         "name": "Design",
-        "icon": "swatchbook",
+        "icon_prefix": "fas",
+        "icon_name": "swatchbook",
         "skills": ["Basics of UI design", "Good level of CSS"]
       },
       {
         "name": "JS + React + Agile",
-        "icon": "code",
+        "icon_prefix": "fab",
+        "icon_name": "react",
         "skills": [
           "Functional programming",
           "Great coding practices",
@@ -156,7 +167,8 @@
       },
       {
         "name": "API's/Server",
-        "icon": "server",
+        "icon_prefix": "fas",
+        "icon_name": "server",
         "skills": [
           "Create API's with SpringBoot",
           "Database setup and configuration",
@@ -182,7 +194,8 @@
     "skill_set": [
       {
         "name": "Design",
-        "icon": "swatchbook",
+        "icon_prefix": "fas",
+        "icon_name": "swatchbook",
         "skills": [
           "Mood boards & Style guides",
           "Perfect mobile responsive design",
@@ -192,12 +205,14 @@
       },
       {
         "name": "JS + React",
-        "icon": "code",
+        "icon_prefix": "fab",
+        "icon_name": "js",
         "skills": ["Functional programming", "Query API endpoints"]
       },
       {
         "name": "Agile + Leadership",
-        "icon": "recycle",
+        "icon_prefix": "fas",
+        "icon_name": "recycle",
         "skills": [
           "Work experience using Sprints",
           "Create & maintain Product Backlogs",
