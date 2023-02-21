@@ -1,0 +1,23 @@
+.item-skill
+  $size: 50px
+
+  display: flex
+  align-items: center
+  height: $size
+  background-color: $swatch-blue
+  color: white
+
+  .label
+    margin-left: $space-small
+    margin-right: auto
+    line-height: 18px
+
+  .square
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-shrink: 0 // to avoid the label shrinking it
+    width: $size
+    height: $size
+    background-color: $swatch-cyan
+    color: $swatch-blue
