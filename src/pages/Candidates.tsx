@@ -13,7 +13,7 @@ export default function Candidates() {
   const Items = data.map((item) => <Item key={item.id} item={item} />);
 
   return (
-    <div id="candidates" className="container">
+    <div id="candidates" className="page container">
       <h1>All the candidates</h1>
       <p>
         Here you can learn more about the candidates's skills, education and

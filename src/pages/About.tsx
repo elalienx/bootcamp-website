@@ -7,7 +7,7 @@ import MoreInformation from "./about/MoreInformation";
 
 export default function About() {
   return (
-    <div id="about">
+    <div id="about" className="page">
       <Introduction />
       <Process />
       <Technologies />

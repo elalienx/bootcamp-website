@@ -30,7 +30,7 @@ export default function Profile() {
   ));
 
   return (
-    <div id="profile">
+    <div id="profile" className="page">
       {/* Header */}
       <header className="hero">
         <div className="container">

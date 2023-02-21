@@ -1,3 +1,6 @@
+// Fix #1: For the footer being in the middle of the screen on short pages
+
+  
 @import "./variables"
 
 *
@@ -7,7 +10,7 @@
 body
   margin: 0
   position: relative // for footer
-  min-height: 100vh // for footer
+
 
 img
   max-width: 100%
@@ -17,9 +20,16 @@ img
 .App
   @include standard-text-mobile
 
+  display: flex // Fix #1
+  flex-direction: column // Fix #1
+  min-height: 100vh // Fix #1
+
   color: $color-text
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+
+  .page
+    flex-grow: 1 // Fix #1
 
 .container
   margin: $space-big

@@ -6,7 +6,7 @@ import About from "./home/About";
 
 export default function Home() {
   return (
-    <div id="home">
+    <div id="home" className="page">
       <Hero />
       <About />
       <MiniCandidates candidates={data} />
