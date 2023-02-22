@@ -28,8 +28,8 @@ export default function MiniCandidates({ candidates }: iProps) {
         <div className="content">
           <h2>Meet the candidates</h2>
           <p>
-            Here you can learn more about the candidates' skills, education and
-            experience. Make sure to check out their portfolios.
+            Learn more about the candidates' skills, education, and experience.
+            Make sure to check out their portfolios.
           </p>
           <div className="component-items">
             {myCandidates.length < size ? InformationText : Items}
