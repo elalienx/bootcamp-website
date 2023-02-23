@@ -11,7 +11,7 @@ export default function Footer({ item }: iProps) {
   return (
     <footer className="footer">
       <div className="container">
-        <h2>Learn more about {name}?</h2>
+        <h2>Learn more about {name}</h2>
         <p>
           See details by checking {pronoun} projects done with us during the
           boot camp.
