@@ -13,8 +13,8 @@ export default function Footer({ item }: iProps) {
       <div className="container">
         <h2>Learn more about {name}?</h2>
         <p>
-          See more details by checking {pronoun} projects done with us during
-          the boot camp.
+          See details by checking {pronoun} projects done with us during the
+          boot camp.
         </p>
 
         <a target="_blank" className="button" href={portfolio_url}>
