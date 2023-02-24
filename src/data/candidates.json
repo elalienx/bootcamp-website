@@ -11,6 +11,7 @@
     "pronoun": "her",
     "quote_text": "Katheryn is always confident to ask questions to remove any doubt she or her classmates may have. Moreover, her Bachelor's thesis on Testing the material resistance of blades for cutting sugarcanes sets her apart from other developers as she understands the real-world implications of writing unit tests. She will be a great asset for any company where quality assurance is crucial.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://my-portfolio-4abe3.web.app/",
     "skill_set": [
       {
         "name": "JavaScript",
@@ -39,8 +40,7 @@
           "Relational database with PostgreSQL"
         ]
       }
-    ],
-    "portfolio_url": "https://my-portfolio-4abe3.web.app/"
+    ]
   },
   {
     "id": 2,
@@ -54,6 +54,7 @@
     "pronoun": "her",
     "quote_text": "In a single phrase: Perfect CSS. Nermeen's attention to detail is outstanding, often rivaling the teacher's results. Thus, the visual fidelity of her Frontend applications rivals the quality of seasoned mid/senior developers. This design focus, combined with her previous senior roles, gives us plenty of confidence that Nermeen will become a valuable asset to your company.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://portfolio-9f77e.web.app/",
     "skill_set": [
       {
         "name": "Design",
@@ -86,8 +87,7 @@
           "Experience as lead developer"
         ]
       }
-    ],
-    "portfolio_url": "https://portfolio-9f77e.web.app/"
+    ]
   },
   {
     "id": 3,
@@ -101,6 +101,7 @@
     "pronoun": "her",
     "quote_text": "Poongothai has a great understanding of the chain of events between the user's phone/computer in the front end and the server in the backend to create rich web applications. Furthermore, Poongothai is a great student because she is proactive in learning and applying concepts before anyone else and always implements the teacher recommendations. ",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://myportfolio-204f0.web.app",
     "skill_set": [
       {
         "name": "Design",
@@ -129,8 +130,7 @@
           "Store media files in the server"
         ]
       }
-    ],
-    "portfolio_url": "https://github.com/Poongothai-R/Portfolio_1"
+    ]
   },
   {
     "id": 4,
@@ -144,6 +144,7 @@
     "pronoun": "her",
     "quote_text": "Sulekha is a talented developer who excels in both frontend and backend development. She has a strong grasp of HTML, CSS, and JavaScript. Sulekha also has experience in database systems and can create dynamic web applications that can handle data storage and retrieval. With her ability to integrate frontend and backend technologies, Sulekha can create efficient web applications optimized for performance and ease of use.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://sulekhajamaluddin-portfolio.web.app/",
     "skill_set": [
       {
         "name": "Design",
@@ -172,8 +173,7 @@
           "Authentication systems"
         ]
       }
-    ],
-    "portfolio_url": "https://sulekhajamaluddin-portfolio.web.app/"
+    ]
   },
   {
     "id": 5,
@@ -187,6 +187,7 @@
     "pronoun": "her",
     "quote_text": "Sylvia is an accomplished UI designer with a keen eye for aesthetics and a deep understanding of user experience. Her designs look visually appealing and are also thoughtfully structured to create a good balance between graphic design and usability. But most importantly, Sylvia's greatest strength is her ability to translate her graphic designs into real web applications using React and CSS/SASS.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://portfolio-571e7.web.app/",
     "skill_set": [
       {
         "name": "Design",
@@ -215,7 +216,6 @@
           "Pair programming"
         ]
       }
-    ],
-    "portfolio_url": "https://portfolio-571e7.web.app/"
+    ]
   }
 ]

@@ -5,11 +5,11 @@ interface iProps {
   item: iCandidate;
 }
 
-export default function Footer({ item }: iProps) {
+export default function Projects({ item }: iProps) {
   const { name, pronoun, portfolio_url } = item;
 
   return (
-    <footer className="footer">
+    <footer className="projects">
       <div className="container">
         <h2>Learn more about {name}</h2>
         <p>

@@ -6,7 +6,7 @@ import data from "data/candidates.json";
 import Hero from "./profile/Hero";
 import Skills from "./profile/Skills";
 import Blockquote from "./profile/Blockquote";
-import Footer from "./profile/Footer";
+import Projects from "./profile/Projects";
 
 // Interface
 type PropParams = {
@@ -26,7 +26,7 @@ export default function Profile() {
       <Hero item={candidate} />
       <Skills item={candidate.skill_set} />
       <Blockquote item={candidate} />
-      <Footer item={candidate} />
+      <Projects item={candidate} />
     </div>
   );
 }
