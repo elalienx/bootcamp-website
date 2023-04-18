@@ -11,7 +11,7 @@
     "name": "SASS",
     "icon_prefix": "fab",
     "icon_name": "sass",
-    "description": "A CSS Post processor that allows students to better organize the visual aspects of their web applications."
+    "description": "A CSS preprocessor that allows students to better organize the visual aspects of their web applications."
   },
   {
     "id": 3,

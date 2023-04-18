@@ -2,37 +2,41 @@
 
 #navigation-bar
   padding: $space-small
-  height: 60px
-  background-color: $color-tertiary
   text-align: center
+
+  a
+    color: white
+
+  img
+    width: auto
+    height: 44px
 
   .container
     margin: 0 auto
     padding: 0 // overrides default container padding
 
-  img
-    width: auto
-    height: 44px
-  
-  .desktop-links
+  .desktop-links, .parent-link
     display: none
 
 @media (min-width: $media-desktop)
-  #navigation-bar
-    text-align: left
+  #navigation-bar .container
+    display: flex
+    align-items: center
 
-    img
-      display: inline-block
-      margin-right: $space-ultra
-      
-    .container
-      padding: 0 // overrides default container padding
+    .desktop-links, .parent-link
+      display: initial
 
+    .logo
+      margin-right: $space-big
 
     .desktop-links
-      margin: 0 auto
-      display: inline-block
+      display: flex
+      align-items: center
+      gap: $space-medium
+      margin-right: auto // to push the novare link to the right
 
-    .desktop-links a
-      margin-right: $space-medium
-      color: white
+    .parent-link
+      color: $color-secondary
+      
+      .icon
+        margin-right: $space-small
