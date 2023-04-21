@@ -6,10 +6,7 @@ interface iProps {
 }
 
 export default function Projects({ item }: iProps) {
-  const { url, name, pronoun, portfolio_url } = item;
-
-  // Properties
-  const CV_URL = `http://frontend-course.novare.se/files/students-cv/${url}.pdf`;
+  const { name, pronoun, portfolio_url } = item;
 
   return (
     <footer className="projects">
@@ -20,9 +17,6 @@ export default function Projects({ item }: iProps) {
           boot camp.
         </p>
 
-        <a target="_blank" className="button" href={CV_URL}>
-          Download CV
-        </a>
         <a target="_blank" className="button" href={portfolio_url}>
           View portfolio
         </a>
