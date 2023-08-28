@@ -3,14 +3,14 @@ export default function Hero() {
     <header className="hero">
       <div className="container">
         <h1 className="title">
-          Front
+          Frontend &
           <br />
-          End
+          Backend
           <br />
-          Course
+          Courses
         </h1>
         <h2 className="subtitle">
-          Training Program
+          Training Programs
           <br />
           Winter 2022 - Spring 2023
         </h2>
