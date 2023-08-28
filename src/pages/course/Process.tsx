@@ -16,8 +16,8 @@ export default function Process({ data }: iProps) {
         <h2>Process</h2>
         <p>
           Before we even start teaching about new framework features, we take
-          our time explaining how to organize projects. Here are our 7 steps for
-          each project students must deliver.
+          our time explaining how to organize projects. Here are the steps for
+          each project that the students must deliver.
         </p>
         <div className="component-items">{Items}</div>
       </div>

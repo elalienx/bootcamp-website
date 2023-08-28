@@ -15,13 +15,11 @@ export default function Course() {
 
   // Properties
   const selectedCourse = id === "frontend" ? Frontend : Backend;
-  const process = selectedCourse.process;
-  const technologies = selectedCourse.technologies;
-  const projects = selectedCourse.projects;
+  const { introduction, process, technologies, projects } = selectedCourse;
 
   return (
     <div id="course" className="page">
-      <Introduction />
+      <Introduction data={introduction} />
       <Process data={process} />
       <Technologies data={technologies} />
       <Projects data={projects} />
