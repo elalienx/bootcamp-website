@@ -1,4 +1,4 @@
-// NPM Packages
+// Node modules
 import React from "react";
 import ReactDOM from "react-dom";
 import { logEvent } from "@firebase/analytics";

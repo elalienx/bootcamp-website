@@ -1,4 +1,4 @@
-// NPM packages
+// Node modules
 import { useHistory } from "react-router-dom";
 
 // Project files

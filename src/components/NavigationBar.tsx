@@ -1,6 +1,5 @@
-// NPM Packaged
+// Node modules
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files
 import Logo from "assets/images/logo-white.png";
@@ -19,8 +18,9 @@ export default function NavigationBar() {
 
         {/* Desktop links */}
         <div className="desktop-links">
-          <Link to="/about">About</Link>
-          <Link to="/candidates">Meet the candidates</Link>
+          <Link to="/course/frontend">Frontend</Link>
+          <Link to="/course/backend">Backend</Link>
+          <Link to="/candidates">Candidates</Link>
         </div>
 
         {/* Parent link */}

@@ -1,8 +1,12 @@
 // Project files
 import Item from "components/ItemProject";
-import data from "data/projects.json";
+import iProject from "interfaces/iProject";
 
-export default function Technologies() {
+interface iProps {
+  data: iProject[];
+}
+
+export default function Technologies({ data }: iProps) {
   // Components
   const Items = data.map((item) => <Item key={item.id} item={item} />);
 

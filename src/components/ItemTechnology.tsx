@@ -1,10 +1,9 @@
-// NPM Packages
+// Node modules
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconPrefix, IconName } from "@fortawesome/fontawesome-svg-core";
 
 // Project files
 import iTechnology from "interfaces/iTechnology";
-
 
 // Interface
 interface iProps {

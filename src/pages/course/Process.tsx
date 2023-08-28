@@ -1,8 +1,12 @@
 // Project files
 import Item from "components/ItemTechnology";
-import data from "data/proccess.json";
+import iTechnology from "interfaces/iTechnology";
 
-export default function Technologies() {
+interface iProps {
+  data: iTechnology[];
+}
+
+export default function Process({ data }: iProps) {
   // Components
   const Items = data.map((item) => <Item key={item.id} item={item} />);
 

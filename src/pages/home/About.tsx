@@ -1,4 +1,4 @@
-// NPM Packaged
+// Node modules
 import { Link } from "react-router-dom";
 
 // Project files
@@ -22,9 +22,14 @@ export default function About() {
             from day 1. All of them have international backgrounds and they
             share the desire to become successful developers in Sweden.
           </p>
-          <Link className="button" to="/about">
-            Learn more
-          </Link>
+          <div className="buttons">
+            <Link className="button" to="/course/frontend">
+              Frontend
+            </Link>
+            <Link className="button" to="/course/backend">
+              Backend
+            </Link>
+          </div>
         </div>
 
         <img

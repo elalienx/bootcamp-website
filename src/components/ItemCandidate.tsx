@@ -1,9 +1,8 @@
-// NPM Packages
+// Node modules
 import { Link } from "react-router-dom";
 
 // Project files
 import iCandidate from "interfaces/iCandidate";
-
 
 // Interface
 interface iProps {

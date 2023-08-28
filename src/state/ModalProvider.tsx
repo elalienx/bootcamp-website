@@ -1,4 +1,4 @@
-// NPM packages
+// Node modules
 import { createContext, useContext, useState } from "react";
 
 // Interfaces
