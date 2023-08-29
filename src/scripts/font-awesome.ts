@@ -18,6 +18,7 @@ import {
   faCloudUploadAlt,
   faLeaf,
   faDatabase,
+  faProjectDiagram,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab);
@@ -38,5 +39,5 @@ library.add(
   faCloudUploadAlt,
   faLeaf,
   faDatabase,
-  faChartNetwork
+  faProjectDiagram
 );

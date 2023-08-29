@@ -91,7 +91,7 @@
       "id": 2,
       "name": "Hibernate",
       "icon_prefix": "fas",
-      "icon_name": "chart-network",
+      "icon_name": "project-diagram",
       "description": "A CSS preprocessor that allows students to better organize the visual aspects of their web applications."
     },
     {
