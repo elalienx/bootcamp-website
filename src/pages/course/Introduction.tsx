@@ -1,12 +1,13 @@
 interface iProps {
   data: {
+    title: string;
     text: string;
     imageUrl: string;
   };
 }
 
 export default function Introduction({ data }: iProps) {
-  const { text, imageUrl } = data;
+  const { title, text, imageUrl } = data;
 
   // Properties
   const Image = require("../../assets/images/" + imageUrl);
@@ -19,7 +20,7 @@ export default function Introduction({ data }: iProps) {
       <div className="container">
         {/* Top - Left */}
         <div className="content">
-          <h2>About the Program</h2>
+          <h2>{title}</h2>
           <p>{text}</p>
         </div>
 

@@ -1,5 +1,6 @@
 {
   "introduction": {
+    "title": "Backend Course",
     "text": "A 4 month accelerated learning program, with focus on Backend using the language Java. It consists of 6 projects, both individual and grupal with set requirements and increasing complexity. The students follow a self study path using curated content from sources like LinkedIn Learning and Pluralsight in addition to live lectures at critical points of the programa. Software engineering practices are taken into consideration, so students can produce code with high value.",
     "imageUrl": "course-backend.jpg"
   },
@@ -34,10 +35,10 @@
     },
     {
       "id": 5,
-      "name": "Post coding stage",
+      "name": "Deploy state",
       "icon_prefix": "fas",
-      "icon_name": "link",
-      "description": "When they publish the website on real a host and make improvements based on users feedback."
+      "icon_name": "cloud-upload-alt",
+      "description": "At the final stages of the couse, students follow CI/CD principles to deploy on the cloud by contenerizing their application and automating tests."
     }
   ],
   "projects": [
@@ -82,22 +83,22 @@
     {
       "id": 1,
       "name": "SpringBoot",
-      "icon_prefix": "fab",
-      "icon_name": "react",
+      "icon_prefix": "fas",
+      "icon_name": "leaf",
       "description": "The most utilized Frontend framework in the Swedish market for building web applications."
     },
     {
       "id": 2,
       "name": "Hibernate",
-      "icon_prefix": "fab",
-      "icon_name": "sass",
+      "icon_prefix": "fas",
+      "icon_name": "chart-network",
       "description": "A CSS preprocessor that allows students to better organize the visual aspects of their web applications."
     },
     {
       "id": 3,
       "name": "mySQL",
-      "icon_prefix": "fab",
-      "icon_name": "microsoft",
+      "icon_prefix": "fas",
+      "icon_name": "database",
       "description": "Enforce strong data typing in order to build robust apps and also to better collaborate with Java or C# devs."
     },
     {

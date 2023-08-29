@@ -6,13 +6,11 @@ export default function Hero() {
           Frontend &
           <br />
           Backend
-          <br />
-          Courses
         </h1>
         <h2 className="subtitle">
-          Training Programs
+          Training Courses
           <br />
-          Winter 2022 - Spring 2023
+          Summer 2023 - Autumn 2023
         </h2>
       </div>
     </header>

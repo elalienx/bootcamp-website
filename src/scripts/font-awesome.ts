@@ -15,6 +15,9 @@ import {
   faStar,
   faSwatchbook,
   faTable,
+  faCloudUploadAlt,
+  faLeaf,
+  faDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab);
@@ -31,5 +34,9 @@ library.add(
   faSitemap,
   faStar,
   faSwatchbook,
-  faTable
+  faTable,
+  faCloudUploadAlt,
+  faLeaf,
+  faDatabase,
+  faChartNetwork
 );
