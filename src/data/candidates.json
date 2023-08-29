@@ -2,6 +2,7 @@
   {
     "id": 1,
     "url": "katheryn-r",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -45,6 +46,7 @@
   {
     "id": 2,
     "url": "nermeen-i",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -92,6 +94,7 @@
   {
     "id": 3,
     "url": "poongothai-r",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -135,6 +138,7 @@
   {
     "id": 4,
     "url": "sulekha-j",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -178,6 +182,7 @@
   {
     "id": 5,
     "url": "sylvia-t",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -215,6 +220,146 @@
           "Create & maintain Product Backlogs",
           "Pair programming"
         ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "alireza-k",
+    "course": "backend",
+    "iteration": 2,
+    "hired": false,
+    "graduated": false,
+    "name": "Alireza",
+    "about": "(about pending)",
+    "swedish_level": 1,
+    "pronoun": "him",
+    "quote_text": "(quote pending)",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "",
+    "skill_set": [
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "olga-p",
+    "course": "backend",
+    "iteration": 2,
+    "hired": false,
+    "graduated": false,
+    "name": "Olga",
+    "about": "(about pending)",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "(quote pending)",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "",
+    "skill_set": [
+      {
+        "name": "Frontend",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "Fullstack",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "rashmoni-d",
+    "course": "backend",
+    "iteration": 1,
+    "hired": false,
+    "graduated": false,
+    "name": "Rashmoni",
+    "about": "(about pending)",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "(quote pending)",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "",
+    "skill_set": [
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "(Title pending)",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "rohit-a",
+    "course": "backend",
+    "iteration": 1,
+    "hired": false,
+    "graduated": false,
+    "name": "Rashmoni",
+    "about": "(about pending)",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "(quote pending)",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "",
+    "skill_set": [
+      {
+        "name": "Frontend & mobile",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
+      },
+      {
+        "name": "Integrations",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["", "", "", ""]
       }
     ]
   }

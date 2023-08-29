@@ -14,6 +14,7 @@ export default function ItemCandidate({ item }: iProps) {
 
   // Properties
   const imageObject = require(`assets/images/candidates/${url}.jpg`);
+  console.log("ItemCandidate imageObject", imageObject);
   const showHired = hired ? <b>(Hired)</b> : "";
   const showGraduated = graduated ? <b>(Graduated)</b> : "";
 
