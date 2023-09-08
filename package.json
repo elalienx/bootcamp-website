@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "build & deploy": "react-scripts build && git push && firebase deploy"
   },
   "browserslist": {
