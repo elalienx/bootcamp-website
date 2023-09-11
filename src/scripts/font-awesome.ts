@@ -20,6 +20,8 @@ import {
   faDatabase,
   faProjectDiagram,
   faBoxes,
+  faMicrochip,
+  faCoins,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab);
@@ -41,5 +43,7 @@ library.add(
   faLeaf,
   faDatabase,
   faProjectDiagram,
-  faBoxes
+  faBoxes,
+  faMicrochip,
+  faCoins
 );
