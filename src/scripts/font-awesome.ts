@@ -22,16 +22,28 @@ import {
   faBoxes,
   faMicrochip,
   faCoins,
+  faGlobe,
+  faUserTie,
+  faBug,
+  faMobileScreenButton,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab);
 library.add(
+  faBoxes,
   faCheck,
+  faCloudUploadAlt,
   faCode,
+  faCoins,
+  faDatabase,
   faEnvelope,
+  faGlobe,
+  faLeaf,
   faLink,
+  faMicrochip,
   faMobileAlt,
   faPencilRuler,
+  faProjectDiagram,
   faRecycle,
   faSearch,
   faServer,
@@ -39,11 +51,7 @@ library.add(
   faStar,
   faSwatchbook,
   faTable,
-  faCloudUploadAlt,
-  faLeaf,
-  faDatabase,
-  faProjectDiagram,
-  faBoxes,
-  faMicrochip,
-  faCoins
+  faUserTie,
+  faBug,
+  faMobileScreenButton
 );

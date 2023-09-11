@@ -236,24 +236,15 @@
     "pronoun": "him",
     "quote_text": "He posses a remarkable set of soft skills that contribute to his effectiveness. His inquisitive nature drives him to eagerly embrace feedback, ensuring continuous improvement. Moreover, he always asks valuable questions when presented with new topics. This quality guarantees that when you entrust him with a task, he will not hesitate to seek clarity and provide thorough results.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
-    "portfolio_url": "",
+    "portfolio_url": "https://github.com/AlirezaKToosi",
     "skill_set": [
-      {
-        "name": "Fintech",
-        "icon_prefix": "fas",
-        "icon_name": "coins",
-        "skills": [
-          "Data analysis for banking",
-          "Requirement gathering",
-          "Data normalization & migration"
-        ]
-      },
       {
         "name": "AI research",
         "icon_prefix": "fas",
         "icon_name": "microchip",
         "skills": ["NLP for speech synthesis", "Speech tagging"]
       },
+
       {
         "name": "Backend",
         "icon_prefix": "fas",
@@ -263,6 +254,16 @@
           "Spring Boot",
           "Hibernate",
           "Amazon Web Services EC2"
+        ]
+      },
+      {
+        "name": "Fintech",
+        "icon_prefix": "fas",
+        "icon_name": "coins",
+        "skills": [
+          "Data analysis for banking",
+          "Requirement gathering",
+          "Data normalization & migration"
         ]
       }
     ]
@@ -280,25 +281,29 @@
     "pronoun": "her",
     "quote_text": "Olga has proven her variety of skills by adopting different tech stacks. She was a student of KTH Software Development Academy a Java based boot camp, and then quickly joined Novare Potential's frontend boot camp to learn about React, SASS, and Google Firebase suit of Cloud technologies. Therefore I recommend her to companies that needs a fullstack developer.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
-    "portfolio_url": "",
+    "portfolio_url": "https://github.com/OlgaPinchuk",
     "skill_set": [
       {
         "name": "Frontend",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
-      },
-      {
-        "name": "Fullstack",
-        "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "globe",
+        "skills": ["React", "Redux", "TypeScript", "Vue"]
       },
       {
         "name": "Backend",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "server",
+        "skills": ["MySQL", "Springboot", "Google Firebase"]
+      },
+      {
+        "name": "Project management",
+        "icon_prefix": "fas",
+        "icon_name": "user-tie",
+        "skills": [
+          "Maintain Jira tickets",
+          "Worked alongside QA",
+          "Tasks estimating"
+        ]
       }
     ]
   },
@@ -315,25 +320,25 @@
     "pronoun": "her",
     "quote_text": "After transitioned from a QA tester to a software developer, Rashmoni possesses invaluable firsthand experience in handling bugs and understand the importance of meticulous testing. This gives me the confidence that she can be a valuable member of any team as she can foresee problems from the user's point of view.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
-    "portfolio_url": "",
+    "portfolio_url": "https://github.com/rashmoni",
     "skill_set": [
       {
-        "name": "(Title pending)",
+        "name": "QA & Testing",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "bug",
+        "skills": ["Selenium", "Jira ticket handling", "jUnit 5"]
       },
       {
-        "name": "(Title pending)",
+        "name": "Backend",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "server",
+        "skills": ["Spring Boot", "Hibernate", "mySQL"]
       },
       {
-        "name": "(Title pending)",
+        "name": "Deployment",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "cloud-upload-alt",
+        "skills": ["Amazon EC2", "Amazon S3"]
       }
     ]
   },
@@ -350,25 +355,34 @@
     "pronoun": "her",
     "quote_text": "What impresses me is his problem solving skills. His coding journey shows he had the right mindset even before writing his first line of code: He started by building complex Excel spreadsheets, then added code to them, and finally transitioned to building PHP web applications once Excel was not longer powerful enough. In addition, he has great code refactoring skills.",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
-    "portfolio_url": "",
+    "portfolio_url": "https://github.com/aggarrohit",
     "skill_set": [
       {
-        "name": "Frontend & mobile",
+        "name": "Mobile apps & frontend",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "mobile-screen-button",
+        "skills": [
+          "Native Android apps",
+          "React Native",
+          "Ionic framework",
+          "Angular"
+        ]
       },
       {
         "name": "Backend",
         "icon_prefix": "fas",
         "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "skills": ["PHP", "Java", "Spring Boot"]
       },
       {
-        "name": "Integrations",
+        "name": "Cloud",
         "icon_prefix": "fas",
-        "icon_name": "code",
-        "skills": ["", "", "", ""]
+        "icon_name": "cloud-upload-alt",
+        "skills": [
+          "Firestore database",
+          "Node.js Firebase functions",
+          "Event notifications"
+        ]
       }
     ]
   }
