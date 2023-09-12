@@ -14,12 +14,6 @@ export default function NavigationBar() {
   // Properties
   const NOVARE_WEBSITE = "https://novare.se/potential/";
 
-  // Methods
-  function buttonClick() {
-    console.log("click on mobile menu");
-    setModal(MobileMenu);
-  }
-
   return (
     <nav id="navigation-bar" className="background-dark">
       <div className="container">
@@ -41,7 +35,7 @@ export default function NavigationBar() {
         </a>
 
         {/* Mobile menu button */}
-        <button onClick={buttonClick}>
+        <button onClick={()=> setModal(MobileMenu)}>
           <FontAwesomeIcon className="icon" icon={["fas", "bars"]} />
         </button>
       </div>
