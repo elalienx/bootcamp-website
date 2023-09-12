@@ -42,10 +42,6 @@ export default function NavigationBar() {
           <a className="parent-link" href={NOVARE_WEBSITE} target="_blank">
             Back to Novare Potential
           </a>
-          <button onClick={() => setIsOpen(false)} className="button">
-            <FontAwesomeIcon className="icon" icon={["fas", "xmark"]} /> Close
-            menu
-          </button>
         </div>
       </div>
     </nav>

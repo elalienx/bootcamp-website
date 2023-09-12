@@ -32,7 +32,9 @@ import {
 
 library.add(fab);
 library.add(
+  faBars,
   faBoxes,
+  faBug,
   faCheck,
   faCloudUploadAlt,
   faCode,
@@ -44,6 +46,7 @@ library.add(
   faLink,
   faMicrochip,
   faMobileAlt,
+  faMobileScreenButton,
   faPencilRuler,
   faProjectDiagram,
   faRecycle,
@@ -53,9 +56,5 @@ library.add(
   faStar,
   faSwatchbook,
   faTable,
-  faUserTie,
-  faBug,
-  faMobileScreenButton,
-  faBars,
-  faXmark
+  faUserTie
 );

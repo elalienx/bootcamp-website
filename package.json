@@ -23,13 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
-    "build": "react-scripts build",
-    "build & deploy": "react-scripts build && git push && firebase deploy"
-=======
     "build & deploy": "react-scripts build && git push && firebase deploy",
     "build & A/B test deploy": "react-scripts build && git push && firebase hosting:channel:deploy internal-review"
->>>>>>> full-course-new-menu
   },
   "browserslist": {
     "production": [
