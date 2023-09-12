@@ -1,15 +1,15 @@
 @import "styles/base/variables"
-@import "styles/pages/about/Introduction"
-@import "styles/pages/about/MoreInformation"
-@import "styles/pages/about/Projects"
-@import "styles/pages/about/Technologies"
+@import "styles/pages/course/Introduction"
+@import "styles/pages/course/MoreInformation"
+@import "styles/pages/course/Projects"
+@import "styles/pages/course/Technologies"
 
 
 // Note:
 // This section has a weird layout, needing containers in each section because of 2 special design elements for mobile:
 // 1. The about hero, a image that takes the 100% of the screen but only appears on mobile.
 // 2. The projects scrolling from left to right.
-#about
+#course
   .introduction,
   .technologies,
   .projects
@@ -25,7 +25,7 @@
       margin-bottom: $space-big 
 
 @media (min-width: $media-desktop)
-  #about
+  #course
     .introduction .container
       // to restore the container spacing
       margin-top: $space-ultra 

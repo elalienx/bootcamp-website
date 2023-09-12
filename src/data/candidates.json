@@ -2,6 +2,7 @@
   {
     "id": 1,
     "url": "katheryn-r",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -45,6 +46,7 @@
   {
     "id": 2,
     "url": "nermeen-i",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -92,6 +94,7 @@
   {
     "id": 3,
     "url": "poongothai-r",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -135,6 +138,7 @@
   {
     "id": 4,
     "url": "sulekha-j",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -178,6 +182,7 @@
   {
     "id": 5,
     "url": "sylvia-t",
+    "course": "frontend",
     "iteration": 3,
     "hired": false,
     "graduated": false,
@@ -214,6 +219,169 @@
           "Work experience using Sprints",
           "Create & maintain Product Backlogs",
           "Pair programming"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "url": "alireza-k",
+    "course": "backend",
+    "iteration": 2,
+    "hired": false,
+    "graduated": false,
+    "name": "Alireza",
+    "about": "Hi, I'm Alireza an AI enthusiast and backend developer with 4 years of experience in fintech and health care environments. In addition to my Software Engineering degree, I posses a Master's in Artificial Intelligence. I'm eager to apply my expertise to create innovative solutions that can shape the future of AI-driven companies.",
+    "swedish_level": 1,
+    "pronoun": "him",
+    "quote_text": "He posses a remarkable set of soft skills that contribute to his effectiveness. His inquisitive nature drives him to eagerly embrace feedback, ensuring continuous improvement. Moreover, he always asks valuable questions when presented with new topics. This quality guarantees that when you entrust him with a task, he will not hesitate to seek clarity and provide thorough results.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://github.com/AlirezaKToosi",
+    "skill_set": [
+      {
+        "name": "AI research",
+        "icon_prefix": "fas",
+        "icon_name": "microchip",
+        "skills": ["NLP for speech synthesis", "Speech tagging"]
+      },
+
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "server",
+        "skills": [
+          "mySQL & SQL Server",
+          "Spring Boot",
+          "Hibernate",
+          "Amazon Web Services EC2"
+        ]
+      },
+      {
+        "name": "Fintech",
+        "icon_prefix": "fas",
+        "icon_name": "coins",
+        "skills": [
+          "Data analysis for banking",
+          "Requirement gathering",
+          "Data normalization & migration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "olga-p",
+    "course": "backend",
+    "iteration": 2,
+    "hired": false,
+    "graduated": false,
+    "name": "Olga",
+    "about": "I'm a Olga, a frontend developer with proven coding experience in Sweden. I love to learn about all types of tech stacks and I'm not afraid to explore the world of backend. Previously in my career, I extended my responsibilities beyond coding by taking on a project lead role. By using a servant leadership style, I created a collaborative environment, contributing to projects´ overall success.",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "Olga has proven her variety of skills by adopting different tech stacks. She was a student of KTH Software Development Academy a Java based boot camp, and then quickly joined Novare Potential's frontend boot camp to learn about React, SASS, and Google Firebase suit of Cloud technologies. Therefore I recommend her to companies that needs a fullstack developer.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://github.com/OlgaPinchuk",
+    "skill_set": [
+      {
+        "name": "Frontend",
+        "icon_prefix": "fas",
+        "icon_name": "globe",
+        "skills": ["React", "Redux", "TypeScript", "Vue"]
+      },
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "server",
+        "skills": ["MySQL", "Springboot", "Google Firebase"]
+      },
+      {
+        "name": "Project management",
+        "icon_prefix": "fas",
+        "icon_name": "user-tie",
+        "skills": [
+          "Maintain Jira tickets",
+          "Worked alongside QA",
+          "Tasks estimating"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "url": "rashmoni-d",
+    "course": "backend",
+    "iteration": 1,
+    "hired": false,
+    "graduated": false,
+    "name": "Rashmoni",
+    "about": "My name is Rashmoni and I started my career in the QA field and over the course of 4 years, I improved my skills in unit and automation testing. However, I always dreamed to transition to the field of backend development. To pursue this dream, I joined Novare Potential's Java bootcamp and now i'm starting to explore advanced features like payment integrations.",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "After transitioned from a QA tester to a software developer, Rashmoni possesses invaluable firsthand experience in handling bugs and understand the importance of meticulous testing. This gives me the confidence that she can be a valuable member of any team as she can foresee problems from the user's point of view.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://github.com/rashmoni",
+    "skill_set": [
+      {
+        "name": "QA & Testing",
+        "icon_prefix": "fas",
+        "icon_name": "bug",
+        "skills": ["Selenium", "Jira ticket handling", "jUnit 5"]
+      },
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "server",
+        "skills": ["Spring Boot", "Hibernate", "mySQL"]
+      },
+      {
+        "name": "Deployment",
+        "icon_prefix": "fas",
+        "icon_name": "cloud-upload-alt",
+        "skills": ["Amazon EC2", "Amazon S3"]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "url": "rohit-a",
+    "course": "backend",
+    "iteration": 1,
+    "hired": false,
+    "graduated": false,
+    "name": "Rohit",
+    "about": "My name is Rohit and I’m an App developer with 5 years of experience. As a freelancer, I have made native apps published on the Indian Google PlayStore and also hybrid apps. I’m also versed in building backends solutions. My backend journey started with PHP before quickly transitioning to Java.",
+    "swedish_level": 1,
+    "pronoun": "her",
+    "quote_text": "What impresses me is his problem solving skills. His coding journey shows he had the right mindset even before writing his first line of code: He started by building complex Excel spreadsheets, then added code to them, and finally transitioned to building PHP web applications once Excel was not longer powerful enough. In addition, he has great code refactoring skills.",
+    "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
+    "portfolio_url": "https://github.com/aggarrohit",
+    "skill_set": [
+      {
+        "name": "Mobile apps & frontend",
+        "icon_prefix": "fas",
+        "icon_name": "mobile-screen-button",
+        "skills": [
+          "Native Android apps",
+          "React Native",
+          "Ionic framework",
+          "Angular"
+        ]
+      },
+      {
+        "name": "Backend",
+        "icon_prefix": "fas",
+        "icon_name": "code",
+        "skills": ["PHP", "Java", "Spring Boot"]
+      },
+      {
+        "name": "Cloud",
+        "icon_prefix": "fas",
+        "icon_name": "cloud-upload-alt",
+        "skills": [
+          "Firestore database",
+          "Node.js Firebase functions",
+          "Event notifications"
         ]
       }
     ]

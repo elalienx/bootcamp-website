@@ -1,12 +1,12 @@
-// NPM Packages
+// Node modules
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 // Project files
 import Footer from "components/Footer";
-import ScrollToTop from "components/ScrollToTop";
 import NavigationBar from "components/NavigationBar";
-import About from "pages/About";
+import ScrollToTop from "components/ScrollToTop";
 import Candidates from "pages/Candidates";
+import Course from "pages/Course";
 import Home from "pages/Home";
 import Profile from "pages/Profile";
 import "scripts/font-awesome";
@@ -20,7 +20,7 @@ export default function App() {
           <NavigationBar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/course/:id" component={Course} />
             <Route path="/candidates" component={Candidates} />
             <Route path="/profile/:url" component={Profile} />
           </Switch>

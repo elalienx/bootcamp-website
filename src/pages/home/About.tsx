@@ -1,4 +1,4 @@
-// NPM Packaged
+// Node modules
 import { Link } from "react-router-dom";
 
 // Project files
@@ -15,16 +15,24 @@ export default function About() {
 
       <div className="container">
         <div className="content">
-          <h2>Interested in hiring Frontend Developers?</h2>
+          <h2>Interested in hiring developers?</h2>
           <p>
-            Are you looking for talented Frontend Developers? Look no further -
-            soon, we will have many candidates ready to be hired and productive
-            from day 1. All of them have international backgrounds and they
-            share the desire to become successful developers in Sweden.
+            Are you looking for talented developers? Look no further - soon, we
+            will have many candidates ready to be hired and productive from day
+            1.
           </p>
-          <Link className="button" to="/about">
-            Learn more
-          </Link>
+          <p>
+            All of them have international backgrounds and they share the desire
+            to become successful developers in Sweden.
+          </p>
+          <div className="buttons">
+            <Link className="button" to="/course/frontend">
+              Frontend
+            </Link>
+            <Link className="button" to="/course/backend">
+              Backend
+            </Link>
+          </div>
         </div>
 
         <img

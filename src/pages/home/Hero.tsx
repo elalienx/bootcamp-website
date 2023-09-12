@@ -26,16 +26,14 @@ export default function Hero() {
     <header id="vanta" className="hero">
       <div className="container">
         <h1 className="title">
-          Front
+          Frontend &
           <br />
-          End
-          <br />
-          Course
+          Backend
         </h1>
         <h2 className="subtitle">
-          Training Program
+          Training Courses
           <br />
-          Winter 2022 - Spring 2023
+          Summer 2023 - Autumn 2023
         </h2>
       </div>
     </header>

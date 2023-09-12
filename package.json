@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-regular-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/node": "^12.20.25",
     "@types/react": "^17.0.21",
     "@types/react-dom": "^17.0.9",
@@ -24,7 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build & deploy": "react-scripts build && git push && firebase deploy"
+    "build & deploy": "react-scripts build && git push && firebase deploy",
+    "build & A/B test deploy": "react-scripts build && git push && firebase hosting:channel:deploy internal-review"
   },
   "browserslist": {
     "production": [

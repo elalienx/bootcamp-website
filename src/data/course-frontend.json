@@ -1,0 +1,139 @@
+{
+  "introduction": {
+    "title": "Frontend Course",
+    "text": "A 4 month accelerated learning program, with focus on Frontend and particularly React. It consists of 7 individual projects with set requirements and increasing complexity. The students have daily lectures and mentor meetings. Software engineering practices are taken into consideration, so students can produce code with high value.",
+    "imageUrl": "course-frontend.jpg"
+  },
+  "process": [
+    {
+      "id": 1,
+      "name": "Requirement gathering",
+      "icon_prefix": "fas",
+      "icon_name": "search",
+      "description": "The students start with a brief similar to a real interview coding test. They analyze it by extracting and classifying the information."
+    },
+    {
+      "id": 2,
+      "name": "Project spreadsheet",
+      "icon_prefix": "fas",
+      "icon_name": "table",
+      "description": "Allows to organize the information in tables. Like isolating the requirements in one page and building a SCRUM Product Backlog in another."
+    },
+    {
+      "id": 3,
+      "name": "User flow diagram",
+      "icon_prefix": "fas",
+      "icon_name": "mobile-alt",
+      "description": "This diagram allows the students to understand how the app behave and helps catching missing requirements."
+    },
+    {
+      "id": 4,
+      "name": "Design mockup",
+      "icon_prefix": "fab",
+      "icon_name": "figma",
+      "description": "They use Figma, a professional UI/UX tool to build an interactive mockup, to test how the web app must look and behave before coding."
+    },
+    {
+      "id": 5,
+      "name": "Component tree",
+      "icon_prefix": "fas",
+      "icon_name": "sitemap",
+      "description": "This diagram helps the students visualize the architecture of the app, it creates a model similar to how a tourist uses a map to familiarize with a new city."
+    },
+    {
+      "id": 6,
+      "name": "Coding stage",
+      "icon_prefix": "fas",
+      "icon_name": "code",
+      "description": "Here is when they start the coding process. By now they have a clear understanding of what solution to build."
+    },
+    {
+      "id": 7,
+      "name": "Post coding stage",
+      "icon_prefix": "fas",
+      "icon_name": "link",
+      "description": "When they publish the website on real a host and make improvements based on users feedback."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Portfolio",
+      "image_name": "portfolio",
+      "description": "An easy project that lays down the foundation for future projects. They get familiar with good coding practices for both React components and CSS."
+    },
+    {
+      "id": 2,
+      "name": "Vegan restaurant",
+      "image_name": "vegan",
+      "description": "This project allows to further develop clean code practice in a multi page website. Also teaches to write complex JSON files to simulate data coming from an API."
+    },
+    {
+      "id": 3,
+      "name": "Package tracker",
+      "image_name": "package",
+      "description": "A project where they switch from a static JSON file to a real API call to obtain and present data from a server."
+    },
+    {
+      "id": 4,
+      "name": "Todo list",
+      "image_name": "todo",
+      "description": "Practice Test Driven Development testing techniques on a project that every developer is familiar with, so the student focuses on learning unit testing without pressure."
+    },
+    {
+      "id": 5,
+      "name": "BBQ restaurant",
+      "image_name": "bbq",
+      "description": "This project combines the consumer facing site of a restaurant with the admin panel of the previous project. Students will learn to reutilize components and code from previous projects."
+    },
+    {
+      "id": 6,
+      "name": "Educational platform",
+      "image_name": "lms",
+      "description": "A small yet complete, Learning Management System (LMS) platform that allows to create student accounts and add more full stack features."
+    },
+    {
+      "id": 7,
+      "name": "Netflix clone",
+      "image_name": "netflix",
+      "description": "The final project to graduate from the program. It combines all the techniques mentioned in the Tech stack while taking into consideration the UI experience."
+    }
+  ],
+  "technologies": [
+    {
+      "id": 1,
+      "name": "React",
+      "icon_prefix": "fab",
+      "icon_name": "react",
+      "description": "The most utilized Frontend framework in the Swedish market for building web applications."
+    },
+    {
+      "id": 2,
+      "name": "SASS",
+      "icon_prefix": "fab",
+      "icon_name": "sass",
+      "description": "A CSS preprocessor that allows students to better organize the visual aspects of their web applications."
+    },
+    {
+      "id": 3,
+      "name": "TypeScript",
+      "icon_prefix": "fab",
+      "icon_name": "microsoft",
+      "description": "Enforce strong data typing in order to build robust apps and also to better collaborate with Java or C# devs."
+    },
+    {
+      "id": 4,
+      "name": "FireStore & Cloud Storage",
+      "icon_prefix": "fab",
+      "icon_name": "google",
+      "description": "Deploy to cloud solutions by using the Firebase suite of tools that include databases, auth and dynamic storage."
+    },
+    {
+      "id": 5,
+      "name": "Jest & React Testing Library",
+      "icon_prefix": "fab",
+      "icon_name": "facebook-f",
+      "description": "Complete Unit testing by dividing the test into logic for the JavaScript modules and UI for React components."
+    }
+  ]
+}

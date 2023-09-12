@@ -1,4 +1,4 @@
-// NPM Packages
+// Node modules
 import { ReactNode, useEffect } from "react";
 import { useLocation } from "react-router";
 
