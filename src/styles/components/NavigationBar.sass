@@ -2,7 +2,6 @@
 
 #navigation-bar
   padding: $space-small
-  text-align: center
 
   a
     color: white
@@ -15,28 +14,49 @@
     margin: 0 auto
     padding: 0 // overrides default container padding
 
-  .desktop-links, .parent-link
+  .red
+    display: flex
+    justify-content: space-between
+    flex-shrink: 0 // to protect the logo from distortions
+
+  .green
+    // background-color: green
+
+  .blue
+    // background-color: blue
+
+  .list
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: $space-small
+    padding: $space-small
+
+  .show
+    display: flex
+
+  .hide
     display: none
 
-@media (min-width: $media-desktop)
+  .parent-link
+    color: $color-secondary
+
+@media (min-width: $media-tablet)
   #navigation-bar .container
     display: flex
-    align-items: center
 
-    .desktop-links, .parent-link
-      display: initial
+    .list
+      display: flex // to override the menu button on desktop
+      flex-direction: row
 
+    .green
+      flex-grow: 1
+
+    .blue
+      text-align: right
+    
     .logo
       margin-right: $space-big
 
-    .desktop-links
-      display: flex
-      align-items: center
-      gap: $space-medium
-      margin-right: auto // to push the novare link to the right
-
-    .parent-link
-      color: $color-secondary
-      
-      .icon
-        margin-right: $space-small
+    .button
+      display: none

@@ -25,7 +25,8 @@ export default function Hero({ item }: iProps) {
             {name}
           </h1>
           <p>{about}</p>
-          <ItemRating item={swedishRating} />
+          {/* Removed until language is ready (2023-09-12) */}
+          {/* <ItemRating item={swedishRating} /> */}
         </div>
         <img src={imageObject} alt="Candidate picture" />
       </div>

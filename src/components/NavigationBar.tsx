@@ -1,32 +1,52 @@
 // Node modules
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files
-import Logo from "assets/images/logo-white.png";
+import LogoWhite from "assets/images/logo-white.png";
 
 export default function NavigationBar() {
+  // Local state
+  const [isOpen, setIsOpen] = useState(false);
+
   // Properties
   const NOVARE_WEBSITE = "https://novare.se/potential/";
+  const toggleCSS = isOpen ? "show" : "hide";
 
   return (
     <nav id="navigation-bar" className="background-dark">
       <div className="container">
         {/* Logo */}
-        <Link className="logo" to="/">
-          <img src={Logo} alt="Novare logo with a handwritting overlay" />
-        </Link>
+        <div className="red">
+          <Link className="logo" to="/">
+            <img
+              src={LogoWhite}
+              alt="Novare logo with a handwritting overlay"
+            />
+          </Link>
+          <button onClick={() => setIsOpen(!isOpen)} className="button">
+            <FontAwesomeIcon icon={["fas", "bars"]} />
+          </button>
+        </div>
 
-        {/* Desktop links */}
-        <div className="desktop-links">
+        {/* PrimaryLinks */}
+        <div className={`green list ${toggleCSS}`}>
           <Link to="/course/frontend">Frontend</Link>
           <Link to="/course/backend">Backend</Link>
           <Link to="/candidates">Candidates</Link>
         </div>
 
-        {/* Parent link */}
-        <a className="parent-link" href={NOVARE_WEBSITE} target="_blank">
-          Back to Novare Potential
-        </a>
+        {/* SecondaryLinks */}
+        <div className={`blue list ${toggleCSS}`}>
+          <a className="parent-link" href={NOVARE_WEBSITE} target="_blank">
+            Back to Novare Potential
+          </a>
+          <button onClick={() => setIsOpen(false)} className="button">
+            <FontAwesomeIcon className="icon" icon={["fas", "xmark"]} /> Close
+            menu
+          </button>
+        </div>
       </div>
     </nav>
   );
