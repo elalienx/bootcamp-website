@@ -6,13 +6,10 @@ import { logEvent } from "@firebase/analytics";
 // Project files
 import { analytics } from "scripts/firebase";
 import App from "./App";
-import { ModalProvider } from "state/ModalProvider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ModalProvider initialState={null}>
-      <App />
-    </ModalProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

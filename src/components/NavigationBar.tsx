@@ -4,13 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files
 import Logo from "assets/images/logo-white.png";
-import MobileMenu from "components/MobileMenu";
-import { useModal } from "state/ModalProvider";
 
 export default function NavigationBar() {
-  // Global state
-  const { setModal } = useModal();
-
   // Properties
   const NOVARE_WEBSITE = "https://novare.se/potential/";
 
@@ -35,7 +30,7 @@ export default function NavigationBar() {
         </a>
 
         {/* Mobile menu button */}
-        <button onClick={()=> setModal(MobileMenu)}>
+        <button onClick={() => alert("foo")}>
           <FontAwesomeIcon className="icon" icon={["fas", "bars"]} />
         </button>
       </div>
