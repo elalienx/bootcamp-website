@@ -26,6 +26,7 @@ import {
   faUserTie,
   faBug,
   faMobileScreenButton,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab);
@@ -53,5 +54,6 @@ library.add(
   faTable,
   faUserTie,
   faBug,
-  faMobileScreenButton
+  faMobileScreenButton,
+  faBars
 );

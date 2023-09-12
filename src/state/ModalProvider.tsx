@@ -9,23 +9,18 @@ interface iProps {
 interface iContext {
   modal: JSX.Element | null;
   setModal: Function;
-  PORTAL_ID: string;
 }
 
 // Properties
 const initialState = {
   modal: null,
   setModal: () => {},
-  PORTAL_ID: "",
 };
 const ModalContext = createContext<iContext>(initialState);
 
 export function ModalProvider({ children, initialState }: iProps) {
   // Local state
   const [modal, setModal] = useState(initialState);
-
-  // Property
-  const PORTAL_ID = "portal";
 
   // Components
   const ErrorMessage = <p>There aren't any children inside the provider</p>;
@@ -35,7 +30,7 @@ export function ModalProvider({ children, initialState }: iProps) {
   if (children === undefined) return ErrorMessage;
 
   return (
-    <ModalContext.Provider value={{ modal, setModal, PORTAL_ID }}>
+    <ModalContext.Provider value={{ modal, setModal }}>
       {children}
     </ModalContext.Provider>
   );

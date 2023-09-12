@@ -12,8 +12,8 @@ interface iProps {
 
 export default function Skills({ item }: iProps) {
   // Components
-  const ColumnWithSkills = item.map((item) => (
-    <article className="column-with-skills">
+  const ColumnWithSkills = item.map((item, index) => (
+    <article key={index} className="column-with-skills">
       <h3 className="title">{SkillHeader(item)}</h3>
       <ul>{SkillList(item.skills)}</ul>
     </article>

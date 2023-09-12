@@ -1,12 +1,24 @@
 // Node modules
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Project files
 import Logo from "assets/images/logo-white.png";
+import MobileMenu from "components/MobileMenu";
+import { useModal } from "state/ModalProvider";
 
 export default function NavigationBar() {
+  // Global state
+  const { setModal } = useModal();
+
   // Properties
   const NOVARE_WEBSITE = "https://novare.se/potential/";
+
+  // Methods
+  function buttonClick() {
+    console.log("click on mobile menu");
+    setModal(MobileMenu);
+  }
 
   return (
     <nav id="navigation-bar" className="background-dark">
@@ -27,6 +39,11 @@ export default function NavigationBar() {
         <a className="parent-link" href={NOVARE_WEBSITE} target="_blank">
           Back to Novare Potential
         </a>
+
+        {/* Mobile menu button */}
+        <button onClick={buttonClick}>
+          <FontAwesomeIcon className="icon" icon={["fas", "bars"]} />
+        </button>
       </div>
     </nav>
   );
