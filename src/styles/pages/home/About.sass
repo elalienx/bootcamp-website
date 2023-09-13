@@ -2,10 +2,13 @@
 
 #home .about
   .support-picture
-      display: none
+    display: none
 
+  .buttons
+    display: flex
+    gap: $space-small
 
-@media (min-width: $media-desktop) 
+@media (min-width: $media-desktop)
   #home .about
     .mobile-hero
       display: none
@@ -17,7 +20,3 @@
       display: grid
       grid-template-columns: repeat(2, 1fr)
       grid-column-gap: $space-medium
-
-    .buttons
-      display: flex
-      gap: $space-small
