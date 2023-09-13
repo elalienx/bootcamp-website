@@ -1,119 +1,122 @@
 {
   "introduction": {
-    "title": "Backend Course",
+    "imageUrl": "course-backend.jpg",
     "text": "A 4 month accelerated learning program, with focus on Backend using the language Java. It consists of 6 projects, both individual and grupal with set requirements and increasing complexity. The students follow a self study path using curated content from sources like LinkedIn Learning and Pluralsight in addition to live lectures at critical points of the programa. Software engineering practices are taken into consideration, so students can produce code with high value.",
-    "imageUrl": "course-backend.jpg"
+    "title": "Backend Course"
+  },
+  "moreInformation": {
+    "slide_url": "http://novare-tech-education.web.app/files/be-course.pdf"
   },
   "process": [
     {
-      "id": 1,
-      "name": "Requirement gathering",
-      "icon_prefix": "fas",
+      "description": "The students start with a brief similar to a real interview coding test. They analyze it by extracting and classifying the information.",
       "icon_name": "search",
-      "description": "The students start with a brief similar to a real interview coding test. They analyze it by extracting and classifying the information."
+      "icon_prefix": "fas",
+      "id": 1,
+      "name": "Requirement gathering"
     },
     {
-      "id": 2,
-      "name": "Project spreadsheet",
-      "icon_prefix": "fas",
+      "description": "Allows to organize the information in tables. Like isolating the requirements in one page and building a SCRUM Product Backlog in another.",
       "icon_name": "table",
-      "description": "Allows to organize the information in tables. Like isolating the requirements in one page and building a SCRUM Product Backlog in another."
+      "icon_prefix": "fas",
+      "id": 2,
+      "name": "Project spreadsheet"
     },
     {
-      "id": 3,
-      "name": "UML diagrams",
-      "icon_prefix": "fas",
+      "description": "This diagram helps the students visualize the architecture of the app, it creates a model similar to how a tourist uses a map to familiarize with a new city.",
       "icon_name": "sitemap",
-      "description": "This diagram helps the students visualize the architecture of the app, it creates a model similar to how a tourist uses a map to familiarize with a new city."
+      "icon_prefix": "fas",
+      "id": 3,
+      "name": "UML diagrams"
     },
     {
-      "id": 4,
-      "name": "Coding stage",
-      "icon_prefix": "fas",
+      "description": "Here is when they start the coding process. By now they have a clear understanding of what solution to build.",
       "icon_name": "code",
-      "description": "Here is when they start the coding process. By now they have a clear understanding of what solution to build."
+      "icon_prefix": "fas",
+      "id": 4,
+      "name": "Coding stage"
     },
     {
-      "id": 5,
-      "name": "Deploy state",
-      "icon_prefix": "fas",
+      "description": "At the final stages of the couse, students follow CI/CD principles to deploy on the cloud by contenerizing their application and automating tests.",
       "icon_name": "cloud-upload-alt",
-      "description": "At the final stages of the couse, students follow CI/CD principles to deploy on the cloud by contenerizing their application and automating tests."
+      "icon_prefix": "fas",
+      "id": 5,
+      "name": "Deploy state"
     }
   ],
   "projects": [
     {
+      "description": "A project that looks easy on the surface, but after reading the requirements, students must learn project management techniques to prioritize which features to ship.",
       "id": 1,
-      "name": "Recipe manager",
       "image_name": "recipe-manager",
-      "description": "A project that looks easy on the surface, but after reading the requirements, students must learn project management techniques to prioritize which features to ship."
+      "name": "Recipe manager"
     },
     {
+      "description": "As the course end goal is to work on backends, this project teaches early on the importance of encription to safeguard data.",
       "id": 2,
-      "name": "Bank ATM",
       "image_name": "bank-atm",
-      "description": "As the course end goal is to work on backends, this project teaches early on the importance of encription to safeguard data."
+      "name": "Bank ATM"
     },
     {
+      "description": "A bigger project that introduces threads to allow multiple employes access the inventory. It also introduces codign design pattersn to keep the complexity in check.",
       "id": 3,
-      "name": "Warehouse system",
       "image_name": "warehouse-inventory",
-      "description": "A bigger project that introduces threads to allow multiple employes access the inventory. It also introduces codign design pattersn to keep the complexity in check."
+      "name": "Warehouse system"
     },
     {
+      "description": "A basic project so students learn about Sprinboot, Hibernate, and mySQL in a safe envirment.",
       "id": 4,
-      "name": "Shopping list",
       "image_name": "shopping-list",
-      "description": "A basic project so students learn about Sprinboot, Hibernate, and mySQL in a safe envirment."
+      "name": "Shopping list"
     },
     {
+      "description": "Combines the learnings of the previous projects and adds cloud deployment and a authentification system.",
       "id": 5,
-      "name": "Netflix",
       "image_name": "netflix-server",
-      "description": "Combines the learnings of the previous projects and adds cloud deployment and a authentification system."
+      "name": "Netflix"
     },
     {
+      "description": "The final project is a group project that introduces CI/CD concepts.",
       "id": 6,
-      "name": "Auction site",
       "image_name": "auction",
-      "description": "The final project is a group project that introduces CI/CD concepts."
+      "name": "Auction site"
     }
   ],
   "technologies": [
     {
-      "id": 1,
-      "name": "SpringBoot",
-      "icon_prefix": "fas",
+      "description": "The most utilized Backend framework in the Swedish market for building servers.",
       "icon_name": "leaf",
-      "description": "The most utilized Backend framework in the Swedish market for building servers."
+      "icon_prefix": "fas",
+      "id": 1,
+      "name": "SpringBoot"
     },
     {
-      "id": 2,
-      "name": "Hibernate",
-      "icon_prefix": "fas",
+      "description": "An Object Relational Mapper (ORM) so students can work on any database by having an abstraction layer.",
       "icon_name": "project-diagram",
-      "description": "An Object Relational Mapper (ORM) so students can work on any database by having an abstraction layer."
+      "icon_prefix": "fas",
+      "id": 2,
+      "name": "Hibernate"
     },
     {
-      "id": 3,
-      "name": "mySQL",
-      "icon_prefix": "fas",
+      "description": "A very popular open source relational database so students learn queries and work with persitant data.",
       "icon_name": "database",
-      "description": "A very popular open source relational database so students learn queries and work with persitant data."
-    },
-    {
-      "id": 4,
-      "name": "Docker",
       "icon_prefix": "fas",
-      "icon_name": "boxes",
-      "description": "Docker allow our students to encapsulate their development enviroment to share with others and deply anywhere."
+      "id": 3,
+      "name": "mySQL"
     },
     {
-      "id": 5,
-      "name": "Amazon Web Services (AWS)",
-      "icon_prefix": "fab",
+      "description": "Docker allow our students to encapsulate their development enviroment to share with others and deply anywhere.",
+      "icon_name": "boxes",
+      "icon_prefix": "fas",
+      "id": 4,
+      "name": "Docker"
+    },
+    {
+      "description": "The most popular cloud provider, students learn to deploy their backend projects on a EC2 compute cloud.",
       "icon_name": "aws",
-      "description": "The most popular cloud provider, students learn to deploy their backend projects on a EC2 compute cloud."
+      "icon_prefix": "fab",
+      "id": 5,
+      "name": "Amazon Web Services (AWS)"
     }
   ]
 }

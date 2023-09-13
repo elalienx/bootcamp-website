@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 // Project files
 import Image from "assets/images/more-information.jpg";
 
-export default function MoreInformation() {
+interface iProps {
+  data: { slide_url: string };
+}
+
+export default function MoreInformation({ data }: iProps) {
   // Properties
-  const SLIDES_URL = "http://novare-tech-education.web.app/files/curricula.pdf";
+  const { slide_url } = data;
 
   return (
     <section className="more-information background-dark">
@@ -19,7 +23,7 @@ export default function MoreInformation() {
           </p>
           <a
             className="button"
-            href={SLIDES_URL}
+            href={slide_url}
             target="_blank"
             rel="noreferrer"
           >

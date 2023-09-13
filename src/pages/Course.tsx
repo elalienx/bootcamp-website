@@ -15,7 +15,8 @@ export default function Course() {
 
   // Properties
   const selectedCourse = id === "frontend" ? Frontend : Backend;
-  const { introduction, process, technologies, projects } = selectedCourse;
+  const { introduction, process, technologies, projects, moreInformation } =
+    selectedCourse;
 
   return (
     <div id="course" className="page">
@@ -23,7 +24,7 @@ export default function Course() {
       <Process data={process} />
       <Technologies data={technologies} />
       <Projects data={projects} />
-      <MoreInformation />
+      <MoreInformation data={moreInformation} />
     </div>
   );
 }
