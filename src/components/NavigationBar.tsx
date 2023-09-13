@@ -13,32 +13,26 @@ export default function NavigationBar() {
   // Properties
   const NOVARE_WEBSITE = "https://novare.se/potential/";
   const toggleCSS = isOpen ? "show" : "hide";
+  const logoAlt = "Novare logo with a handwritting overlay";
 
   return (
     <nav id="navigation-bar" className="background-dark">
       <div className="container">
-        {/* Logo */}
-        <div className="red">
-          <Link className="logo" to="/">
-            <img
-              src={LogoWhite}
-              alt="Novare logo with a handwritting overlay"
-            />
+        {/* Logo & mobile menu button */}
+        <div className="primary">
+          <Link to="/">
+            <img className="logo" src={LogoWhite} alt={logoAlt} />
           </Link>
           <button onClick={() => setIsOpen(!isOpen)} className="button">
             <FontAwesomeIcon icon={["fas", "bars"]} />
           </button>
         </div>
 
-        {/* PrimaryLinks */}
-        <div className={`green list ${toggleCSS}`}>
+        {/* Links */}
+        <div className={`secondary ${toggleCSS}`}>
           <Link to="/course/frontend">Frontend</Link>
           <Link to="/course/backend">Backend</Link>
           <Link to="/candidates">Candidates</Link>
-        </div>
-
-        {/* SecondaryLinks */}
-        <div className={`blue list ${toggleCSS}`}>
           <a className="parent-link" href={NOVARE_WEBSITE} target="_blank">
             Back to Novare Potential
           </a>
