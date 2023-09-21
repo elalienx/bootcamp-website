@@ -17,9 +17,8 @@ export default function About() {
         <div className="content">
           <h2>Interested in hiring developers?</h2>
           <p>
-            Are you looking for talented developers? Look no further - soon, we
-            will have many candidates ready to be hired and productive from day
-            1.
+            Are you looking for talented developers? Look no further! We have
+            candidates ready to be hired and be productive from day 1.
           </p>
           <p>
             All of them have international backgrounds and they share the desire
