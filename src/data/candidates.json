@@ -369,7 +369,7 @@
         "icon_name": "code",
         "icon_prefix": "fas",
         "name": "Backend",
-        "skills": ["PHP", "Java", "Spring Boot"]
+        "skills": ["PHP, Java", "mySQL", "Spring Boot"]
       },
       {
         "icon_name": "cloud-upload-alt",
