@@ -10,9 +10,6 @@ interface iProps {
 export default function ItemRatingt({ item }: iProps) {
   const { name, rating } = item;
 
-  // safeguard
-  if (rating === 0) return null;
-
   // Component
   const IconStar = <FontAwesomeIcon className="icon" icon={["fas", "star"]} />;
 

@@ -1,3 +1,6 @@
+// Node modules
+import { Link } from "react-router-dom";
+
 // Project files
 import ItemRating from "components/ItemRating";
 import iCandidate from "interfaces/iCandidate";
@@ -25,8 +28,13 @@ export default function Hero({ item }: iProps) {
             {name}
           </h1>
           <p>{about}</p>
-          {/* Removed until language is ready (2023-09-12) */}
-          {/* <ItemRating item={swedishRating} /> */}
+          <ItemRating item={swedishRating} />
+          <small>
+            Läsa mer om vår{" "}
+            <Link to="/">
+              <small>Svenska kompetens test</small>
+            </Link>
+          </small>
         </div>
         <img src={imageObject} alt="Candidate picture" />
       </div>
