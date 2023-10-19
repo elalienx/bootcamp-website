@@ -323,7 +323,11 @@
         "icon_name": "bug",
         "icon_prefix": "fas",
         "name": "QA & Testing",
-        "skills": ["Selenium", "Jira ticket handling", "jUnit 5"]
+        "skills": [
+          "ISTQB Certified Foundation",
+          "Selenium",
+          "Jira ticket handling"
+        ]
       },
       {
         "icon_name": "server",
@@ -352,7 +356,7 @@
     "portfolio_url": "https://github.com/aggarrohit",
     "pronoun": "him",
     "quote_author": "Eduardo, Tech Education Lead at Novare Potential",
-    "quote_text": "What impresses me is his problem solving skills. His coding journey shows he had the right mindset even before writing his first line of code: He started by building complex Excel spreadsheets, then added code to them, and finally transitioned to building PHP web applications once Excel was not longer powerful enough. In addition, he has great code refactoring skills.",
+    "quote_text": "What impresses me is his problem solving skills. His coding journey shows he had the right mindset even before writing his first line of code. He started by building complex Excel spreadsheets, then added code to them, and finally transitioned to building PHP web applications once Excel was not longer powerful enough. In addition, he has great code refactoring skills.",
     "skill_set": [
       {
         "icon_name": "mobile-screen-button",
